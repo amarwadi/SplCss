@@ -1,0 +1,71 @@
+﻿.campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    float: left;
+}
+
+#divSearchCampaign #campaign-form {
+    float: left;
+    margin-left: 25px;
+}
+
+/*.pagor {
+    font-size: 15px !important;
+}*/
+
+#PerformanceSubCategoryList, #ProgramsId, #ProgramCategoryList {
+    width: 130px;
+}
+
+#divPagingControl {
+    display: inline-block;
+}
+
+.units-header {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.campagin-block {
+    float: left !important;
+}
+
+
+.modal {
+    z-index: 99999 !important;
+}
+
+
+.performance-to-date-full .performance-to-date-centered .site-pads .performance-row .performance-block:last-child {
+    float: left !important;
+    margin-left: 15px !important;
+}
+
+.custom-modal {
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding: 8px;
+    z-index: 10017;
+    overflow: hidden;
+    margin: -140px;
+    margin-left: -100%;
+}
+
+    .custom-modal #CustomModelMainDiv {
+        background: white;
+        padding: 50px;
+        width: auto;
+    }
+
+    .custom-modal #CropModelImgDiv {
+        border: 2px solid;
+        overflow: auto;
+        max-width: 100%;
+    }

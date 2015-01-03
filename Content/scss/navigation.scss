@@ -1,0 +1,47 @@
+// .dropdown-nav-block {
+// 	background: #FFFFFF;
+// 	display: block;
+// 	position: absolute;
+// 	overflow: hidden;
+// 	left: 0;
+// 	width: 100%;
+// 	z-index: 10000;
+// 	max-height: 0;
+// 	height: auto;
+// 	border-top: 1px solid #b7b7b8;
+// 	@include transition( max-height 0.7s ease-in );
+// 	.dropdown-centered {
+// 		.dropdown-rows {
+// 			margin: 0 auto;
+// 			text-align: center;
+// 			padding: 25px 15px;
+// 			ul {
+// 				margin: 0;
+// 				display: inline-block;
+// 				text-align: left;
+// 				margin-right: 105px;
+// 				&:last-child {
+// 					margin-right: 0;
+// 				}
+// 				li {
+// 					a {
+// 						text-decoration: none;
+// 						font-size: 18px;
+// 						line-height: 30px;
+// 						font-weight: bold;
+// 						text-transform: uppercase;
+// 						padding-left: 33px;
+// 						&:hover {
+// 							background: url( '../images/hover-football.jpg' ) center left no-repeat;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// .active-dd {
+// 	left: 0;
+// 	max-height: 1000px;
+// 	height: auto;
+// }

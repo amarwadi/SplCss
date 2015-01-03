@@ -1,0 +1,564 @@
+/* line 2, ../scss/spledge.scss */
+.spledge-header-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  margin-top: 131px;
+  min-width: 1170px; }
+/* line 8, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads {
+  padding: 80px 0; }
+/* line 10, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left {
+  float: left; }
+/* line 12, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left img {
+  float: left;
+  margin-top: 8px; }
+/* line 16, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left h1 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 42px;
+  float: left;
+  margin-left: 60px;
+  letter-spacing: 0.5px; }
+/* line 24, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left h1 span {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 60px; }
+/* line 31, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right {
+  float: right; }
+/* line 33, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar {
+  width: 526px;
+  margin: 21px auto 0; }
+/* line 36, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block {
+  clear: both;
+  color: #FFFFFF; }
+/* line 39, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block .date-goal-txt {
+  text-transform: uppercase;
+  font-size: 28px; }
+/* line 42, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block .date-goal-txt span {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+/* line 47, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block .date-goal-txt .to-date {
+  float: left; }
+/* line 49, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block .date-goal-txt .to-date span {
+  color: #FF0000;
+  font-family: 'Open Sans', sans-serif; }
+/* line 54, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block .date-goal-txt .main-goal {
+  float: right; }
+/* line 60, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar {
+  height: 25px;
+  border: none;
+  margin-top: 5px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+/* line 65, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value {
+  background: #e70000;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+/* line 68, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value .progress-label {
+  color: #FFFFFF;
+  float: right;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 0 5px 0 0; }
+/* line 74, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value .progress-label:first-child {
+  display: none; }
+/* line 81, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block {
+  color: #d3d3d3;
+  position: relative; }
+/* line 84, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block .tooltip {
+  position: absolute;
+  background: #FFFFFF;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 3px 25px 5px;
+  color: #000000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0; }
+/* line 96, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  float: left;
+  padding: 0 25px; }
+/* line 101, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block ul li:first-child {
+  padding-left: 0;
+  border-right: 1px solid #d3d3d3; }
+/* line 105, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block ul li:last-child {
+  padding-right: 0;
+  float: right; }
+/* line 109, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block ul li .list-item-arow {
+  font-weight: normal;
+  padding: 0 5px;
+  position: relative;
+  top: -2px; }
+/* line 115, ../scss/spledge.scss */
+.spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block ul li .red-txt {
+  color: #FF0000; }
+
+/* line 127, ../scss/spledge.scss */
+.confirm-programs-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 132, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .spledge-steps {
+  text-transform: uppercase;
+  color: #a8a5a5;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  margin: 33px 0 10px; }
+/* line 140, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads h2 {
+  font-size: 35px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px; }
+/* line 148, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block {
+  margin-bottom: 40px; }
+/* line 150, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full {
+  margin-bottom: 40px; }
+/* line 152, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full:last-child {
+  margin-bottom: 0; }
+/* line 155, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-title {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #958f8e; }
+/* line 159, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-title span {
+  color: #FFFFFF;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  padding-left: 39px;
+  background: url("../images/spledge/unselected-check.png") left 4px no-repeat; }
+/* line 169, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block {
+  background: #383838; }
+/* line 171, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads {
+  padding: 40px 15px; }
+/* line 173, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block {
+  float: left; }
+/* line 175, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block img {
+  float: left; }
+/* line 178, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info {
+  float: left;
+  color: #FFFFFF;
+  width: 466px;
+  margin-left: 25px; }
+/* line 183, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info h3 {
+  font-size: 30px;
+  line-height: 33px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.8px; }
+/* line 190, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info p {
+  font-size: 20px;
+  margin-bottom: 15px; }
+/* line 196, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block {
+  float: right; }
+/* line 198, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table {
+  width: 410px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin: 5px 0 0 0; }
+/* line 204, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .titles {
+  font-size: 20px;
+  text-indent: 10px; }
+/* line 207, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .titles th {
+  padding: 3px 0; }
+/* line 211, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info {
+  border-bottom: 1px solid #FFFFFF; }
+/* line 213, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info td {
+  letter-spacing: 0.8px;
+  padding: 5px 0;
+  font-size: 20px; }
+/* line 217, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info td:first-child {
+  text-align: left; }
+/* line 220, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info td:last-child {
+  text-align: right;
+  padding-right: 10px; }
+/* line 228, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody tr:last-child td {
+  font-weight: bold; }
+/* line 236, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block {
+  display: none;
+  position: relative; }
+/* line 239, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block h4 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.8px; }
+/* line 245, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block h4 span {
+  font-size: 33px; }
+/* line 249, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block {
+  position: absolute;
+  top: 20px;
+  right: 0; }
+/* line 253, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul {
+  margin: 0; }
+/* line 255, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li {
+  float: left; }
+/* line 257, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li:first-child {
+  margin-right: 18px; }
+/* line 259, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li:first-child input {
+  width: 97px; }
+/* line 264, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li:last-child input {
+  width: 143px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1.5px; }
+/* line 271, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li:last-child span {
+  text-transform: uppercase; }
+/* line 275, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li span {
+  display: block;
+  font-size: 18px;
+  color: #FFFFFF; }
+/* line 280, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block ul li input {
+  border: none;
+  height: 42px;
+  text-indent: 15px;
+  font-size: 22px; }
+/* line 289, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block {
+  margin-top: 65px;
+  position: relative; }
+/* line 293, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li {
+  position: absolute; }
+/* line 295, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:first-child {
+  top: -35px;
+  left: 270px; }
+/* line 299, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:first-child p:after {
+  content: "Average spledge!";
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  letter-spacing: 0.5px; }
+/* line 306, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:first-child p img {
+  bottom: -26px;
+  left: 26px; }
+/* line 312, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:last-child {
+  bottom: -50px;
+  left: 150px; }
+/* line 316, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:last-child p:after {
+  content: "Recommended spledge!";
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  letter-spacing: 0.5px; }
+/* line 323, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li:last-child p img {
+  top: -29px;
+  left: 26px; }
+/* line 329, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li span {
+  color: #252525;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 3px 8px; }
+/* line 335, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .average-recommended-amounts li img {
+  position: absolute; }
+/* line 340, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal {
+  height: 40px;
+  border-top: 2px solid #909090;
+  border-right: 2px solid #909090;
+  border-bottom: 2px solid #909090;
+  border-left: 22px solid #909090; }
+/* line 346, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle {
+  background: url("../images/spledge/slider.png") 0 0 no-repeat;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  width: 86px;
+  height: 79px;
+  top: -22px;
+  cursor: pointer; }
+/* line 355, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle:before, .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle:after {
+  background: none; }
+/* line 359, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle .slider-range-value {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 16px; }
+/* line 368, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .btm-spledge-info {
+  margin-top: 18px; }
+/* line 370, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .btm-spledge-info .minium-amounnt {
+  float: left;
+  color: #909090;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 18px; }
+/* line 377, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .btm-spledge-info .minium-amounnt span {
+  font-size: 22px;
+  font-weight: bold; }
+/* line 382, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .btm-spledge-info .slider-instruction {
+  float: right;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 22px; }
+/* line 395, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .selected .program-title {
+  background: #6DB447; }
+/* line 397, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .selected .program-title span {
+  background: url("../images/spledge/selected-check.png") left 4px no-repeat; }
+/* line 404, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey h2 {
+  font-size: 30px; }
+/* line 407, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left {
+  width: 877px;
+  background: #EEEEEE;
+  float: left; }
+/* line 411, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .photo-block {
+  float: left; }
+/* line 413, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .photo-block img {
+  padding: 30px; }
+/* line 417, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block {
+  float: left;
+  color: #373838;
+  border-left: 1px solid #959595;
+  width: 575px; }
+/* line 423, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads {
+  padding: 15px 10px 15px 10px; }
+/* line 425, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads h3 {
+  font-size: 24px;
+  font-weight: bold;
+  width: 386px;
+  text-align: right; }
+/* line 430, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads h3 span {
+  text-transform: uppercase; }
+/* line 434, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads .tooltip {
+  padding-left: 0;
+  background-position: 27px center; }
+/* line 439, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li {
+  font-size: 22px;
+  margin-bottom: 15px; }
+/* line 442, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li:last-child {
+  margin-bottom: 0; }
+/* line 445, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li span {
+  float: left;
+  width: 386px;
+  text-align: right;
+  padding-right: 30px; }
+/* line 451, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li input {
+  background: #c1bfbf;
+  border: 1px solid #adafaf;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 10px; }
+/* line 457, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li i {
+  display: block;
+  color: #8d8e8e;
+  font-size: 18px; }
+/* line 462, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .checkmark {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+  cursor: pointer; }
+/* line 465, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .checkmark:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6; }
+/* line 469, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1; }
+/* line 472, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .activated {
+  background: #f3eded; }
+/* line 479, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-performance {
+  border-bottom: 1px solid #959595; }
+/* line 484, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .under-performance .over-under-pads h3.tooltip {
+  background-position: 10px center; }
+/* line 489, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .under-performance .over-under-pads ul li input {
+  margin-top: 10px;
+  background: #f3eded; }
+/* line 499, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-right {
+  float: right;
+  width: 244px; }
+/* line 502, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-right .logo-total-block {
+  margin-bottom: 15px;
+  float: right; }
+/* line 505, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-right .logo-total-block img {
+  width: 49px;
+  height: auto;
+  float: left;
+  margin-top: 6px; }
+/* line 511, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-right .logo-total-block h4 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 30px;
+  float: left;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  margin-left: 10px; }
+/* line 522, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-right input {
+  border: medium none;
+  color: #FFFFFF;
+  display: block;
+  font-size: 30px;
+  padding: 15px 10px;
+  text-align: right;
+  width: 100%; }
+/* line 533, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block {
+  width: 877px;
+  background: #383838;
+  margin: 40px 0; }
+/* line 537, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads {
+  padding: 20px 40px 40px; }
+/* line 540, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads form span {
+  display: block;
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-bottom: 5px; }
+/* line 546, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads form textarea {
+  display: block;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 10px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #8f8e8e;
+  padding: 5px; }
+/* line 554, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads form i {
+  font-size: 22px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  position: relative;
+  top: 3px; }
+/* line 564, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .step-two-block {
+  margin-bottom: 40px; }
+/* line 566, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .step-two-block span {
+  float: right; }
+/* line 568, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .step-two-block span:before {
+  content: "Step 2: Enter payment information";
+  font-size: 20px;
+  color: #bec2c0;
+  display: inline-block;
+  padding-right: 30px;
+  letter-spacing: 0.5px; }
+/* line 576, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .step-two-block span .red-btn {
+  text-transform: uppercase; }

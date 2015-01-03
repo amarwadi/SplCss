@@ -1,0 +1,220 @@
+﻿.register-panel-heading {
+    background-color: #AEC1D1;
+}
+
+.register-panel-outer {
+    background-color: #FBFBFB;
+}
+
+/*body {
+    background-color: #E0E1E2 !important;
+}*/
+
+
+
+
+need to add in custom.css file header .sticky-header .sign-up-bar-full .sign-up-centered .site-pads ul li:first-child {
+    border-right: none !imnportant;
+}
+
+
+/* line 95, ../scss/header.scss */
+header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul > li > a:hover {
+    color: #e70000;
+}
+
+
+/*line 4, ../scss/home.scss*/
+/*.challenge-accepted-full .challenge-accepted-full-img {
+    min-height: 777px !important;
+    height: 100% !important;
+    width: 100%;
+}
+
+.challenge-accepted-full {
+    min-height: 777px !important;
+    padding-top: 110px !important;
+}*/
+
+
+
+
+/* line 12, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt {
+    /*text-align: center;
+    color: #FFFFFF;*/
+    padding-top: 0% !important;
+    /*letter-spacing: 0.5px;*/
+}
+
+/* line 98, ../scss/home.scss */
+.make-difference-full .make-difference-full-img {
+    background: url("/Content/images/block-two.jpg") center top no-repeat !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    min-height: 777px !important;
+    height: 100% !important;
+    padding-top: 120px;
+    position: relative;
+}
+
+    /* line 105, ../scss/home.scss */
+    .make-difference-full .make-difference-full-img .make-difference-centered .site-pads h2.title {
+        padding: 8% 0 2% !important;
+    }
+/* line 317, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img {
+    background: url("/Content/images/Home-Index/homepage-fundraising-section/Slide2-05.jpg") center top no-repeat !important;
+    min-height: 650px !important;
+    padding-top: 0px 0px !important;
+    padding-bottom: 0px;
+    /*background-size: cover !important;*/
+}
+    /* line 323, ../scss/home.scss */
+    .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 {
+        color: #221f1f;
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 14%;
+        margin-bottom: 25px;
+    }
+
+/* line 194, ../scss/global-blocks.scss */
+.difference-rotate-block .button-container {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.button-container-campaign {
+    text-align: center;
+    margin-top: 65px;
+}
+
+/* line 202, ../scss/global-blocks.scss */
+#slide-nav-campaigns li {
+    position: absolute;
+    top: 365px;
+}
+
+/* line 111, ../scss/campaigns.scss */
+.grey-bar-full .grey-bar-centered .site-pads #filter-form select {
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 4px 15px;
+    margin-left: 10px;
+    font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    text-indent: 0.01px;
+    text-overflow: '';
+    background: #9f9d9a url("/Content/images/campaigns/dropdown-arrow.jpg") right center no-repeat;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+header .sticky-header .sign-up-bar-full .sign-up-centered .site-pads ul li:first-child {
+    border-right: none !important;
+}
+
+
+.red-btn {
+    border: none !important;
+}
+
+a.red-btn {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads span {
+    display: block;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+/* line 543, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads textarea {
+    display: block;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    color: #8f8e8e;
+    padding: 5px;
+}
+
+
+/*ANUP COMMENTED*/
+/*.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads i {
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+.challenge-accepted-full .slideshow {
+    min-height: 777px !important;
+}*/
+
+.parent-bottom {
+    display: block;
+    width: 60%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul > li > a {
+    padding: 10px 27px 0 !important;
+}
+
+.nav-list-static > a:hover:after {
+    content: "";
+    width: 100%;
+    margin: 23px auto 0;
+    height: 3px;
+    background: #212020;
+    display: block;
+}
+
+
+.short-block-slideshow-full #slide-nav li #next {
+    right: 4% !important;
+}
+
+.short-block-slideshow-full #slide-nav li #prev {
+    left: 4% !important;
+}
+
+
+.short-block-slideshow-full {
+    padding-top: 110px !important;
+}
+
+header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul .nav-item-01 a:hover:after {
+    background: none !important;
+}
+
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol .active {
+    background: #f8981d !important;
+}
+.meet-match-content-full .meet-match-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .meet-match-form form ul li:nth-child(1){
+    overflow:hidden;
+}
+

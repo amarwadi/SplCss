@@ -1,0 +1,12 @@
+﻿ .get-started-intro span {
+        font-size: 40px;
+    }
+
+    .get-started-list #SpnSpledgeHammer {
+        color: #F8981D;
+        font-weight: bold;
+    }
+
+    .right-10px {
+        right: 10px !important;
+    }

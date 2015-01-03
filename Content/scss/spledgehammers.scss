@@ -1,0 +1,242 @@
+@import "compass/css3";
+.spledgehammer-header-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	padding: 40px 0 50px;
+	margin-top: 129px;
+	min-width: 1170px;
+	.spledgehammer-header-centered {
+		.site-pads {
+			color: #FFFFFF;
+			.header-left {
+				img {
+					float: left;
+					padding-top: 10px;
+				}
+				.title-intro-block {
+					width: 392px;
+					float: left;
+					padding-left: 50px;
+					h1 {
+						font-size: 40px;
+						text-transform: uppercase;
+						font-weight: bold;
+						letter-spacing: 0.5px;
+					}
+					p {
+						font-size: 20px;
+						line-height: 25px;
+					}
+					.read-more {
+						color: #7e7e7e;
+						text-decoration: none;
+						font-size: 20px;
+						&:hover {
+							color: #EEEEEE;
+						}
+					}
+				}
+			}
+			.header-right {
+				float: left;
+				ul {
+					margin: 20px 0 0 130px;
+					li {
+						display: block;
+						font-size: 20px;
+						background: url( '../images/spledgehammer/checkmark-orange.png' ) left 3px no-repeat;
+						padding: 3px 0 10px 45px;
+						letter-spacing: 0.5px;
+					}
+				}
+			}
+		}
+	}
+}
+.spledgehammer-steps-full {
+	padding: 25px 0;
+	background: #f3f3f3;
+	min-width: 1170px;
+	.spledgehammer-steps-centered {
+		.site-pads {
+			.spledgehammer-coin-img {
+				float: left;
+				width: 526px;
+				height: auto;
+			}
+			ul {
+				margin: 45px 0 0 0;
+				float: right;
+				li {
+					float: left;
+					text-align: center;
+					width: 244px;
+					color: #252525;
+					margin-right: 35px;
+					&:last-child {
+						margin-right: 0;
+					}
+					img {
+						height: 112px;
+						width: auto;
+						margin-bottom: 15px;
+					}
+					h3 {
+						font-size: 26px;
+						font-weight: bold;
+						text-transform: uppercase;
+						letter-spacing: 0.5px;
+					}
+					p {
+						font-size: 22px;
+						line-height: 28px;
+					}
+				}
+			}
+		}
+	}
+}
+.spledgehammer-freinds-family-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	min-width: 1170px;
+	.spledgehammer-freinds-family-centered {
+		.site-pads {
+			.main-title {
+				font-size: 35px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+				color: #FFFFFF;
+				padding: 40px 0;
+			}
+			.spledgehammer-challenege-others-box {
+				margin-bottom: 35px;
+				.title-block {
+					span {
+						text-align: right;
+						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.7);
+						font-size: 30px;
+						font-weight: bold;
+						display: block;
+						padding: 0 15px;
+					}
+				}
+				.main-content-block {
+					background: #383838;
+					.main-content-pads {
+						padding: 37px 47px;
+						.content-left {
+							float: left;
+							.spledge-logo  {
+								float: left;
+							}
+							.title-location {
+								float: left;
+								margin-left: 50px;
+								h2 {
+									color: #FFFFFF;
+									font-size: 35px;
+									line-height: 40px;
+									text-transform: uppercase;
+									font-weight: bold;
+									span {
+										display: block;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+								h3 {
+									font-size: 40px;
+									line-height: 40px;
+									text-transform: uppercase;
+									color: #f8981d;
+									font-weight: bold;
+									margin-top: 90px;
+									span {
+										display: block;
+										color: #FFFFFF;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+							}
+						}
+						.campaign-meter {
+							float: right;
+							margin-top: 15px;
+						}
+					}
+				}
+			}
+			.start-spledgehammer {
+				background: #383838;
+				.start-spledgehammer-pads {
+					padding: 37px 47px;
+					.badge-img {
+						float: left;
+					}
+					.spledgehammer-form {
+						float: left;
+						margin-left: 50px;
+						h2 {
+							font-size: 35px;
+							color: #f8981d;
+							text-transform: uppercase;
+							font-weight: bold;
+							background: url( '../images/spledgehammer/white-checkmark.png' ) left 17px no-repeat;
+							padding-left: 40px;
+							padding-top: 4px;
+							margin-bottom: 40px;
+						}
+						form {
+							color: #FFFFFF;
+							span {
+								display: block;
+								font-size: 20px;
+								margin-bottom: 5px;
+							}
+							textarea {
+								margin-bottom: 15px;
+								width: 575px;
+								@include border-radius( 3px );
+								border: 2px solid #d1d1d1;
+								color: #8f8e8e;
+								line-height: 20px;
+								padding: 7px;
+							}
+						}
+					}
+				}
+			}
+			.drop-hammer-block {
+				margin: 15px 0 100px 0;
+				text-align: right;
+				position: relative;
+				.drop-hammer {
+					display: block;
+					margin-bottom: 25px;
+					position: absolute;
+					right: 48px;
+				}
+				.send-btn {
+					margin-top: 170px;
+					display: inline-block;
+					&:before {
+						display: inline-block;
+						content: "Drop the ‘HAMMER!";
+						color: #FFFFFF;
+						font-size: 35px;
+						font-weight: bold;
+						position: relative;
+						top: 6px;
+						padding-right: 50px;
+					}
+					.red-btn {
+						padding: 5px 50px 7px;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

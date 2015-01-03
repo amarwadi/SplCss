@@ -1,0 +1,447 @@
+/* line 3, ../scss/burry-tach.scss */
+.burry-tach-header-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  padding: 40px 0 50px;
+  margin-top: 131px;
+  min-width: 1170px; }
+/* line 9, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads {
+  color: #FFFFFF; }
+/* line 12, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left img {
+  float: left;
+  padding-top: 7px; }
+/* line 16, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left .title-intro-block {
+  width: 392px;
+  float: left;
+  padding-left: 50px; }
+/* line 20, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left .title-intro-block h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+/* line 26, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left .title-intro-block p {
+  font-size: 20px;
+  line-height: 23px; }
+/* line 30, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left .title-intro-block .read-more {
+  color: #7e7e7e;
+  text-decoration: none;
+  font-size: 20px; }
+/* line 34, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-left .title-intro-block .read-more:hover {
+  color: #EEEEEE; }
+/* line 40, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-right {
+  float: left; }
+/* line 42, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-right ul {
+  margin: 20px 0 0 130px; }
+/* line 44, ../scss/burry-tach.scss */
+.burry-tach-header-full .burry-tach-header-centered .site-pads .header-right ul li {
+  display: block;
+  font-size: 20px;
+  background: url("../images/spledgehammer/checkmark-orange.png") left 3px no-repeat;
+  padding: 3px 0 10px 45px;
+  letter-spacing: 0.5px; }
+
+/* line 56, ../scss/burry-tach.scss */
+.meet-match-bar-full {
+  background: #f3f3f3;
+  padding: 15px 0;
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  min-width: 1170px; }
+/* line 64, ../scss/burry-tach.scss */
+.meet-match-bar-full .meet-match-bar-centered .site-pads p {
+  font-size: 20px;
+  line-height: 37px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #383838;
+  float: left; }
+/* line 72, ../scss/burry-tach.scss */
+.meet-match-bar-full .meet-match-bar-centered .site-pads .red-btn {
+  float: right;
+  font-size: 19px;
+  padding: 5px 40px 7px; }
+
+/* line 80, ../scss/burry-tach.scss */
+.burry-tach-content-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 85, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .main-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a8a5a5;
+  padding: 20px 0; }
+/* line 93, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box {
+  margin-bottom: 35px; }
+/* line 96, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .title-block span {
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  padding: 0 15px; }
+/* line 106, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block {
+  background: #383838; }
+/* line 108, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads {
+  padding: 37px 47px; }
+/* line 110, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left {
+  float: left; }
+/* line 112, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .spledge-logo {
+  float: left; }
+/* line 115, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .title-location {
+  float: left;
+  margin-left: 50px; }
+/* line 118, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .title-location h2 {
+  color: #FFFFFF;
+  font-size: 33px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold; }
+/* line 124, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .title-location h2 span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 130, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .title-location h3 {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #f8981d;
+  font-weight: bold;
+  margin-top: 90px; }
+/* line 137, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .content-left .title-location h3 span {
+  display: block;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 146, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .campaign-meter {
+  float: right;
+  margin-top: 15px; }
+/* line 150, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount {
+  width: 894px;
+  border-top: 2px solid #a1a1a1;
+  float: right;
+  margin-top: 25px; }
+/* line 155, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form {
+  padding-top: 25px; }
+/* line 157, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul {
+  margin: 0; }
+/* line 159, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li {
+  float: left; }
+/* line 162, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li:nth-child(1):after {
+  content: "-";
+  top: 6px; }
+/* line 168, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li:nth-child(2):after {
+  content: "=";
+  top: 8px; }
+/* line 174, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li:nth-child(3):after {
+  content: " "; }
+/* line 178, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li:after {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 0;
+  position: relative; }
+/* line 186, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li span {
+  display: block;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+/* line 192, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li input {
+  width: 230px;
+  border: none;
+  color: white; }
+/* line 197, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li .grey-input {
+  background: #898989;
+  font-size: 25px;
+  padding: 10px 5px; }
+/* line 202, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box .main-content-block .main-content-pads .tach-amount form ul li .orange-input {
+  background: #f8981d;
+  font-size: 36px;
+  padding: 5px; }
+/* line 214, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block {
+  background: #383838; }
+/* line 216, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads {
+  padding: 37px 47px; }
+/* line 218, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .badge-img {
+  float: left; }
+/* line 221, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form {
+  float: left;
+  margin-left: 50px; }
+/* line 224, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form h2 {
+  font-size: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px; }
+/* line 230, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form h2 span {
+  color: #f8981d;
+  font-size: 35px; }
+/* line 235, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form {
+  color: #FFFFFF; }
+/* line 237, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul {
+  margin: 0; }
+/* line 239, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li {
+  font-size: 28px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold; }
+/* line 246, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li:nth-child(1) label i {
+  color: #f8981d;
+  font-size: 35px; }
+/* line 253, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li:nth-child(2) input[type="text"] {
+  width: 120px;
+  font-size: 20px;
+  margin-left: 40px; }
+/* line 260, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li:nth-child(3) span {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: normal;
+  display: block;
+  margin-top: 12px; }
+/* line 267, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li:nth-child(3) textarea {
+  border: 2px solid #d1d1d1;
+  border-radius: 3px;
+  color: #8f8e8e;
+  line-height: 20px;
+  margin-bottom: 15px;
+  padding: 7px;
+  width: 575px;
+  font-size: 20px; }
+/* line 278, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li:nth-child(4) {
+  font-size: 22px;
+  text-transform: unset;
+  font-weight: normal; }
+/* line 283, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li label {
+  color: #FFFFFF; }
+/* line 286, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li input[type="radio"] {
+  display: none; }
+/* line 289, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li input[type="radio"] + label span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: -5px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  margin-right: 15px; }
+/* line 302, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li input[type="radio"]:checked + label span {
+  background: #FFFFFF url("../images/checkmark-radio.png") 3px 5px no-repeat; }
+/* line 305, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li input[type="radio"] + label span, .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-block .burry-tach-block-pads .spledgehammer-form form ul li input[type="radio"]:checked + label span {
+  -webkit-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear; }
+/* line 318, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed {
+  margin: 35px 0; }
+/* line 321, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .title-block span {
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  padding: 0 15px; }
+/* line 331, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block {
+  background: #383838; }
+/* line 333, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads {
+  padding: 37px 47px; }
+/* line 335, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left {
+  float: left; }
+/* line 337, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .spledge-logo {
+  float: left; }
+/* line 340, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location {
+  float: left;
+  margin-left: 50px; }
+/* line 343, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h2 {
+  color: #FFFFFF;
+  font-size: 38px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold; }
+/* line 349, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h2 span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 355, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h3 {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #f8981d;
+  font-weight: bold;
+  margin-top: 90px; }
+/* line 362, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h3 span {
+  display: block;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 371, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .campaign-meter {
+  float: right;
+  margin-top: 15px; }
+/* line 376, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block {
+  background: #FFFFFF; }
+/* line 378, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content {
+  width: 738px;
+  margin: 0 auto;
+  padding: 10px 0 15px; }
+/* line 382, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content h2 {
+  font-size: 24px;
+  color: #373838;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px; }
+/* line 390, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block {
+  overflow: auto; }
+/* line 392, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar {
+  border: 7px solid #d3d3d3;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px; }
+/* line 398, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content {
+  float: left;
+  width: 86%; }
+/* line 401, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .main-badge {
+  float: right; }
+/* line 404, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .name {
+  color: #373838;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-transform: uppercase; }
+/* line 411, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .name span {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: initial;
+  color: #707070; }
+/* line 419, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .bury-now {
+  font-size: 24px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: bold; }
+/* line 424, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .bury-now .yellow-txt {
+  text-transform: uppercase;
+  color: #f8981d; }
+/* line 428, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .bury-now .total-left {
+  font-size: 40px;
+  color: #e11b22; }
+/* line 433, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .special-thanks-block .speical-thanks-content .avatar-block .avatar-content .time-ago {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #707070; }
+/* line 444, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .drop-hammer-block {
+  margin: 75px 0 85px;
+  text-align: right;
+  position: relative; }
+/* line 448, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .drop-hammer-block .send-btn {
+  display: inline-block; }
+/* line 450, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .drop-hammer-block .send-btn:before {
+  color: #bec2c0;
+  content: "Step 2: Enter payment information";
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  padding-right: 30px; }
+/* line 458, ../scss/burry-tach.scss */
+.burry-tach-content-full .burry-tach-content-centered .site-pads .drop-hammer-block .send-btn .red-btn {
+  padding: 5px 50px 7px;
+  text-transform: uppercase; }

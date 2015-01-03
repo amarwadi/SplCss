@@ -1,0 +1,33 @@
+﻿  .clsMargin * {
+        margin-top: 5px;
+    }
+
+    .emptyContentDiv {
+        width: 100%;
+        float: left;
+        background-color: #f8981d;
+        text-align: center;
+        margin: 45px 0px 40px 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    .rowSpace {
+        padding-bottom: 6px;
+        border: 1px solid rgb(202, 177, 177);
+        background-color: rgb(217, 209, 209);
+    }
+
+    .quantityDisable {
+        border: 0px;
+        background-color: transparent;
+        font-weight: bold;
+    }
+
+    .quantityEnable {
+        width:20px;
+    }

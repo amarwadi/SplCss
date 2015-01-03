@@ -1,0 +1,40 @@
+﻿.doller-sign {
+    background: transparent;
+    position: absolute;
+    font-size: 170%;
+    margin-top: 1%;
+    font-family: sans-serif;
+}
+
+.doller-sign-white {
+    color: white;
+    font-weight: bold;
+    background: transparent;
+    position: absolute;
+    font-size: 220%;
+    font-family: sans-serif;
+}
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads span {
+  display: block;
+  font-size: 22px;
+  color: #FFFFFF;
+  margin-bottom: 5px; }
+/* line 543, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads textarea {
+  display: block;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #8f8e8e;
+  padding: 5px; }
+/* line 551, ../scss/spledge.scss */
+.confirm-programs-full .confirm-programs-centered .site-pads .shoutout-block .shoutout-pads i {
+  font-size: 22px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  position: relative;
+  top: 3px; }

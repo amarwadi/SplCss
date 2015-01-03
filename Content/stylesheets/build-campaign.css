@@ -1,0 +1,224 @@
+/* line 3, ../scss/build-campaign.scss */
+.build-campaign-full {
+  min-width: 1170px; }
+/* line 5, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img {
+  background: url("../images/block-two.jpg") center top no-repeat !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  height: 100% !important;
+  padding-top: 50px;
+  position: relative; }
+/* line 11, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered {
+  padding-bottom: 100px; }
+/* line 14, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads h1 {
+  color: #FFFFFF;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px; }
+/* line 22, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block {
+  background: #eeeaea url("../images/build-campaign/sidebar-repeat.jpg") top left repeat-y; }
+/* line 24, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps {
+  width: 334px;
+  float: left; }
+/* line 27, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol {
+  list-style: decimal;
+  list-style-position: inside;
+  margin: 0; }
+/* line 31, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol li {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #d3d3d3;
+  padding: 9px 15px; }
+/* line 37, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol .active {
+  color: #373838;
+  background: #f8981d; }
+/* line 43, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details {
+  float: left;
+  width: 806px; }
+/* line 46, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details h2 {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: #6db447;
+  padding: 9.2px 40px; }
+/* line 56, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block {
+  padding: 30px 90px 30px 40px;
+  position: relative; }
+/* line 59, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .edit-btn {
+  position: absolute;
+  top: 48px;
+  right: 37px;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1; }
+/* line 65, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .edit-btn:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8; }
+/* line 69, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block h3 {
+  color: #595959;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 20px 0; }
+/* line 76, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form {
+  float: right;
+  color: #595959; }
+/* line 79, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form span {
+  float: left;
+  font-size: 19px;
+  padding-right: 10px; }
+/* line 84, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form select {
+  background: #9f9d9a url("../images/campaigns/dropdown-arrow.jpg") right center no-repeat;
+  border: none  !important;
+  outline: medium none !important;
+  display: inline-flex !important;
+  height: 35px !important;
+  width: 203px;
+  text-indent: 10px;
+  vertical-align: top;
+  -webkit-appearance: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+  margin-left: 10px;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+/* line 102, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form input {
+  color: #595959;
+  border: none;
+  padding: 8px 7px;
+  font-size: 18px; }
+/* line 108, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .campaign-title {
+  float: right; }
+/* line 110, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .campaign-title input {
+  width: 470px;
+  float: left; }
+/* line 115, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .type-option-block {
+  margin-top: 15px;
+  float: right; }
+/* line 118, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .type-option-block .type-block, .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .type-option-block .option-block {
+  float: left; }
+/* line 122, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .type-option-block .type-block {
+  margin: 0 20px 0 65px; }
+/* line 127, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .date-block select {
+  display: inline-block;
+  background: url("../images/build-campaign/dropdown-arrow-two.jpg") no-repeat scroll right center #FFFFFF;
+  color: #9F9D9A;
+  font-weight: normal; }
+/* line 134, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .date-block .one {
+  margin-left: 0; }
+/* line 137, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block form .date-block .divider {
+  padding: 0 15px;
+  width: auto; }
+/* line 145, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form {
+  float: left; }
+/* line 147, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form span {
+  width: 184px;
+  text-align: right;
+  padding-top: 2px; }
+/* line 152, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form div {
+  margin-bottom: 15px;
+  overflow: hidden; }
+/* line 155, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form div:last-child {
+  margin-bottom: 0; }
+/* line 160, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .fundrasing-block input {
+  width: 189px; }
+/* line 165, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .total-performance input {
+  float: left;
+  width: 100px; }
+/* line 169, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .total-performance .games {
+  width: auto;
+  padding: 2px 0 0 17px; }
+/* line 175, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .total-performance span.tooltip {
+  background-position: 34px 9px;
+  position: relative; }
+/* line 178, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .total-performance span.tooltip .tooltip-block {
+  width: 305px;
+  top: -60px;
+  left: -300px;
+  text-align: left; }
+/* line 183, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .total-performance span.tooltip .tooltip-block .right-arrow {
+  top: 44%;
+  right: -10px; }
+/* line 191, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers input {
+  float: left;
+  width: 100px; }
+/* line 195, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers .total-numbers-txt {
+  float: left;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0 0 0 17px;
+  text-align: left;
+  width: auto;
+  color: #9f9d9a; }
+/* line 203, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers .total-numbers-txt i {
+  display: block; }
+/* line 207, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers span.tooltip {
+  background-position: 27px 9px;
+  position: relative; }
+/* line 210, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers span.tooltip .tooltip-block {
+  width: 305px;
+  top: -60px;
+  left: -300px;
+  text-align: left; }
+/* line 215, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block form .estimated-spledgers span.tooltip .tooltip-block .right-arrow {
+  top: 44%;
+  right: -10px; }
+/* line 224, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .save-continue-block {
+  padding: 40px; }
+/* line 226, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .save-continue-block .red-btn {
+  float: right; }

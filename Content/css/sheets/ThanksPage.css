@@ -1,0 +1,16 @@
+﻿.backgroung-black {
+        background-image: linear-gradient(#343333, #141415);
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .link-color {
+        color: rgb(0, 223, 255);
+    }
+
+    .content-box {
+        font-size: 30px;
+        color: #D3D3D3;
+    }

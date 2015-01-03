@@ -1,0 +1,140 @@
+/* line 2, ../scss/campaign-overview.scss */
+.overview-block-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 8, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block {
+  background: #2E302F;
+  margin-bottom: 52px; }
+/* line 11, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block:first-child {
+  margin-top: 52px; }
+/* line 14, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads {
+  padding: 24px 14px 14px 43px; }
+/* line 16, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder {
+  float: left;
+  text-transform: uppercase;
+  text-align: center; }
+/* line 20, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder .program-number {
+  font-size: 22px;
+  color: #d3d3d3;
+  font-weight: bold;
+  margin-bottom: 35px; }
+/* line 26, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder h2, .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder span {
+  color: #FFFFFF; }
+/* line 30, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder h2 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 30px; }
+/* line 36, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder span {
+  font-size: 22px;
+  letter-spacing: 0.5px; }
+/* line 41, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info {
+  float: left;
+  width: 768px;
+  background: url("../images/border-repeat-one.jpg") top left repeat-y;
+  margin-left: 10px; }
+/* line 46, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads {
+  position: relative;
+  padding: 0 0 0 10px; }
+/* line 49, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads h2 {
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #FFFFFF; }
+/* line 57, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads > p {
+  width: 580px;
+  color: #d3d3d3;
+  font-size: 19px;
+  margin: 10px 0 20px; }
+/* line 63, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table {
+  width: 100%;
+  position: relative; }
+/* line 66, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody {
+  text-transform: uppercase; }
+/* line 68, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles {
+  background: #62a744;
+  border-bottom: 3px solid #2E2F2F; }
+/* line 71, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th {
+  width: 291px;
+  color: #FFFFFF;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold; }
+/* line 78, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th:first-child {
+  background: url("../images/clip-board-icon.jpg") center left no-repeat;
+  padding: 9px 0 12px 0;
+  text-indent: 59px; }
+/* line 83, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th:last-child {
+  background: url("../images/money-icon.jpg") center left no-repeat;
+  padding: 9px 0 12px 40px; }
+/* line 89, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info {
+  background: #EEEEEE; }
+/* line 91, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info td {
+  position: relative;
+  color: #383838;
+  font-size: 20px;
+  padding: 4px 0 4px 6px; }
+/* line 96, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info td:first-child {
+  padding: 4px 0 4px 19px;
+  border-right: 1px solid #8a8a8a; }
+/* line 102, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .one {
+  border-bottom: 1px solid #8a8a8a; }
+/* line 106, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .two .tooltip-block {
+  width: 305px;
+  top: 31px;
+  left: -310px; }
+/* line 110, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .two .tooltip-block .right-arrow {
+  top: 44%;
+  right: -10px; }
+/* line 118, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table {
+  margin-top: 15px !important; }
+/* line 122, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr:last-child {
+  background: #FFFFFF !important; }
+/* line 124, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr:last-child td {
+  font-weight: bold !important;
+  text-transform: uppercase !important; }
+/* line 131, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr.titles th {
+  background: none !important;
+  text-indent: 24px !important; }
+/* line 136, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr.info {
+  border-bottom: 1px solid #8A8A8A !important; }
+/* line 139, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody .four {
+  border-bottom: none !important; }

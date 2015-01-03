@@ -1,0 +1,242 @@
+.program-block {
+    background: none repeat scroll 0 0 #2c2d2d;
+    width: 725px;
+    margin: 0px 0px 25px 45px;
+    
+    
+    .program-pads
+    {
+        padding: 18px;
+
+        .prg-setting
+        {
+            padding-left: 190px;width:445px;
+        }
+        .label
+        {
+            color: #969595;
+            float: left;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 35px;
+            text-transform: uppercase;
+            text-align: right;
+            width: 235px;
+		}
+        .input-text
+        {
+            color: #FFFFFF;
+            float: left;
+            font-size: 18px;
+            font-weight: bold;
+            background: no-repeat scroll right center #9f9d9a;
+            margin-bottom: 10px;
+            width: 182px;
+            margin-left: 20px;
+        }
+        
+        .image-title 
+        {
+            img
+            {
+                float: left !important;
+            }
+
+            h2
+            {
+                background: transparent !important;
+	            color: #ffffff;
+	            font-size: 22px;
+	            font-weight: bold;
+	            letter-spacing: 0.5px;
+	            line-height: 30px;
+	            padding: 5px 0 0 185px !important;
+	            text-transform: uppercase;
+            }
+            .para
+            {
+                padding: 10px 20px 20px 190px;
+                color: #ffffff;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.form-ele
+{
+    margin-bottom: 15px;
+    float: right;
+    color: #595959;
+
+    span
+    {
+        float: left;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    
+    input {
+        float: left;
+        width: 470px;
+        border: medium none;
+        color: #595959;
+        font-size: 18px;
+        padding: 8px 7px;
+        line-height: normal;
+    }
+    select {
+        float: left;
+        width: 221px !important;
+        margin: 0px 20px 0px 0px;        
+
+        -moz-appearance: none;
+        background: url("../../images/campaigns/dropdown-arrow.jpg") no-repeat scroll right center #9f9d9a;
+        border: medium none;
+        border-radius: 0;
+        color: #ffffff;
+        font-family: "Open Sans Condensed",Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 0;
+        text-indent: 3px;
+        text-overflow: "";
+        text-transform: uppercase;
+    }
+}
+
+.performers, .campaign-merchandise-list
+{
+    
+}
+
+.alert-notice
+{
+    background: #F8981D;
+    color: #373838;
+    padding: 10px;
+    margin: 60px 0px 60px 0px;
+    font-weight: bold;
+}
+
+.performers-form, .landing-page
+{
+        padding: 0px 25px 0px 25px;
+        h2
+        {
+            color: #595959;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 0 30px;
+            text-transform: uppercase;
+        }
+        h3
+        {
+            color: #595959;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0 0 35px;
+            text-transform: uppercase;
+        }
+        .alert-info
+        {
+            background: #F8981D;
+            color: #373838;
+            padding: 10px;
+            margin: 25px 0px 40px 0px;
+            font-size: 19px;
+            line-height: 25px;
+            width: 650px;
+        }
+        .label
+        {
+            color: #969595;
+            float: left;
+            font-size: 18px;
+            line-height: 36px;
+            text-transform: uppercase;
+            text-align: right;
+            width: 200px;
+            padding-bottom: 15px;
+           
+		}
+
+        .input-text
+        {
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            background: no-repeat scroll right center #FFFFFF;
+            float: left;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            border: medium none;
+            color: #595959;
+            width: 350px;
+            line-height: 25px;
+            padding: 4px;
+        }
+
+        textarea
+        {
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            background: no-repeat scroll right center #FFFFFF;
+            float: left;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            border: medium none;
+            color: #595959;
+            width: 350px;
+            height: 150px;
+            padding: 4px;
+        }
+
+        .select-option
+        {
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            background: no-repeat scroll right center #9f9d9a;
+        }
+        .select-check
+        {
+            color: #969595;
+        }
+}
+
+.campaign-steps
+{
+    a
+    {
+        color: #d3d3d3 !important;
+        text-decoration: none !important;
+    }
+    .active
+    {
+        a
+        {
+            color: #373838 !important;
+        }
+    }
+}
+
+#modal
+{
+    #content
+    {
+        background: #F3F3F3;
+    }
+}
+
+.sp-replacer
+{
+    float: left;
+    margin: 0px 0px 0px 20px !important;
+}
+
+.general-settings-block
+{
+    font-size: 21px;
+}
+

@@ -1,0 +1,158 @@
+@import "compass/css3";
+
+.get-started-full {
+	min-width: 1170px;
+	.get-started-img {
+		padding-top: 131px;
+		background: url( '../images/get-started/get-started-bg.jpg' ) center top no-repeat !important;
+		@include background-size( cover !important );
+		height: 100% !important;
+		position: relative;
+		min-height: 777px;
+		.get-started-centered {
+			.site-pads {
+				.get-started-intro {
+					text-align: center;
+					color: #FFFFFF;
+					margin-top: 40px;
+					h1 {
+						font-size: 55px;
+						text-transform: uppercase;
+						font-weight: bold;
+						letter-spacing: 0.5px;
+					}
+					p {
+						font-size: 24px;
+						line-height: 33px;
+						margin-bottom: 55px;
+						span {
+							display: block;
+						}
+					}
+				}
+				.sign-up-container {
+					width: 960px;
+					margin: 0 auto 125px;
+					.sign-up-block {
+						width: 440px;
+						&:first-child {
+							float: left;
+						}
+						&:last-child {
+							float: right;
+						}
+						.title-block {
+							.title-pads {
+								padding: 15px 30px;
+								h2 {
+									font-size: 26px;
+									line-height: 33px;
+									text-transform: uppercase;
+									color: #FFFFFF;
+									font-weight: bold;
+									float: left;
+									margin-top: 5px;
+									span {
+										display: block;
+									}
+								}
+								img {
+									float: right;
+								}
+							}
+						}
+						.get-started-list {
+							margin: 0;
+							background: #EEEEEE;
+							min-height: 358px;
+							li {
+								position: relative;
+								display: block;
+								color: #221f1f;
+								font-size: 23px;
+								border-bottom: 1px solid #a1a1a1;
+								padding: 15px 35px 15px 65px;
+								background: url( '../images/get-started/get-started-checkmark.png' ) 25px 17px no-repeat;
+								&:last-child {
+									border-bottom: none;
+								}
+								img {
+									position: absolute;
+									top: 15px;
+									right: 90px;
+								}
+							}
+							.payment-list {
+								padding-bottom: 45px;
+							}
+						}
+					}
+				}
+				.social-block {
+					background: #363737;
+					.social-pads {
+						padding: 16px 31px 26px;
+						.social-title {
+							font-size: 16px;
+							text-transform: uppercase;
+							color: #FFFFFF;
+							letter-spacing: 0.5px;
+							font-weight: bold;
+						}
+						.social-btns {
+							width: 310px;
+							margin: 10px auto 15px;
+							li {
+								display: inline-block;
+								&:first-child {
+									float: left;
+								}
+								&:last-child {
+									float: right;
+								}
+								a {
+									width: 148px;
+									display: block;
+									text-align: center;
+									font-size: 21px;
+									color: #FFFFFF;
+									text-decoration: none;
+									@include border-radius( 5px );
+									padding: 5px 0 7px;
+								}
+								.facebook {
+									background: #3468af url( '../images/get-started/facebook-icon.png' ) 26px 10px no-repeat;
+									&:hover {
+										background: #4478bf url( '../images/get-started/facebook-icon.png' ) 26px 10px no-repeat;
+									}
+								}
+								.google-plus {
+									background: #e64c65 url( '../images/get-started/google-plus-icon.png' ) 26px 10px no-repeat;
+									&:hover {
+										background: #f2647b url( '../images/get-started/google-plus-icon.png' ) 26px 10px no-repeat;
+									}
+								}
+							}
+						}
+						.email-address {
+							width: 310px;
+							margin: 0 auto;
+							display: block;
+							font-size: 21px;
+							color: #FFFFFF;
+							text-decoration: none;
+							background: #8b8d8f url( '../images/get-started/email-address-icon.png' ) 20px center no-repeat;
+							@include border-radius( 5px );
+							padding: 5px 0 7px;
+							text-transform: uppercase;
+							text-indent: 59px;
+							&:hover {
+								background: #a7aaad url( '../images/get-started/email-address-icon.png' ) 20px center no-repeat;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

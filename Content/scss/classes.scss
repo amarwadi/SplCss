@@ -1,0 +1,187 @@
+@import "compass/css3";
+
+.container-1170 {
+	width: 1170px;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.site-pads {
+	padding: 0 15px;
+}
+
+.container-full {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.clear	{ 
+	clear: both;
+}
+
+.alignleft { 
+	float: left; 
+	margin: 5px 10px 10px 0px;
+}
+
+.alignright { 
+	float: right; 
+	margin: 5px 0px 10px 10px; 
+}
+
+.aligncenter {
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.animation {
+	@include transition( all 0.3s ease-in-out );
+}
+
+.red-btn {
+	@include background-image(linear-gradient(#e70000, #b50606));
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 21px;
+	@include border-radius( 7px );
+	padding: 5px 20px 7px;
+	display: inline-block;
+	&:hover {
+		background: #e70000;
+	}
+}
+
+.visible-desktop {
+	display: block !important;
+}
+
+.hidden-desktop {
+	display: none !important;
+}
+
+.open-sans-normal {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.green-bg {
+	background: #6db447 !important;
+}
+
+.blue-bg {
+	background: #6daede !important;
+}
+
+.dark-blue-bg {
+	background: #005581 !important;
+}
+
+.pink-bg {
+	background: #d4558b !important;
+}
+
+.grey-bg {
+	background: #9f9d9a !important;
+}
+
+.turquoise-bg {
+	background: #1fdced !important;
+}
+
+.yellow-bg {
+	background: #f1d801 !important;
+}
+
+.orange-bg {
+	background: #f8981d !important;
+}
+
+.follow-btn {
+	background: #5ca139 url( '../images/campaigns/follow-star.png' ) 25px center no-repeat;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 5px 37px 7px 60px;
+	display: inline-block;
+	&:hover {
+		background: #6eb44a url( '../images/campaigns/follow-star.png' ) 25px center no-repeat;	
+	}
+}
+
+.follow-white-btn {
+	background: #FFFFFF url( '../images/campaign-landing/follow-star-green.png' ) 25px center no-repeat;
+	color: #5ca139;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 3px 37px 5px 60px;
+	display: inline-block;
+	border: 2px solid #5ca139;
+	&:hover {
+		background: #EEEEEE url( '../images/campaign-landing/follow-star-green.png' ) 25px center no-repeat;	
+	}
+}
+
+.spledgehammer-btn {
+	background: #f8981d url( '../images/campaign-landing/spledgehammer-icon.png' ) 10px center no-repeat;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 21px;
+	padding: 5px 21px 7px 70px;
+	display: inline-block;	
+	&:hover {
+		background: #faa130 url( '../images/campaign-landing/spledgehammer-icon.png' ) 10px center no-repeat;
+	}
+}
+
+.red-txt {
+	color: #FF0000 !important;
+}
+
+.green-txt {
+	color: #5ca139 !important;
+}
+
+.tooltip {
+	background: url( '../images/tooltip-icon.jpg' ) center right no-repeat;
+	padding-right: 22px;
+	cursor: pointer;
+}
+
+.tooltip-block {
+	position: relative;
+  background: #EEEEEE;
+  position: absolute;
+  z-index: 100;
+  @include border-radius( 8px );
+  @include box-shadow( 0 2px 2px 2px rgba( 0, 0, 0, 0.5 ) );
+  @include opacity( 0 );
+  visibility: hidden;
+  .tooltip-pads {
+  	padding: 10px 20px 20px 20px;
+  	p {
+  		text-transform: capitalize;
+  		font-size: 16px;
+  	}
+  }
+  .right-arrow {
+  	position: absolute;
+  	z-index: 100;
+  	background: #EEEEEE;
+  	width: 20px !important;
+  	height: 20px !important;
+  	display: block;
+  	@include transform( rotate( 45deg ) );
+  	@include box-shadow( 6px -3px 10px -5px rgba(0, 0, 0, 0.8) );
+  }
+}
+.active-tooltip {
+  @include opacity( 1.0 );
+  visibility: visible;
+}
+
+.border-bottom {
+	background: url( '../images/border-repeat-x.jpg' ) bottom left repeat-x;
+	padding-bottom: 10px;
+}

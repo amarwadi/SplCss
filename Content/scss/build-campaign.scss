@@ -1,0 +1,235 @@
+@import "compass/css3";
+
+.build-campaign-full {
+	min-width: 1170px;
+	.build-campaign-full-img {
+		background: url( '../images/block-two.jpg' ) center top no-repeat !important;
+		@include background-size( cover !important );
+		height: 100% !important;
+		padding-top: 50px;
+		position: relative;
+		.build-campaign-centered {
+			padding-bottom: 100px;
+			.site-pads {
+				h1 {
+					color: #FFFFFF;
+					font-size: 40px;
+					text-transform: uppercase;
+					font-weight: bold;
+					letter-spacing: 0.5px;
+					margin-bottom: 10px;
+				}
+				.build-campaing-block {
+					background: #eeeaea url( '../images/build-campaign/sidebar-repeat.jpg' ) top left repeat-y;
+					.campaign-steps {
+						width: 334px;
+						float: left;
+						ol {
+							list-style: decimal;
+							list-style-position: inside;
+							margin: 0;
+							li {
+								font-size: 20px;
+								text-transform: uppercase;
+								color: #d3d3d3;
+								padding: 9px 15px;
+							}
+							.active {
+								color: #373838;
+								background: #f8981d;
+							}
+						}
+					}
+					.build-campaign-details {
+						float: left;
+						width: 806px;
+						h2 {
+							color: #FFFFFF;
+							margin: 0;
+							font-size: 20px;
+							font-weight: bold;
+							text-transform: uppercase;
+							letter-spacing: 0.5px;
+							background: #6db447;
+							padding: 9.2px 40px;
+						}
+						.build-campaign-form-block {
+							padding: 30px 90px 30px 40px;
+							position: relative;
+							.edit-btn {
+						    position: absolute;
+						    top: 48px;
+						    right: 37px;
+						    cursor: pointer;
+						    @include opacity( 1.0 );
+						    &:hover {
+						    	@include opacity( 0.8 );
+						    }
+							}
+							h3 {
+								color: #595959;
+								font-size: 19px;
+								font-weight: bold;
+								text-transform: uppercase;
+								margin: 0 0 20px 0;
+							}
+							form {
+								float: right;
+								color: #595959;
+								span {
+									float: left;
+									font-size: 19px;
+									padding-right: 10px;
+								}
+								select {
+									background: #9f9d9a url( '../images/campaigns/dropdown-arrow.jpg' ) right center no-repeat;
+									border: none  !important;    
+									outline: medium none !important;
+									display: inline-flex !important;
+									height: 35px !important;
+									width: 203px;
+									text-indent: 10px;
+									vertical-align: top;
+									-webkit-appearance: none;
+									color: #FFFFFF;
+									text-transform: uppercase;
+									font-weight: bold;
+									font-size: 19px;
+									font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+									margin-left: 10px;
+									@include border-radius( 0 );
+								}
+								input {
+									color: #595959;
+									border: none;
+									padding: 8px 7px;
+									font-size: 18px;
+								}
+								.campaign-title {
+									float: right;
+									input {
+										width: 470px;
+										float: left;
+									}
+								}
+								.type-option-block {
+									margin-top: 15px;
+									float: right;
+									.type-block,
+									.option-block {
+										float: left;
+									}
+									.type-block {
+										margin: 0 20px 0 65px;
+									}
+								}
+								.date-block {
+									select {
+										// float: left;
+										display: inline-block;
+								    background: url("../images/build-campaign/dropdown-arrow-two.jpg") no-repeat scroll right center #FFFFFF;
+								    color: #9F9D9A;
+								    font-weight: normal;
+									}
+									.one {
+										margin-left: 0;
+									}
+									.divider {
+										padding: 0 15px;
+										width: auto;
+									}
+								}
+							}
+						}
+						.fundraising-settings-block {
+							form {
+								float: left;
+								span {
+									width: 184px;
+									text-align: right;
+									padding-top: 2px;
+								}
+								div {
+									margin-bottom: 15px;
+									overflow: hidden;
+									&:last-child {
+										margin-bottom: 0;
+									}
+								}
+								.fundrasing-block {
+									input {
+										width: 189px;
+									}
+								}
+								.total-performance {
+									input {
+										float: left;
+										width: 100px;
+									}
+									.games {
+										width: auto;
+										padding: 2px 0 0 17px;
+									}
+								}
+								.total-performance {
+									span.tooltip {
+										background-position: 34px 9px;
+										position: relative;
+										.tooltip-block {
+										  width: 305px;
+										  top: -60px;
+										  left: -300px;
+										  text-align: left;
+										  .right-arrow {
+										  	top: 44%;
+										  	right: -10px;
+										  }
+										}
+									}
+								}
+								.estimated-spledgers {
+									input {
+										float: left;
+										width: 100px;
+									}
+									.total-numbers-txt {
+								    float: left;
+								    font-size: 14px;
+								    line-height: 18px;
+								    padding: 0 0 0 17px;
+								    text-align: left;
+								    width: auto;
+								    color: #9f9d9a;
+										i {
+											display: block;
+										}
+									}
+									span.tooltip {
+										background-position: 27px 9px;
+										position: relative;
+										.tooltip-block {
+										  width: 305px;
+										  top: -60px;
+										  left: -300px;
+										  text-align: left;
+										  .right-arrow {
+										  	top: 44%;
+										  	right: -10px;
+										  }
+										}
+									}
+								}
+							}
+						}
+						.save-continue-block {
+							padding: 40px;
+							.red-btn {
+								float: right;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

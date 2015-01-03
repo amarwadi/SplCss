@@ -1,0 +1,1649 @@
+//simple max-width query
+@media screen and ( max-height: 657px ){
+   .vid-popup {
+   	display: none;
+   }
+   .challenge-accepted-full {
+   	.challenge-accepted-full-img {
+   		.challenge-accepted-centered {
+   			.site-pads {
+   				.block-one-txt {
+   					ul {
+   						li {
+   							&:first-child {
+   								margin-left: 0;
+   							}
+   						}
+   						li.watch-video {
+   							a {
+   								display: block;
+   							}
+   						}
+   					}
+   				}
+   			}
+   		}
+   	}
+   }
+}
+
+@media only screen and (max-width: 891px) {
+
+	header {
+		.nav-bar-full {
+			.nav-bar-centered {
+				.site-pads {
+					.logo {
+						width: 25%;
+						margin-top: 9px;
+						img {
+							width: 100%;
+						}
+					}
+					.nav-search-block {
+						nav {
+							ul {
+								li {
+									a {
+										padding: 16px !important;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+@media only screen and (max-width: 1087px) {
+
+	header {
+		.nav-bar-full {
+			.nav-bar-centered {
+				.site-pads {
+					.nav-search-block {
+						nav {
+							ul {
+								li {
+									a {
+										padding: 16px 22px;
+										font-size: 16px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+@media only screen and (max-width: 1170px) {
+  
+	/*-------------- Type Selectors --------------*/
+
+	body {
+		min-width: 767px;
+	}
+
+	/*-------------- Classes --------------*/
+
+	.visible-tablet {
+		display: block !important;
+	}
+
+	.hidden-tablet {
+		display: none !important;
+	}
+
+	.container-1170 {
+		width: auto;
+	}
+
+	/*-------------- Global blocks --------------*/
+
+	.short-block-slideshow-full {
+		padding-top: 0;
+		min-width: 767px;
+		#slide-nav {
+			bottom: 320px;
+		}
+		.slideshow-short {
+			.short-slideshow-img {
+				.short-slideshow-bar-full {
+					.short-slideshow-centered {
+						.site-pads {
+							.bar-left {
+								.short-slide-bar-txt {
+									width: 460px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.pick-block-full {
+		min-width: 767px;
+		.pick-block-centered {
+			.site-pads {
+				.pick-block-options {
+					ul {
+						width: auto;
+						text-align: center;
+						li {
+							float: none;
+							display: inline-block;
+							margin-right: 9px;
+							a {
+								width: 94px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.notification-full {
+		min-width: 767px;
+		padding-top: 20px;
+	}
+	.tab-bar-full,
+	.grey-bar-full {
+		min-width: 767px;
+	}
+	.grey-bar-full {
+		.grey-bar-centered {
+			.site-pads {
+				.filter-list {
+					float: none;
+				}
+				#filter-form {
+					float: none;
+					margin: 15px 0 0 109px;
+				}
+			}
+		}
+	}
+	.green-bar-full {
+		min-width: 767px;
+	}
+
+	/*-------------- header --------------*/
+	.home {
+		header {
+			position: absolute;
+			width: 100%;
+		}
+	}
+	header {
+		.sticky-header {
+			position: relative;
+		}
+		.nav-bar-full {
+			.nav-bar-centered {
+				width: auto;
+				.site-pads {
+					.nav-search-block {
+						.search-icon {
+							display: none;
+						}
+						nav {
+							> ul {
+								> li {
+									.dropdown-nav-block {
+                                        .dropdown-centered {
+											.dropdown-rows {
+												ul {
+													margin: 0 35px 0 0;
+													li {
+														a {
+															padding: 0 16px !important;
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- home --------------*/
+
+	.challenge-accepted-full {
+		padding-top: 0;
+		min-width: 767px;
+		.challenge-accepted-full-img {
+			height: 100% !important;
+			min-height: 525px !important;
+			.challenge-accepted-centered {
+				.site-pads {
+					.block-one-txt {
+						padding: 5% 0 0 0;
+						h1 {
+							font-size: 55px;
+							margin-bottom: 0;
+						}
+						p {
+							font-size: 25px;
+						}
+						ul {
+							margin: 20px 0 25px;
+						}
+					}
+				}
+			}
+		}
+		.black-bar-full {
+			.black-bar-centered {
+				.site-pads {
+					.giant-form-block {
+						width: auto;
+						#campaign-form {
+							.campaign-title {
+								width: 37%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.make-difference-full {
+		min-width: 767px;
+		.make-difference-full-img {
+			height: auto !important;
+			min-height: 0!important;
+			padding: 30px 0;
+			.make-difference-centered {
+				.site-pads {
+					#slide-nav-campaigns {
+						display: none;
+					}
+					h2.title {
+						padding-top: 0;
+					}
+					.difference-rotate-block {
+						.difference-rotate {
+							.difference-candiate {
+								width: 49%;
+								.canidate-pads {
+									padding: 9px 19px !important;
+									h2 {
+										font-size: 23px;
+									}
+									.logo-description-block {
+									>	a {
+											width: 30%;
+											img {
+												width: 100%;
+											}
+										}
+										.canidate-name-block {
+											padding-left: 12px !important;
+											h3 {
+										    font-size: 22px !important;
+										    line-height: 30px !important;
+											}
+											.timer-view-block {
+												li {
+													font-size: 19px !important;
+													a {
+														top: 3px !important;
+													}
+												}
+											}
+										}
+									}
+								}
+								.date-goal-block {
+									.date-goal-txt {
+										font-size: 20px !important;
+										span {
+											font-size: 29px !important;
+										}
+									}
+								}
+								.performance-block {
+									ul {
+										li {
+											float: none !important;
+											border: none !important;
+											padding: 0 !important;
+											display: block !important;
+											font-size: 18px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.button-container-campaign {
+		margin-top: 35px;
+	}
+	.testimonial-block-full {
+		min-width: 767px;
+		.testimonial-block-centered {
+			.site-pads {
+				h2 {
+					font-size: 30px;
+				}
+				.testimonial-row {
+					.testimonial-block {
+						text-align: center;
+						width: 33%;
+						margin: 0;
+						.testimonial-pads {
+							padding: 0 40px;
+							.testimonial-avatar,
+							.quote-block {
+								float: none;
+							}
+							.quote-block {
+								width: auto;
+								margin: 10px 0 0 0;
+								cite {
+									margin-top: 6px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.fundraising-facts-full {
+		min-width: 767px;
+		.fundraising-facts-full-img {
+			height: auto !important;
+			min-height: 0 !important;
+			padding: 30px 0;
+			.fundraising-facts-centered {
+				.site-pads {
+					h2 {
+						padding-top: 0;
+						font-size: 40px;
+						line-height: 40px;
+						margin-bottom: 10px;
+					}
+					p {
+						font-size: 28px;
+					}
+					.fundrasing-list-perks {
+						margin-top: 15px;
+						li {
+							font-size: 21px;
+							background-size: 23px auto;
+							padding-left: 31px;
+						}
+					}
+					.btn-container {
+						margin-top: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Build Campaigns --------------*/
+
+	.build-campaign-full {
+		min-width: 767px;
+		.build-campaign-full-img {
+			.build-campaign-centered {
+				.site-pads {
+					.build-campaing-block {
+						background: none;
+						.campaign-steps {
+							width: 33%;
+							background: #2E302F;
+							min-height: 797px;
+							ol {
+								li {
+									font-size: 21px;
+								}
+							}
+						}
+						.build-campaign-details {
+							width: 67%;
+							background: #EEEAEA;
+							h3 {
+								margin-bottom: 10px !important;
+							}
+							.build-campaign-form-block {
+								padding-bottom: 0;
+								form {
+									float: none;
+									.campaign-title {
+										float: none;
+										span {
+											float: none;
+											display: block;
+											margin-bottom: 5px;
+										}
+										input {
+											float: none;
+											width: 96%;
+										}
+									}
+									.type-option-block {
+										float: none;
+										.type-block {
+											margin-left: 0;
+										}
+										.type-block {
+											float:left;
+										}
+										.option-block {
+											float: right;
+										}
+										.option-block,
+										.type-block {
+											width: 46%;
+											span {
+												float: none;
+												display: block;
+												margin-bottom: 5px;
+											}
+											select {
+												margin-left: 0;
+												width: 100%;
+											}
+										}
+									}
+								}
+							}
+							.fundraising-settings-block {
+								form  {
+									.date-block {
+										span {
+											float: none;
+											display: block;
+											width: auto;
+											margin-bottom: 5px;
+											text-align: left;
+										}
+										select {
+											float: none;
+											width: 48%;
+											display: inline-block;
+										}
+									}
+									.fundrasing-block {
+										span {
+											float: none;
+											display: block;
+											margin-bottom: 5px;
+											text-align: left;
+											width: auto;
+										}
+										input {
+											width: 96%;
+										}
+									}
+									.total-performance,
+									.estimated-spledgers {
+										span {
+											text-align: left;
+											width: 144px;
+											background: none !important;
+										}
+										.total-numbers-txt {
+											float: none;
+											clear: both;
+											padding: 15px 0 0 0;
+											display: block;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Burry Tach --------------*/
+
+	.burry-tach-header-full {
+		min-width: 767px;
+		margin-top: 0;
+		padding: 30px 0;
+		.burry-tach-header-centered {
+			.site-pads {
+				.header-left {
+					img {
+						width: 100px;
+						height: auto;
+					}
+					.title-intro-block {
+						padding-left: 15px;
+						width: 41%;
+						h1 {
+							font-size: 40px;
+						}
+						p {
+							font-size: 18px;
+						}
+					}
+				}
+				.header-right {
+					float: right;
+					width: 40%;
+					ul {
+						margin: 10px 0 0 0;
+						li {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.meet-match-bar-full {
+		min-width: 767px;
+		padding: 15px 0 23px;
+		.meet-match-bar-centered {
+			.site-pads {
+				text-align: center;
+				p {
+					float: none;
+					font-size: 18px;
+				}
+				.red-btn {
+			    display: block;
+			    float: none;
+			    margin: 5px auto 0;
+			    text-align: center;
+			    width: 50%;
+				}
+			}
+		}
+	}
+	.burry-tach-content-full {
+		min-width: 767px;
+		.burry-tach-content-centered {
+			.site-pads {
+				.burry-tach-box {
+					.main-content-block {
+						.main-content-pads {
+							padding: 27px;
+							.content-left {
+								float: left;
+								margin-bottom: 20px;
+								.title-location {
+									margin-left: 20px;
+									h3 {
+										margin-top: 10px;
+									}
+								}
+							}
+							.campaign-meter {
+						    clear: both;
+						    display: block;
+						    float: none;
+						    margin: 0 auto;
+							}
+						}
+					}
+				}
+				.burry-tach-box {
+					.main-content-block {
+						.main-content-pads {
+							.tach-amount {
+								width: 100%;
+								float: none;
+								form {
+									ul {
+										li {
+											width: 32%;
+											input {
+												width: auto;
+											}
+											&:nth-child(1),
+											&:nth-child(2) {
+												input {
+													width: 73%;
+												}
+											}
+											&:nth-child(3) {
+												input {
+													width: 100%;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.burry-tach-block {
+					.burry-tach-block-pads {
+						padding: 27px;
+						.spledgehammer-form {
+							margin-left: 15px;
+							width: 80%;
+							form {
+								ul {
+									li {
+										&:nth-child(3) {
+											textarea {
+												width: 96%;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.burry-tach-box-completed {
+					.main-content-block {
+						.main-content-pads {
+							padding: 27px;
+							.content-left {
+								float: left;
+								margin-bottom: 20px;
+								.title-location {
+									margin-left: 20px;
+									h3 {
+										margin-top: 10px;
+									}
+								}
+							}
+							.campaign-meter {
+						    clear: both;
+						    display: block;
+						    float: none;
+						    margin: 0 auto;
+							}
+						}
+						.special-thanks-block {
+							.speical-thanks-content {
+								padding: 10px 20px 15px;
+								width: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Campaign Dashboard --------------*/
+
+	.total-campaign-earnings-full {
+		min-width: 767px;
+		.total-campaign-earnings-centered {
+			.site-pads {
+				h1 {
+					font-size: 40px;
+				}
+				.date-range-block {
+					float: none;
+				}
+				.range-campaigns {
+					float: none;
+					margin-top: 15px;
+					form {
+						.calander-dates {
+							margin-right: 0;
+							&:before {
+								position: relative;
+								top: 5px;
+							}
+						}
+					}
+				}
+				.campaign-earnings {
+					.earnings-left {
+						width: 42%;
+					}
+					.earnings-right {
+						width: 56%;
+						.status-to-date-bar {
+							width: 93%;
+							.date-goal-block {
+								.date-goal-txt {
+									font-size: 23px;
+									span {
+										font-size: 35px;
+									}
+								}
+							}
+							.performance-block {
+								ul {
+									li {
+										float: none;
+										&:first-child {
+											border-right: none;
+										}
+										&:last-child {
+											float: none;
+											padding-left: 0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.top-spledgers-full {
+		.top-spledgers-centered {
+			.site-pads {
+				.top-spledger-list {
+					> li {
+						width: 48%;
+						.spledge-img-info {
+							padding: 20px 28px;
+							.cat-icon {
+								width: 50px;
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.campaign-dashboard {
+		.top-spledgers-full {
+			min-width: 767px;
+		}
+	}
+	.campaigns-selected-full {
+		min-width: 767px;
+		.campaigns-selected-centered {
+			.site-pads {
+				.campaign-full-block {
+					.campaign-block-row {
+						.difference-candiate {
+							width: 48%;
+							.canidate-content {
+								.canidate-pads {
+									h2 {
+										font-size: 26px;
+									}
+									.logo-description-block {
+										> a {
+											max-width: 124px;
+											width: 35%;
+											height: auto;
+											img {
+												width: 100%;
+												height: auto;
+											}
+										}
+									}
+									.canidate-name-block {
+								    float: left !important;
+								    padding-left: 10px !important;
+								    width: 60%;
+								    h3 {
+								    	font-size: 23px;
+								    }
+								    .timer-view-block {
+								    	li {
+								    		font-size: 19px !important;
+								    		a {
+								    			top: 1px !important;
+								    		}
+								    	}
+								    }
+									}
+									.date-goal-block {
+										.date-goal-txt {
+											font-size: 20px !important;
+											span {
+												font-size: 30px;
+											}
+										}
+									}
+									.performance-block {
+										ul {
+											li {
+												float: none !important;
+												border: none !important;
+												padding-left: 0 !important;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Campaign Landing --------------*/
+
+	.campaign-header-info-full {
+    height: auto;
+    padding-top: 25px;
+    .campaign-header-info-centered {
+    	.site-pads {
+    		.campaign-main-content {
+    			.campaign-titles-social-block {
+    				.recent-activity {
+    					.recent-activity-list {
+    						.activity-slide {
+    							width: 100%;
+    							> li {
+    								width: 33%;
+    								padding: 0;
+    								text-align: center;
+    								.avatar {
+    									float: none;
+    								}
+    								.recent-activity-content {
+    									float: none;
+    									.location-time,
+    									.spledge-cats {
+    										li {
+    											float: none;
+    											display: inline-block;
+    										}
+    									}
+    								}
+    							}
+    						}
+    					}
+    				}
+    			}
+    		}
+    	}
+    }
+	}
+	.status-to-date-full {
+		min-width: 767px;
+		.status-to-date-centered {
+			.site-pads {
+				.status-info-block {
+					.status-left {
+						width: 42%;
+					}
+					.status-right {
+						width: 56%;
+						.spledge-info {
+							li {
+								margin-bottom: 10px;
+							}
+						}
+						.status-to-date-bar {
+							width: 93%;
+							.performance-block {
+								ul {
+									li {
+										float: none;
+										&:first-child {
+											border-right: none;
+										}
+										&:last-child {
+											float: none;
+											padding-left: 0;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.campaign-overview-full {
+		min-width: 767px;
+		.campaign-overview-centered {
+			.site-pads {
+				.overview-block,
+				.goals-purpose-block {
+					width: 48%;
+				}
+				.goals-purpose-block {
+					img {
+						max-width: 396px;
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+	.performance-to-date-full {
+		min-width: 767px;
+		.performance-to-date-centered {
+			.site-pads {
+				.performance-row {
+					.performance-block {
+						width: 48%;
+						.performance-pads {
+							.countdown-block {
+								.goal-date-block {
+									float: none;
+									width: 100%;
+									text-align: center;
+									li {
+										float: none;
+										display: inline-block;
+									}
+								}
+								.spledge-count {
+									float: none;
+									width: 100%;
+									text-align: center;
+									li {
+										float: none;
+										display: inline-block;
+										width: 48%;	
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.top-spledgers-full {
+		min-width: 767px;
+		.top-spledgers-centered {
+			.site-pads {
+				.recent-news-block {
+					.recent-news-pads {
+						.news-left {
+							width: 48%;
+						}
+						.post-thumbnail {
+							margin-top: 85px;
+							max-width: 442px;
+							width: 48%;
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Campaign Overview --------------*/
+
+	.overview-block-full {
+		min-width: 767px;
+		.overview-block-centered {
+			.site-pads {
+				.single-over-blocks {
+					.overview-block {
+						.overview-pads {
+							.overview-main-info {
+								width: 95%;
+								margin: 15px 0 0 0;
+								background: none;
+								.overview-main-pads {
+									padding-left: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Campaign Performance --------------*/
+
+	.performance-block-full {
+		min-width: 767px;
+		.performance-block-centered {
+			.site-pads {
+				.single-over-blocks {
+					.performance-block {
+						.performance-pads {
+							.performance-main-info {
+								width: 95%;
+								margin: 15px 0 0 0;
+								background: none;
+								.performance-main-pads {
+									padding-left: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.performance-block-filter-full {
+		min-width: 767px;	
+		.performance-block-filter-centered {
+			.site-pads {
+				.performance-single-boxes {
+					.performance-row {
+						.performance-block {
+							width: 100%;
+							float: none !important;
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Campaigns --------------*/
+
+	.campagin-header-full {
+		min-width: 767px;
+		.campagin-img-full {
+			height: auto;
+			padding: 25px 0;
+			.campagin-centered {
+				.site-pads {
+					.campagin-header-content {
+						.campaign-box-full {
+							width: auto;
+							margin-top: 140px;
+							.campaign-box-pads {
+								h1 {
+									float: none;
+									text-align: center;
+								}
+								#campaign-form {
+							    border-bottom: 1px solid #a7a29a;
+							    float: none;
+							    margin: 15px auto 0;
+							    width: 84%;
+									input {
+										float: none !important;
+										display: inline-block;
+										border-bottom: none !important;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.campagin-blocks-full {
+		min-width: 767px;
+		.campagin-blocks-centered {
+			.site-pads {
+				.campaign-row {
+					.campagin-block {
+						width: 48%;
+						.campagin-content {
+							.logo-holder {
+								display: block;
+								margin: 0 auto 10px;
+								float: none;
+								text-align: center;
+							}
+							.campaign-info {
+						    float: none;
+						    width: 100%;
+								h3 {
+									text-align: center;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Speldgers --------------*/
+
+	.find-spledger-full {
+		min-width: 767px;
+		.find-spledger-centered {
+			.site-pads {
+				h2 {
+					float: none;
+					text-align: center;
+				}
+				#find-spedger {
+					float: none;
+					width: 100%;
+					.enter-name {
+						float: none;
+					}
+					button {
+						float: right;
+					}
+				}
+			}
+		}
+	}
+	.top-spledgers-full-popup {
+		min-width: 767px;
+		.top-spledgers-centered {
+			.site-pads {
+				.top-spledger-list {
+					> li {
+						width: 48%;
+						.spledge-img-info {
+							padding: 20px 23px;
+							.cat-icon {
+								width: 50px;
+								height: auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.popup-block {
+		.top-spledger-list-popup {
+			> li {
+				width: auto;
+			}
+		}
+	}
+
+	/*-------------- Get Stated --------------*/
+
+	.get-started-full {
+		min-width: 767px;
+		.get-started-img {
+			min-height: 0;
+			padding: 60px 0 80px;
+			.get-started-centered {
+				.site-pads {
+					.get-started-intro {
+						margin-top: 0;
+					}
+					.sign-up-container {
+						width: auto;
+						margin-bottom: 0;
+						.sign-up-block {
+							width: 48%;
+							.title-block {
+								.title-pads {
+									h2 {
+										font-size: 27px;
+									}
+								}
+							}
+							.get-started-list {
+								li {
+									img {
+										position: relative;
+										top: auto;
+										right: auto;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- How it works --------------*/
+
+	.video-full {
+		min-width: 767px;
+		.video-holder-img {
+			height: auto;
+			padding: 60px 0;
+			.video-centered {
+				.site-pads {
+					.video-content {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+	.how-it-works-info-full {
+		min-width: 767px;	
+		.how-it-works-info-centered {
+			.site-pads {
+				.how-it-works-img {
+					right: 15px;
+					max-width: 287px;
+					width: 30%;
+					height: auto;
+				}
+			}
+		}
+	}
+	.easy-steps-full {
+		min-width: 767px;
+		.easy-steps-centered {
+			.site-pads {
+				h2 {
+					margin: 40px 0;
+				}
+				.easy-steps {
+					margin-bottom: 40px;
+					li {
+						margin-right: 50px;
+					}
+				}
+				.easy-step-btn-container {
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+
+	/*-------------- Meet your match --------------*/
+
+	.meet-match-header-full {
+		min-width: 767px;
+		margin-top: 0;
+		padding: 30px 0;
+		.meet-match-header-centered {
+			.site-pads {
+				.header-left {
+					img {
+						width: 100px;
+						height: auto;
+					}
+					.title-intro-block {
+						padding-left: 15px;
+						width: 41%;
+						h1 {
+							font-size: 40px;
+						}
+						p {
+							font-size: 18px;
+						}
+					}
+				}
+				.header-right {
+					float: right;
+					width: 40%;
+					ul {
+						margin: 10px 0 0 0;
+						li {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.meet-match-content-full {
+		min-width: 767px;
+		.meet-match-content-centered {
+			.site-pads {
+				.burry-tach-box {
+					.main-content-block {
+						.main-content-pads {
+							padding: 27px;
+							.content-left {
+								.title-location {
+									h3 {
+										margin: 15px 0;
+									}
+								}
+							}
+							.campaign-meter {
+						    clear: both;
+						    display: block;
+						    float: none;
+						    margin: 0 auto 0;
+							}
+							.match-amount {
+								width: auto;
+								float: none;
+								form {
+									ul {
+										li {
+											margin-right: 4%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.burry-tach-block {
+					.burry-tach-block-pads {
+						.meet-match-form {
+							margin-left: 130px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Programs --------------*/
+
+	.program-header-full {
+		min-width: 767px;
+		.program-img-full {
+			.program-centered {
+				.site-pads {
+					padding-top: 10px;
+					.program-header-content {
+						width: 67%;
+						margin-left: 40px;
+						p {
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+	.programs-available-full {
+		min-width: 767px;
+		.programs-available-centered {
+			.site-pads {
+				.available-rows-block {
+					ul {
+						li {
+							width: 24%;
+							float: none;
+							display: inline-block;
+							a {
+								width: 100%;
+								img {
+									width: 100%;
+									max-width: 207px;
+									height: auto;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.programs-single-full {
+		min-width: 767px;
+		.programs-single-centered {
+			.site-pads {
+				.single-programs-blocks {
+					.program-block {
+						.program-pads {
+							padding: 15px;
+							.image-holder {
+								float: none;
+								text-align: center;
+								padding-bottom: 15px;
+							}
+							.program-main-info {
+								margin-left: 0;
+								width: auto;
+								background: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Spledge --------------*/
+
+	.spledge-header-full {
+		min-width: 767px;
+		margin-top: 0;
+		.spledge-header-centered {
+			.site-pads {
+				.spledge-header-pads {
+					.spledge-header-left {
+						float: none;
+						margin: 0 auto 20px;
+						overflow: auto;
+					}
+					.spledge-header-right {
+						float: none;
+						clear: both;
+						.status-to-date-bar {
+							width: 71%;
+						}
+					}
+				}
+
+			}
+		}
+	}
+	.confirm-programs-full {
+		min-width: 767px;	
+		.confirm-programs-centered {
+			.site-pads {
+				.over-under-saftey {
+					.saftey-left {
+						width: auto;
+					}
+					.saftey-right {
+						float: left;
+						margin-top: 30px;
+					}
+				}
+				.shoutout-block {
+					width: auto;
+				}
+				.select-program-block {
+					.program-block-full {
+						.program-content-block {
+							.program-content-pads {
+								.logo-title-block {
+									float: none;
+									width: auto;
+									overflow: auto;
+								}
+								.program-table-block {
+									float: none;
+									margin-bottom: 20px;
+									table {
+										width: 100%;
+									}
+								}
+								.slider-block {
+									h4 {
+										span {
+											font-size: 31px;
+										}
+									}
+									.active-total-block {
+										position: relative;
+										overflow: auto;
+										top: auto;
+										right: auto;
+									}
+								}
+							}
+						}
+					}
+				}
+				.over-under-saftey {
+					.saftey-left {
+						width: 100%;
+						.photo-block {
+					    float: none;
+					    text-align: center;
+					    width: 100%;
+					    border-bottom: 1px solid #959595;
+						}
+						.over-under-block {
+							border: none;
+							width: 100%;
+							.over-under {
+								.over-under-pads {
+									padding: 15px 108px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Spledgehammers --------------*/
+
+	.spledgehammer-header-full {
+		min-width: 767px;
+		margin-top: 0;
+		padding: 30px 0;
+		.spledgehammer-header-centered {
+			.site-pads {
+				.header-left {
+					img {
+						width: 100px;
+						height: auto;
+					}
+					.title-intro-block {
+						padding-left: 15px;
+						width: 41%;
+						h1 {
+							font-size: 40px;
+						}
+						p {
+							font-size: 18px;
+						}
+					}
+				}
+				.header-right {
+					float: right;
+					width: 40%;
+					ul {
+						margin: 10px 0 0 0;
+						li {
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.spledgehammer-steps-full {
+		min-width: 767px;
+		.spledgehammer-steps-centered {
+			.site-pads {
+				.spledgehammer-coin-img {
+					display: block;
+					float: none;
+					margin: 0 auto;
+				}
+				ul {
+			    display: block;
+			    float: none;
+			    text-align: center;
+					li {
+						float: none;
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+	.spledgehammer-freinds-family-full {
+		min-width: 767px;	
+		.spledgehammer-freinds-family-centered {
+			.site-pads {
+				.spledgehammer-challenege-others-box {
+					.main-content-block {
+						.main-content-pads {
+							padding: 27px;
+							.content-left {
+								float: left;
+								margin-bottom: 20px;
+								.title-location {
+									margin-left: 20px;
+									h3 {
+										margin-top: 10px;
+									}
+								}
+							}
+							.campaign-meter {
+						    clear: both;
+						    display: block;
+						    float: none;
+						    margin: 0 auto;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*-------------- Support Options --------------*/
+
+	.support-options-full {
+		min-width: 767px;
+	}
+	.support-options-selections-full {
+		min-width: 767px;	
+	}
+
+	/*-------------- Footer --------------*/
+
+	footer {
+		min-width: 767px;
+		.footer-main-full {
+			.get-started-info {
+				width: 30%;
+				margin-right: 15px;
+			}
+			.get-involved-block {
+				width: 32%;
+				ul {
+					li {
+						margin-right: 6%;
+					}
+				}
+			}
+			.stay-connected-block {
+				.stay-conected-content {
+					float: none;
+					#newsletter-form {
+						.newsletter-input {
+							width: 155px;
+						}
+						.red-btn {
+							padding: 9px 10px;
+						}
+					}
+				}
+				.social-icons {
+					float: none;
+					margin: 10px 0 0 0;
+					li {
+						float: left;
+						margin: 0 10px 0 0;
+						&:last-child {
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}

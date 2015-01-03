@@ -1,0 +1,75 @@
+.background-full {
+  background-image: linear-gradient(#343333, #141415); }
+  .background-full h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .background-full h2 {
+    color: #d3d3d3;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  .background-full .standard-form {
+    margin-top: 30px; }
+    .background-full .standard-form .forgot-password {
+      color: #9f9d9a;
+      font-weight: bold;
+      font-size: 18px;
+      padding-left: 10px; }
+    .background-full .standard-form .label {
+      color: #969595;
+      float: left;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      line-height: 40px;
+      text-transform: uppercase;
+      text-align: right;
+      width: 200px;
+      padding-bottom: 15px; }
+    .background-full .standard-form .input-text {
+      color: #FFFFFF;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      background: no-repeat scroll right center #9f9d9a; }
+    .background-full .standard-form .select-option {
+      color: #FFFFFF;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      background: no-repeat scroll right center #9f9d9a; }
+    .background-full .standard-form .input-pad {
+      padding-left: 15px;
+      float: left; }
+    .background-full .standard-form .form-btn {
+      padding: 0px 0px 25px 215px; }
+    .background-full .standard-form .org-option {
+      padding-bottom: 25px; }
+      .background-full .standard-form .org-option .select-org {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 0.8px;
+        padding-left: 19%;
+        text-transform: uppercase;
+        cursor: pointer; }
+        .background-full .standard-form .org-option .select-org span {
+          padding-left: 30px;
+          background: url("../../images/spledge/unselected-check.png") no-repeat scroll left 4px transparent; }
+    .background-full .standard-form .selected .select-org span {
+      background: url("../../images/spledge/selected-check.png") no-repeat scroll left 4px transparent; }
+    .background-full .standard-form .error-messages {
+      margin-left: 21%;
+      margin-bottom: 50px; }
+      .background-full .standard-form .error-messages li {
+        list-style-type: square;
+        color: #F8981D;
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 5px; }
+

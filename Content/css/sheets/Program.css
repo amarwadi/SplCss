@@ -1,0 +1,21 @@
+﻿body {
+}
+
+.modal-dialog {
+    padding-top: 80px !important;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+#ParentsCategoryList, #SubPerformanceCategoryList {
+    float: left;
+    margin-right: 29px;
+    padding: 4px 10px 3px 10px;
+}
+
+.program-header-full .program-img-full .program-centered .site-pads .program-header-content p {
+        font-size: 22px;
+        width: 800px;
+    }

@@ -1,0 +1,466 @@
+@import "compass/css3";
+
+.burry-tach-header-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	padding: 40px 0 50px;
+	margin-top: 131px;
+	min-width: 1170px;
+	.burry-tach-header-centered {
+		.site-pads {
+			color: #FFFFFF;
+			.header-left {
+				img {
+					float: left;
+					padding-top: 7px;
+				}
+				.title-intro-block {
+					width: 392px;
+					float: left;
+					padding-left: 50px;
+					h1 {
+						font-size: 40px;
+						text-transform: uppercase;
+						font-weight: bold;
+						letter-spacing: 0.5px;
+					}
+					p {
+						font-size: 20px;
+						line-height: 23px;
+					}
+					.read-more {
+						color: #7e7e7e;
+						text-decoration: none;
+						font-size: 20px;
+						&:hover {
+							color: #EEEEEE;
+						}
+					}
+				}
+			}
+			.header-right {
+				float: left;
+				ul {
+					margin: 20px 0 0 130px;
+					li {
+						display: block;
+						font-size: 20px;
+						background: url( '../images/spledgehammer/checkmark-orange.png' ) left 3px no-repeat;
+						padding: 3px 0 10px 45px;
+						letter-spacing: 0.5px;
+					}
+				}
+			}
+		}
+	}
+}
+.meet-match-bar-full {
+	background: #f3f3f3;
+	padding: 15px 0;
+	border-top: 2px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
+	min-width: 1170px;
+	.meet-match-bar-centered {
+		.site-pads {
+			p {
+				font-size: 20px;
+				line-height: 37px;
+				font-weight: bold;
+				letter-spacing: 0.5px;
+				color: #383838;
+				float: left;
+			}
+			.red-btn {
+				float: right;
+				font-size: 19px;
+				padding: 5px 40px 7px;
+			}
+		}
+	}
+}
+.burry-tach-content-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	min-width: 1170px;
+	.burry-tach-content-centered {
+		.site-pads {
+			.main-title {
+				font-size: 24px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+				color: #a8a5a5;
+				padding: 20px 0;
+			}
+			.burry-tach-box {
+				margin-bottom: 35px;
+				.title-block {
+					span {
+						text-align: right;
+						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.7);
+						font-size: 30px;
+						font-weight: bold;
+						display: block;
+						padding: 0 15px;
+					}
+				}
+				.main-content-block {
+					background: #383838;
+					.main-content-pads {
+						padding: 37px 47px;
+						.content-left {
+							float: left;
+							.spledge-logo  {
+								float: left;
+							}
+							.title-location {
+								float: left;
+								margin-left: 50px;
+								h2 {
+									color: #FFFFFF;
+									font-size: 33px;
+									line-height: 40px;
+									text-transform: uppercase;
+									font-weight: bold;
+									span {
+										display: block;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+								h3 {
+									font-size: 40px;
+									line-height: 40px;
+									text-transform: uppercase;
+									color: #f8981d;
+									font-weight: bold;
+									margin-top: 90px;
+									span {
+										display: block;
+										color: #FFFFFF;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+							}
+						}
+						.campaign-meter {
+							float: right;
+							margin-top: 15px;
+						}
+						.tach-amount {
+							width: 894px;
+							border-top: 2px solid #a1a1a1;
+							float: right;
+							margin-top: 25px;
+							form {
+								padding-top: 25px;
+								ul {
+									margin: 0;
+									li {
+										float: left;
+										&:nth-child(1) {
+											&:after {
+												content: "-";
+												top: 6px;
+											}
+										}
+										&:nth-child(2) {
+											&:after {
+												content: "=";
+												top: 8px;
+											}
+										}
+										&:nth-child(3) {
+											&:after {
+												content: " ";
+											}
+										}
+										&:after {
+											color: #FFFFFF;
+											font-size: 50px;
+											font-weight: bold;
+											padding: 0 10px;
+											line-height: 0;
+											position: relative;
+										}
+										span {
+											display: block;
+											font-size: 20px;
+											color: #FFFFFF;
+											text-transform: uppercase;
+										}
+										input {
+											width: 230px;
+											border: none;
+											color: rgba( 255, 255, 255, 1.0 )
+										}
+										.grey-input {
+											background: #898989;
+											font-size: 25px;
+											padding: 10px 5px;
+										}
+										.orange-input {
+											background: #f8981d;
+											font-size: 36px;
+											padding: 5px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.burry-tach-block {
+				background: #383838;
+				.burry-tach-block-pads {
+					padding: 37px 47px;
+					.badge-img {
+						float: left;
+					}
+					.spledgehammer-form {
+						float: left;
+						margin-left: 50px;
+						h2 {
+							font-size: 28px;
+							color: #FFFFFF;
+							text-transform: uppercase;
+							font-weight: bold;
+							margin-bottom: 10px;
+							span {
+								color: #f8981d;
+								font-size: 35px;
+							}
+						}
+						form {
+							color: #FFFFFF;
+							ul {
+								margin: 0;
+								li {
+									font-size: 28px;
+									color: #FFFFFF;
+									text-transform: uppercase;
+									font-weight: bold;
+									&:nth-child(1) {
+										label {
+											i {
+												color: #f8981d;
+												font-size: 35px;
+											}
+										}
+									}
+									&:nth-child(2) {
+										input[type="text"] {
+											width: 120px;
+											font-size: 20px;
+											margin-left: 40px;
+										}
+									}
+									&:nth-child(3) {
+										span {
+											text-transform: capitalize;
+											font-size: 22px;
+											font-weight: normal;
+											display: block;
+											margin-top: 12px;
+										}
+										textarea {
+									    border: 2px solid #d1d1d1;
+									    border-radius: 3px;
+									    color: #8f8e8e;
+									    line-height: 20px;
+									    margin-bottom: 15px;
+									    padding: 7px;
+									    width: 575px;
+									    font-size: 20px;
+										}
+									}
+									&:nth-child(4) {
+										font-size: 22px;
+										text-transform: unset;
+										font-weight: normal;
+									}
+									label {
+										color: #FFFFFF;
+									}
+									input[type="radio"] {
+										display: none;
+									}
+									input[type="radio"] + label span {
+								    display: inline-block;
+								    width: 24px;
+								    height: 24px;
+								    margin: -5px 4px 0 0;
+								    vertical-align: middle;
+								    cursor: pointer;
+								    -moz-border-radius: 50%;
+								    border-radius: 50%;
+								    background-color: #FFFFFF;
+								    border: 2px solid #000000;
+								    margin-right: 15px;
+									}
+									input[type="radio"]:checked + label span {
+										background: #FFFFFF url( '../images/checkmark-radio.png' ) 3px 5px no-repeat;
+									}
+									input[type="radio"] + label span,
+									input[type="radio"]:checked + label span {
+									  -webkit-transition:background-color 0.2s linear;
+									  -o-transition:background-color 0.2s linear;
+									  -moz-transition:background-color 0.2s linear;
+									  transition:background-color 0.2s linear;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.burry-tach-box-completed {
+				margin: 35px 0;
+				.title-block {
+					span {
+						text-align: right;
+						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.7);
+						font-size: 30px;
+						font-weight: bold;
+						display: block;
+						padding: 0 15px;
+					}
+				}
+				.main-content-block {
+					background: #383838;
+					.main-content-pads {
+						padding: 37px 47px;
+						.content-left {
+							float: left;
+							.spledge-logo  {
+								float: left;
+							}
+							.title-location {
+								float: left;
+								margin-left: 50px;
+								h2 {
+									color: #FFFFFF;
+									font-size: 38px;
+									line-height: 40px;
+									text-transform: uppercase;
+									font-weight: bold;
+									span {
+										display: block;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+								h3 {
+									font-size: 40px;
+									line-height: 40px;
+									text-transform: uppercase;
+									color: #f8981d;
+									font-weight: bold;
+									margin-top: 90px;
+									span {
+										display: block;
+										color: #FFFFFF;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+							}
+						}
+						.campaign-meter {
+							float: right;
+							margin-top: 15px;
+						}
+					}
+					.special-thanks-block {
+						background: #FFFFFF;
+						.speical-thanks-content {
+							width: 738px;
+							margin: 0 auto;
+							padding: 10px 0 15px;
+							h2 {
+								font-size: 24px;
+								color: #373838;
+								text-transform: uppercase;
+								font-weight: bold;
+								letter-spacing: 0.5px;
+								margin-bottom: 15px;
+							}
+							.avatar-block {
+								overflow: auto;
+								.avatar {
+							    border: 7px solid #d3d3d3;
+							    @include border-radius( 50px );
+							    float: left;
+							    margin-right: 10px;
+								}
+								.avatar-content {
+									float: left;
+									width: 86%;
+									.main-badge {
+										float: right;
+									}
+									.name {
+										color: #373838;
+										font-size: 24px;
+										line-height: 24px;
+										font-weight: bold;
+										letter-spacing: 0.3px;
+										text-transform: uppercase;
+										span {
+											display: block;
+											font-size: 20px;
+											font-weight: normal;
+											text-transform: initial;
+											color: #707070;
+										}
+									}
+									.bury-now {
+										font-size: 24px;
+										line-height: 25px;
+										color: #000000;
+										font-weight: bold;
+										.yellow-txt {
+											text-transform: uppercase;
+											color: #f8981d;
+										}
+										.total-left {
+											font-size: 40px;
+											color: #e11b22;
+										}
+									}
+									.time-ago {
+										font-size: 20px;
+										text-transform: uppercase;
+										color: #707070;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.drop-hammer-block {
+				margin: 75px 0 85px;
+				text-align: right;
+				position: relative;
+				.send-btn {
+					display: inline-block;
+					&:before {
+				    color: #bec2c0;
+				    content: "Step 2: Enter payment information";
+				    display: inline-block;
+				    font-size: 20px;
+				    letter-spacing: 0.5px;
+				    padding-right: 30px;
+					}
+					.red-btn {
+						padding: 5px 50px 7px;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

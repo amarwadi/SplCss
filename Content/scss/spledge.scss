@@ -1,0 +1,583 @@
+@import "compass/css3";
+.spledge-header-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	margin-top: 131px;
+	min-width: 1170px;
+	.spledge-header-centered {
+		.site-pads {
+			.spledge-header-pads  {
+				padding: 80px 0;
+				.spledge-header-left {
+					float: left;
+					img {
+						float: left;
+						margin-top: 8px;
+					}
+					h1 {
+						color: #FFFFFF;
+						text-transform: uppercase;
+						font-size: 30px;
+						line-height: 42px;
+						float: left;
+						margin-left: 60px;
+						letter-spacing: 0.5px;
+						span {
+							font-weight: bold;
+							font-size: 54px;
+							line-height: 60px;
+						}
+					}
+				}
+				.spledge-header-right {
+					float: right;
+					.status-to-date-bar {
+						width: 526px;
+						margin: 21px auto 0;
+						.date-goal-block {
+							clear: both;
+							color: #FFFFFF;
+							.date-goal-txt {
+								text-transform: uppercase;
+								font-size: 28px;
+								span {
+									font-size: 40px;
+									font-weight: bold;
+									letter-spacing: 0.5px;
+								}
+								.to-date {
+									float: left;
+									span {
+										color: #FF0000;
+										font-family: 'Open Sans', sans-serif;
+									}
+								}
+								.main-goal {
+									float: right;
+								}
+							}
+						}
+						.progressbar-block {
+							.progressbar {
+								height: 25px;
+								border: none;
+								margin-top: 5px;
+								@include border-radius( 0 );
+								.ui-progressbar-value {
+									background: #e70000;
+									@include border-radius( 0 );
+									.progress-label {
+								    color: #FFFFFF;
+								    float: right;
+								    font-size: 16px;
+								    font-weight: 100;
+								    padding: 0 5px 0 0;
+								    &:first-child {
+								    	display: none;
+								    }
+									}
+								}
+							}
+						}
+						.performance-block {
+							color: #d3d3d3;
+							position: relative;
+							.tooltip {
+								position: absolute;
+								background: #FFFFFF;
+								@include border-radius( 10px );
+								padding: 3px 25px 5px;
+								color: #000000;
+								font-size: 18px;
+								text-transform: uppercase;
+								font-weight: bold;
+								@include opacity( 0 );
+							}
+							ul {
+								li {
+									text-transform: uppercase;
+									font-size: 20px;
+									float: left;
+									padding: 0 25px;
+									&:first-child {
+										padding-left: 0;
+										border-right: 1px solid #d3d3d3;
+									}
+									&:last-child {
+										padding-right: 0;
+										float: right;
+									}
+									.list-item-arow {
+										font-weight: normal;
+										padding: 0 5px;
+										position: relative;
+										top: -2px;
+									}
+									.red-txt {
+										color: #FF0000;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.confirm-programs-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	min-width: 1170px;
+	.confirm-programs-centered {
+		.site-pads {
+			.spledge-steps {
+				text-transform: uppercase;
+				color: #a8a5a5;
+				font-weight: bold;
+				letter-spacing: 0.5px;
+				font-size: 22px;
+				margin: 33px 0 10px;
+			}
+			h2 {
+				font-size: 35px;
+				color: #FFFFFF;
+				text-transform: uppercase;
+				font-weight: bold;
+				letter-spacing: 0.5px;
+				margin-bottom: 20px;
+			}
+			.select-program-block {
+				margin-bottom: 40px;
+				.program-block-full {
+					margin-bottom: 40px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+					.program-title {
+						padding: 10px 20px;
+						cursor: pointer;
+						background: #958f8e;
+						span {
+							color: #FFFFFF;
+							font-size: 22px;
+							text-transform: uppercase;
+							letter-spacing: 0.8px;
+							font-weight: bold;
+							padding-left: 39px;
+							background: url( '../images/spledge/unselected-check.png' ) left 4px no-repeat;
+						}
+					}
+					.program-content-block {
+						background: #383838;
+						.program-content-pads {
+							padding: 40px 15px;
+							.logo-title-block {
+								float: left;
+								img {
+									float: left;
+								}
+								.program-main-info {
+									float: left;
+									color: #FFFFFF;
+									width: 466px;
+									margin-left: 25px;
+									h3 {
+										font-size: 30px;
+										line-height: 33px;
+										text-transform: uppercase;
+										font-weight: bold;
+										letter-spacing: 0.8px;
+									}
+									p {
+										font-size: 20px;
+										margin-bottom: 15px;
+									}
+								}
+							}
+							.program-table-block {
+								float: right;
+								table {
+									width: 410px;
+									color: #FFFFFF;
+									text-transform: uppercase;
+									margin: 5px 0 0 0;
+									tbody {
+										.titles {
+											font-size: 20px;
+											text-indent: 10px;
+											th {
+												padding: 3px 0;
+											}
+										}
+										.info {
+											border-bottom: 1px solid #FFFFFF;
+											td {
+												letter-spacing: 0.8px;
+												padding: 5px 0;
+												font-size: 20px;
+												&:first-child {
+													text-align: left;
+												}
+												&:last-child {
+													text-align: right;
+													padding-right: 10px;
+												}
+											}
+										}
+										tr {
+											&:last-child {
+												td {
+													font-weight: bold;
+												}
+											}
+										}
+									}
+								}
+							}
+							.slider-block {
+								display: none;
+								position: relative;
+								h4 {
+									text-transform: uppercase;
+									color: #FFFFFF;
+									font-size: 25px;
+									font-weight: bold;
+									letter-spacing: 0.8px;
+									span {
+										font-size: 33px;
+									}
+								}
+								.active-total-block {
+									position: absolute;
+									top: 20px;
+									right: 0;
+									ul {
+										margin: 0;
+										li {
+											float: left;
+											&:first-child {
+												margin-right: 18px;
+												input {
+													width: 97px;
+												}
+											}
+											&:last-child {
+												input {
+													width: 143px;
+													color: #FFFFFF;
+													font-weight: bold;
+													font-size: 30px;
+													letter-spacing: 1.5px;
+												}
+												span {
+													text-transform: uppercase;
+												}
+											}
+											span {
+												display: block;
+												font-size: 18px;
+												color: #FFFFFF;
+											}
+											input {
+												border: none;
+												height: 42px;
+												text-indent: 15px;
+												font-size: 22px;
+											}
+										}
+									}
+								}
+								.slider-info-block {
+									margin-top: 65px;
+									position: relative;
+									.average-recommended-amounts {
+										li {
+											position: absolute;
+											&:first-child {
+												top: -35px;
+										    left: 270px;
+												p {
+													&:after {
+														content: "Average spledge!";
+														font-size: 18px;
+														color: #FFFFFF;
+														padding-left: 10px;
+														letter-spacing: 0.5px;
+													}
+													img {
+														bottom: -26px;
+														left: 26px;
+													}
+												}
+											}
+											&:last-child {
+												bottom: -50px;
+												left: 150px;
+												p {
+													&:after {
+														content: "Recommended spledge!";
+														font-size: 18px;
+														color: #FFFFFF;
+														padding-left: 10px;
+														letter-spacing: 0.5px;
+													}
+													img {
+														top: -29px;
+												    left: 26px;
+													}
+												}
+											}
+											span {
+												color: #252525;
+												font-size: 18px;
+												font-weight: bold;
+												padding: 3px 8px;
+											}
+											img {
+												position: absolute;
+											}
+										}
+									}
+									.noUi-horizontal {
+										height: 40px;
+										border-top: 2px solid #909090;
+										border-right: 2px solid #909090;
+										border-bottom: 2px solid #909090;
+										border-left: 22px solid #909090;
+										.noUi-handle {
+											background: url( '../images/spledge/slider.png' ) 0 0 no-repeat;
+											@include border-radius( 0 );
+											box-shadow: none;
+											border: none;
+											width: 86px;
+											height: 79px;
+											top: -22px;
+											cursor: pointer;
+											&:before,
+											&:after {
+												background: none;
+											}
+											.slider-range-value {
+												color: #FFFFFF;
+												font-size: 30px;
+												font-weight: bold;
+												padding: 15px 16px;
+											}
+										}
+									}
+								}
+								.btm-spledge-info {
+									margin-top: 18px;
+									.minium-amounnt {
+										float: left;
+										color: #909090;
+										font-size: 16px;
+										text-transform: uppercase;
+										letter-spacing: 0.5px;
+										margin-top: 18px;
+										span {
+											font-size: 22px;
+											font-weight: bold;
+										}
+									}
+									.slider-instruction {
+										float: right;
+										text-align: right;
+										color: #FFFFFF;
+										font-size: 20px;
+										line-height: 22px;
+									}
+								}
+							}
+						}
+					}
+				}
+				.selected {
+					.program-title {
+						background: #6DB447;
+						span {
+							background: url( '../images/spledge/selected-check.png' ) left 4px no-repeat;
+						}
+					}
+				}
+			}
+			.over-under-saftey {
+				h2 {
+					font-size: 30px;
+				}
+				.saftey-left {
+					width: 877px;
+					background: #EEEEEE;
+					float: left;
+					.photo-block {
+						float: left;
+						img {
+							padding: 30px;
+						}
+					}
+					.over-under-block {
+						float: left;
+						color: #373838;
+						border-left: 1px solid #959595;
+						width: 575px;
+						.over-under {
+							.over-under-pads {
+								padding: 15px 10px 15px 10px;
+								h3 {
+									font-size: 24px;
+									font-weight: bold;
+									width: 386px;
+									text-align: right;
+									span {
+										text-transform: uppercase;
+									}
+								}
+								.tooltip {
+									padding-left: 0;
+									background-position: 27px center;
+								}
+								ul {
+									li {
+										font-size: 22px;
+										margin-bottom: 15px;
+										&:last-child {
+											margin-bottom: 0;
+										}
+										span {
+											float: left;
+											width: 386px;
+											text-align: right;
+											padding-right: 30px;
+										}
+										input {
+											background: #c1bfbf;
+											border: 1px solid #adafaf;
+											@include border-radius( 2px );
+											padding: 10px;
+										}
+										i {
+											display: block;
+											color: #8d8e8e;
+											font-size: 18px;
+										}
+										.checkmark {
+											@include opacity( 0.4 );
+											cursor: pointer;
+											&:hover {
+												@include opacity( 0.6 );
+											}
+										}
+										.active {
+											@include opacity( 1.0 );
+										}
+										.activated {
+											background: #f3eded;
+										}
+									}
+								}
+							}
+						}
+						.over-performance {
+							border-bottom: 1px solid #959595;	
+						}
+						.under-performance {
+							.over-under-pads {
+								h3.tooltip {
+									background-position: 10px center;
+								}
+								ul {
+									li {
+										input {
+											margin-top: 10px;
+											background: #f3eded;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				.saftey-right {
+					float: right;
+					width: 244px;
+					.logo-total-block {
+						margin-bottom: 15px;
+						float: right;
+						img {
+							width: 49px;
+							height: auto;
+							float: left;
+							margin-top: 6px;
+						}
+						h4 {
+							color: #FFFFFF;
+							text-transform: uppercase;
+							font-size: 25px;
+							line-height: 30px;
+							float: left;
+							font-weight: bold;
+							letter-spacing: 0.3px;
+							margin-left: 10px;
+						}
+					}
+					input {
+				    border: medium none;
+				    color: #FFFFFF;
+				    display: block;
+				    font-size: 30px;
+				    padding: 15px 10px;
+				    text-align: right;
+				    width: 100%;
+					}
+				}
+			}
+			.shoutout-block {
+				width: 877px;
+				background: #383838;
+				margin: 40px 0;
+				.shoutout-pads {
+					padding: 20px 40px 40px;
+					form {
+						span {
+							display: block;
+							font-size: 22px;
+							color: #FFFFFF;
+							margin-bottom: 5px;
+						}
+						textarea {
+							display: block;
+							border: 1px solid #d1d1d1;
+							margin-bottom: 10px;
+							@include border-radius( 2px );
+							color: #8f8e8e;
+							padding: 5px;
+						}
+						i {
+							font-size: 22px;
+							color: #FFFFFF;
+							padding-left: 10px;
+							position: relative;
+							top: 3px;
+						}
+					}
+				}
+			}
+			.step-two-block {
+				margin-bottom: 40px;
+				span {
+					float: right;
+					&:before {
+						content: "Step 2: Enter payment information";
+						font-size: 20px;
+						color: #bec2c0;
+						display: inline-block;
+						padding-right: 30px;
+						letter-spacing: 0.5px;
+					}
+					.red-btn {
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

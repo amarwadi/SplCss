@@ -1,0 +1,206 @@
+@media only screen and (max-width: 768px) {
+  /*---------- classess ----------*/
+  /* line 5, ../scss/phone.scss */
+  .visible-phone {
+    display: block !important; }
+
+  /* line 9, ../scss/phone.scss */
+  .hidden-phone {
+    display: none !important; }
+
+  /*---------- header ----------*/
+  /* line 22, ../scss/phone.scss */
+  header .sticky-header .sign-up-bar-full .sign-up-centered .site-pads ul li a {
+    font-size: 14px; }
+  /* line 33, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads {
+    padding: 9px 15px 10px;
+    background: #F4F3F4; }
+  /* line 37, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block .mobile-menu {
+    font-size: 22px;
+    margin: 8px 10px 0 0;
+    cursor: pointer; }
+  /* line 41, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block .mobile-menu:hover {
+    color: #E70000; }
+  /* line 45, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block .search-icon {
+    padding: 0;
+    margin: 8px 0; }
+  /* line 50, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav ul {
+    display: none; }
+  /* line 55, ../scss/phone.scss */
+  header .nav-bar-full .nav-bar-centered .site-pads .logo {
+    width: 185px; }
+
+  /*---------- home ----------*/
+  /* line 70, ../scss/phone.scss */
+  .challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt h1 {
+    font-size: 32px; }
+  /* line 73, ../scss/phone.scss */
+  .challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt p {
+    font-size: 27px;
+    line-height: 26px; }
+  /* line 78, ../scss/phone.scss */
+  .challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt ul li {
+    margin-right: 1%; }
+
+  /* line 88, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img {
+    padding-top: 10px; }
+  /* line 92, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads h2.title {
+    font-size: 23px; }
+  /* line 97, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate {
+    float: none !important;
+    width: auto;
+    margin-bottom: 15px; }
+  /* line 101, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate:last-child {
+    margin-bottom: 0; }
+  /* line 106, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads h2 {
+    font-size: 24px; }
+  /* line 110, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .logo-description-block > a {
+    width: 100%;
+    text-align: center; }
+  /* line 113, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .logo-description-block > a img {
+    max-width: 124px;
+    margin-bottom: 10px; }
+  /* line 118, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block {
+    padding-left: 0 !important; }
+  /* line 124, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .to-date, .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .main-goal {
+    float: none; }
+  /* line 128, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .to-date {
+    margin-bottom: 5px; }
+  /* line 137, ../scss/phone.scss */
+  .make-difference-full .make-difference-full-img .make-difference-centered .site-pads .difference-rotate-block .button-container {
+    padding: 25px 0;
+    margin: 0; }
+
+  /* line 150, ../scss/phone.scss */
+  .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 {
+    font-size: 32px;
+    font-size: 30px; }
+  /* line 154, ../scss/phone.scss */
+  .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container {
+    margin-left: 32px; }
+  /* line 156, ../scss/phone.scss */
+  .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li {
+    margin-right: 2px; }
+
+  /* line 167, ../scss/phone.scss */
+  .testimonial-block-full .testimonial-block-centered .site-pads h2 {
+    font-size: 24px; }
+  /* line 171, ../scss/phone.scss */
+  .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block {
+    float: none;
+    width: auto;
+    background: url("../images/bottom-shadow.png") no-repeat bottom center;
+    background-size: 100% auto;
+    margin-bottom: 25px;
+    padding-bottom: 67px; }
+  /* line 178, ../scss/phone.scss */
+  .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block:last-child {
+    margin-bottom: 0; }
+
+  /*---------- programs ----------*/
+  /* line 190, ../scss/phone.scss */
+  .program-header-full .program-img-full {
+    height: auto;
+    padding-top: 0; }
+  /* line 193, ../scss/phone.scss */
+  .program-header-full .program-img-full img {
+    display: none; }
+  /* line 198, ../scss/phone.scss */
+  .program-header-full .program-img-full .program-centered .site-pads .program-header-content {
+    width: auto;
+    padding: 0 0 3% 0;
+    margin-left: 0; }
+  /* line 202, ../scss/phone.scss */
+  .program-header-full .program-img-full .program-centered .site-pads .program-header-content h1 {
+    font-size: 32px; }
+  /* line 205, ../scss/phone.scss */
+  .program-header-full .program-img-full .program-centered .site-pads .program-header-content p {
+    font-size: 18px; }
+
+  /* line 218, ../scss/phone.scss */
+  .programs-available-full .programs-available-centered .site-pads .available-rows-block ul li {
+    width: auto;
+    display: block; }
+
+  /* line 230, ../scss/phone.scss */
+  .green-bar-full .green-bar-centered .site-pads .bar-left, .green-bar-full .green-bar-centered .site-pads .bar-right {
+    float: none; }
+
+  /* line 244, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads {
+    padding: 0; }
+  /* line 246, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads h2 {
+    font-size: 38px;
+    line-height: 35px; }
+  /* line 250, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads p {
+    width: auto; }
+  /* line 256, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th {
+    font-size: 16px; }
+  /* line 261, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.info td {
+    font-size: 16px; }
+  /* line 270, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .view-build-campaign-block {
+    float: left; }
+  /* line 277, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .spledger-caculator .calc-dropdown li {
+    font-size: 16px; }
+  /* line 283, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .spledger-caculator .form-inputs-block form ul {
+    padding: 0 0 20px 0;
+    width: 89%;
+    margin: 0 auto; }
+  /* line 287, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .spledger-caculator .form-inputs-block form ul li {
+    font-size: 16px; }
+  /* line 289, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .spledger-caculator .form-inputs-block form ul li span {
+    float: none;
+    display: block; }
+  /* line 293, ../scss/phone.scss */
+  .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .spledger-caculator .form-inputs-block form ul li input {
+    width: 92%;
+    float: none; }
+
+  /*---------- footer ----------*/
+  /* line 314, ../scss/phone.scss */
+  footer .footer-main-full .get-started-info {
+    float: none;
+    margin-right: 0;
+    width: auto; }
+  /* line 319, ../scss/phone.scss */
+  footer .footer-main-full .get-involved-block {
+    float: none;
+    width: auto;
+    background: none;
+    min-height: 0; }
+  /* line 325, ../scss/phone.scss */
+  footer .footer-main-full .get-involved-block ul li {
+    margin-right: 19%; }
+  /* line 330, ../scss/phone.scss */
+  footer .footer-main-full .stay-connected-block {
+    float: none; }
+  /* line 337, ../scss/phone.scss */
+  footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info {
+    font-size: 14px; }
+  /* line 339, ../scss/phone.scss */
+  footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info p {
+    line-height: 20px; } }

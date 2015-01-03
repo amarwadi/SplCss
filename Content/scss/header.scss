@@ -1,0 +1,262 @@
+@import "compass/css3";
+
+header {
+	position: relative;
+	.sticky-header {
+		position: fixed;
+		width: 100%;
+		z-index: 210;
+		top: 0;
+		@include box-shadow( 0 10px 36px -6px rgba(0, 0, 0, 0.5) );
+		.sign-up-bar-full {
+			background: #201f1f;
+			padding: 11px 0 13px;
+			.sign-up-centered {
+                .site-pads {
+					ul {
+						margin: 0;
+						float: right;
+						li {
+							float: left;
+							&:first-child {
+								border-right: 1px solid #bebdbd;
+							}
+							&:last-child {
+								a {
+									padding-right: 0;
+								}
+							}
+							a {
+								display: block;
+								padding: 0 10px;
+								text-decoration: none;
+								color: #bebdbd;
+								font-weight: 100;
+								letter-spacing: 0.5px;
+								font-size: 16px;
+								&:hover {
+									color: #FFFFFF;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.slide-up {
+		top: -49px;
+	}
+	.nav-bar-full {
+		@include background-image(linear-gradient(#f3f3f4, #f5f3f3));
+		.nav-bar-centered {
+            position: unset !important;
+			width: 1170px;
+			margin: 0 auto;
+			.site-pads {
+				/*position: relative;*/
+				z-index: 150;
+				padding: 9px 15px 0;
+				.logo {
+					float: left;
+					margin-top: 3px;
+				}
+				.nav-search-block {
+					float: right;
+					overflow: auto;
+					@include background-image(linear-gradient(#f3f3f4, #f5f3f3));
+					.search-icon {
+						float: right;
+						display: block;
+						font-size: 22px;
+						padding: 18px 0 10px 20px;
+						cursor: pointer;
+						&:hover {
+							color: #e70000;
+						}
+					}
+					.active-search {
+						color: #e70000;
+					}
+					nav {
+						float: right;
+						> ul {
+							margin: 0;
+							> li {
+								float: left;
+								height: auto;
+								position: static !important;
+								> a {
+                                    background: url( "../images/nav-border-img.jpg" ) right top no-repeat;
+									display: block;
+									text-transform: uppercase;
+									text-decoration: none;
+									color: #212020;
+									font-size: 19px;
+									padding: 16px 27px 30px;
+									font-weight: 600;
+									&:hover {
+										&:after {
+											content: "";
+											width: 100%;
+											margin: 0 auto;
+                                            position:relative;
+                                            top:17px;
+											height: 3px;
+											background: #212020;
+											display: block;
+										}
+									}
+									&:after {
+										height: 0;
+										width: 0%;
+										@include transition( all 0.3s ease-in-out );
+									}
+								}
+								.active {
+									&:after {
+										content: "";
+										width: 100%;
+										margin: 0 auto ;
+                                        position:relative;
+                                        top:17px;
+										height: 3px;
+										background: #212020;
+										display: block;
+									}
+								}
+								&:hover {
+									.dropdown-nav-block {
+										left: 0;
+									  /*padding: 0 1000em; 
+									  margin: 0 -1000em;*/ 
+									}
+								}
+								.dropdown-nav-block {
+									background: #FFFFFF;
+									display: block;
+									position: absolute;
+									top: 127px;
+									left: -9999px;
+									width: 100%;
+									height: auto;
+									border-top: 1px solid #b7b7b8;
+									@include box-shadow( 0 10px 6px -6px rgba(0, 0, 0, 0.3) );
+									@include transition( max-height 0.7s ease-in );
+									.dropdown-centered {
+										.dropdown-rows {
+											margin: 0 auto;
+											text-align: center;
+											padding: 25px 15px;
+											ul {
+												margin: 0;
+												display: inline-block;
+												text-align: left;
+												margin-right: 105px;
+												&:last-child {
+													margin-right: 0;
+												}
+												li {
+													a {
+														text-decoration: none;
+														font-size: 18px;
+														line-height: 30px;
+														font-weight: bold;
+														text-transform: uppercase;
+														padding-left: 33px;
+														display: block;
+														color: #212020;
+														&:hover {
+															background: url( '../images/hover-football.jpg' ) center left no-repeat;
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							.nav-item-01 {
+								a.active {
+									&:after {
+										background: #6DB447 !important;
+									}
+								}
+								a {
+									&:hover {
+										&:after {
+											background: #6DB447 !important;
+										}
+									}
+								}
+							}
+							.nav-item-02 {
+								a.active {
+									&:after {
+										background: #6EAFDE !important;
+									}
+								}
+								a {
+									&:hover {
+										&:after {
+											background: #6EAFDE !important;
+										}
+									}
+								}
+							}
+							.nav-item-03 {
+								a.active {
+									&:after {
+										background: #D4558B !important;
+									}
+								}
+								a {
+									&:hover {
+										&:after {
+											background: #D4558B !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.search-block {
+		position: absolute;
+		right: 15px;
+		bottom: 0;
+		background: #201F1F;
+		padding: 17px 25px;
+		z-index: -20;
+		@include background-image(linear-gradient(#f5f3f3, #f3f3f4));
+		@include border-bottom-left-radius( 5px );
+		@include border-bottom-right-radius( 5px );
+		#search-form {
+			.search-input {
+				padding: 4px 5px;
+				box-shadow: none;
+				float: left;
+				border-top: 1px solid #cdcdcd;
+				border-right: none;
+				border-bottom: 1px solid #cdcdcd;
+				border-left: 1px solid #cdcdcd;
+			}
+			.search-btn {
+				float: left;
+				border: none;
+				@include background-image(linear-gradient(#f33131, #e70000));
+				color: #FFFFFF;
+				padding: 5px 15px;
+				&:hover {
+					background: #e70000;
+				}
+			}
+		}
+	}
+	.active {
+		bottom: -57px;
+	}
+}

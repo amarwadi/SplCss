@@ -1,0 +1,308 @@
+/* line 2, ../scss/custom-how-it-works.scss */
+.why-spledger-banner img {
+  width: 1170px; }
+
+/* line 10, ../scss/custom-how-it-works.scss */
+.why-spledger-full {
+  background-color: #f3f3f3;
+  min-width: 1170px; }
+/* line 17, ../scss/custom-how-it-works.scss */
+.why-spledger-full .why-spledger-centered .site-pads h2 {
+  margin: 20px 0 10px;
+  color: #282728;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-align: center; }
+/* line 27, ../scss/custom-how-it-works.scss */
+.why-spledger-full .why-spledger-centered .site-pads .why-spledger-banner {
+  margin: 20px 0; }
+/* line 33, ../scss/custom-how-it-works.scss */
+.why-spledger-full .why-spledger-table-sec {
+  margin: 20px auto;
+  width: 800px; }
+/* line 41, ../scss/custom-how-it-works.scss */
+.why-spledger-full table thead tr {
+  background-color: #6DB447; }
+/* line 44, ../scss/custom-how-it-works.scss */
+.why-spledger-full table thead tr th {
+  padding: 10px 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff; }
+/* line 51, ../scss/custom-how-it-works.scss */
+.why-spledger-full table thead tr th.col1 {
+  width: 50%; }
+/* line 55, ../scss/custom-how-it-works.scss */
+.why-spledger-full table thead tr th .right {
+  float: right; }
+/* line 64, ../scss/custom-how-it-works.scss */
+.why-spledger-full table tbody tr td {
+  padding: 10px 20px; }
+/* line 67, ../scss/custom-how-it-works.scss */
+.why-spledger-full table tbody tr td.hi {
+  font-size: 45px;
+  font-weight: bold;
+  color: #6DB447; }
+/* line 73, ../scss/custom-how-it-works.scss */
+.why-spledger-full table tbody tr td.lo {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold; }
+/* line 78, ../scss/custom-how-it-works.scss */
+.why-spledger-full table tbody tr td.lo .hint {
+  font-size: 20px; }
+/* line 88, ../scss/custom-how-it-works.scss */
+.why-spledger-full ul li {
+  list-style-type: square;
+  font-size: 22px;
+  margin: 0 0 10px 30px; }
+/* line 93, ../scss/custom-how-it-works.scss */
+.why-spledger-full ul li span {
+  font-weight: bold; }
+/* line 99, ../scss/custom-how-it-works.scss */
+.why-spledger-full .red-txt {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center; }
+/* line 105, ../scss/custom-how-it-works.scss */
+.why-spledger-full p {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: justify; }
+
+/* line 112, ../scss/custom-how-it-works.scss */
+.about-us-full {
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 117, ../scss/custom-how-it-works.scss */
+.about-us-full .about-us-centered .site-pads {
+  position: relative;
+  text-align: center;
+  color: #FFFFFF; }
+/* line 122, ../scss/custom-how-it-works.scss */
+.about-us-full .about-us-centered .site-pads h2 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 60px 0 20px; }
+/* line 129, ../scss/custom-how-it-works.scss */
+.about-us-full .about-us-centered .site-pads h2 span {
+  display: block; }
+/* line 134, ../scss/custom-how-it-works.scss */
+.about-us-full .about-us-centered .site-pads p {
+  font-size: 30px;
+  line-height: 37px;
+  padding-bottom: 50px; }
+/* line 142, ../scss/custom-how-it-works.scss */
+.about-us-full p {
+  font-size: 22px;
+  line-height: 28px; }
+
+/* line 149, ../scss/custom-how-it-works.scss */
+.about-us-content p {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 20px 0 40px 0; }
+/* line 155, ../scss/custom-how-it-works.scss */
+.about-us-content p span.emphasize {
+  font-style: italic; }
+/* line 161, ../scss/custom-how-it-works.scss */
+.about-us-content .circle-image-sec {
+  margin: 20px auto;
+  text-align: center; }
+
+/* line 167, ../scss/custom-how-it-works.scss */
+.faq-full {
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 172, ../scss/custom-how-it-works.scss */
+.faq-full .faq-centered .site-pads {
+  position: relative;
+  text-align: center;
+  color: #FFFFFF; }
+/* line 177, ../scss/custom-how-it-works.scss */
+.faq-full .faq-centered .site-pads h2 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0 20px; }
+/* line 184, ../scss/custom-how-it-works.scss */
+.faq-full .faq-centered .site-pads h2 span {
+  display: block; }
+/* line 189, ../scss/custom-how-it-works.scss */
+.faq-full .faq-centered .site-pads p {
+  font-size: 30px;
+  line-height: 37px;
+  padding-bottom: 50px; }
+
+/* line 198, ../scss/custom-how-it-works.scss */
+.faq-sec {
+  overflow: hidden; }
+/* line 201, ../scss/custom-how-it-works.scss */
+.faq-sec p {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 20px 0 40px 0;
+  text-align: justify; }
+/* line 207, ../scss/custom-how-it-works.scss */
+.faq-sec p.smallmarg {
+  margin: 20px 0 10px 0; }
+/* line 212, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left {
+  float: left;
+  text-align: left;
+  width: 28%;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+  background-image: linear-gradient(#343333, #141415); }
+/* line 221, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li {
+  background-color: transparent;
+  padding: 5px 0; }
+/* line 225, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase; }
+/* line 231, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li a:hover {
+  text-decoration: none;
+  background-color: transparent; }
+/* line 236, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li a:focus {
+  background-color: transparent !important; }
+/* line 241, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li.active {
+  background-color: #f8981d; }
+/* line 244, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-left .nav-tabs li.active a {
+  color: #373838; }
+/* line 252, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-right {
+  float: right;
+  width: 60%;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+  text-align: left;
+  padding-right: 45px; }
+/* line 263, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-content h2 {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 30px 0; }
+/* line 271, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-content .faq-item h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px; }
+/* line 277, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-content .faq-item ol {
+  margin-left: 30px; }
+/* line 280, ../scss/custom-how-it-works.scss */
+.faq-sec .faq-content .faq-item ol li {
+  font-size: 22px;
+  margin-bottom: 10px;
+  list-style-type: decimal; }
+
+/* line 290, ../scss/custom-how-it-works.scss */
+.support-options-full {
+  margin-top: -10px; }
+
+/* line 294, ../scss/custom-how-it-works.scss */
+.support-options-selections-full {
+  margin-top: -10px; }
+
+/* line 298, ../scss/custom-how-it-works.scss */
+.terms-full {
+  background-color: #f3f3f3;
+  min-width: 1170px;
+  padding-top: 120px; }
+/* line 303, ../scss/custom-how-it-works.scss */
+.terms-full h2 {
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 30px 0; }
+/* line 310, ../scss/custom-how-it-works.scss */
+.terms-full h3 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px; }
+/* line 316, ../scss/custom-how-it-works.scss */
+.terms-full p {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 20px 0 40px 0;
+  text-align: justify; }
+/* line 323, ../scss/custom-how-it-works.scss */
+.terms-full .privacy-list {
+  list-style-type: square;
+  font-size: 22px;
+  margin-left: 20px;
+  margin-top: 0; }
+/* line 329, ../scss/custom-how-it-works.scss */
+.terms-full .privacy-list li {
+  margin-bottom: 10px;
+  text-align: justify; }
+
+@media only screen and (max-width: 1170px) {
+    /*header {
+        .nav-bar-full {
+
+            .nav-bar-centered {
+                .site-pads {
+                    .nav-search-block {
+                        nav > ul > li:hover {
+                            .dropdown-nav-block {
+                                left:0;
+                                margin:0;
+                                padding:0;
+                                width:769px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }*/
+  /* line 361, ../scss/custom-how-it-works.scss */
+  .faq-full {
+    min-width: 767px; }
+
+  /* line 365, ../scss/custom-how-it-works.scss */
+  .why-spledger-full {
+    background-color: #f3f3f3;
+    min-width: 767px; }
+
+  /* line 371, ../scss/custom-how-it-works.scss */
+  .why-spledger-banner img {
+    width: 767px; }
+
+  /* line 376, ../scss/custom-how-it-works.scss */
+  .about-us-full {
+    background-color: #f3f3f3;
+    min-width: 767px; }
+
+  /* line 386, ../scss/custom-how-it-works.scss */
+  .campaign-titles-social-block {
+    margin-top: 100px; }
+
+  /* line 391, ../scss/custom-how-it-works.scss */
+  .campaign-main-content .round {
+    margin-top: 100px; }
+
+  /* line 396, ../scss/custom-how-it-works.scss */
+  .terms-full {
+    min-width: 767px;
+    padding-top: 120px; }
+
+  /* line 402, ../scss/custom-how-it-works.scss */
+  .video-holder-img .video-content {
+    margin-top: 50px !important; } }

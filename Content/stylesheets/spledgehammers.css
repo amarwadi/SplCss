@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* line 2, ../scss/spledgehammers.scss */
+.spledgehammer-header-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  padding: 40px 0 50px;
+  margin-top: 129px;
+  min-width: 1170px; }
+/* line 8, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads {
+  color: #FFFFFF; }
+/* line 11, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left img {
+  float: left;
+  padding-top: 10px; }
+/* line 15, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block {
+  width: 392px;
+  float: left;
+  padding-left: 50px; }
+/* line 19, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+/* line 25, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block p {
+  font-size: 20px;
+  line-height: 25px; }
+/* line 29, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block .read-more {
+  color: #7e7e7e;
+  text-decoration: none;
+  font-size: 20px; }
+/* line 33, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block .read-more:hover {
+  color: #EEEEEE; }
+/* line 39, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-right {
+  float: left; }
+/* line 41, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-right ul {
+  margin: 20px 0 0 130px; }
+/* line 43, ../scss/spledgehammers.scss */
+.spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-right ul li {
+  display: block;
+  font-size: 20px;
+  background: url("../images/spledgehammer/checkmark-orange.png") left 3px no-repeat;
+  padding: 3px 0 10px 45px;
+  letter-spacing: 0.5px; }
+
+/* line 55, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full {
+  padding: 25px 0;
+  background: #f3f3f3;
+  min-width: 1170px; }
+/* line 61, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads .spledgehammer-coin-img {
+  float: left;
+  width: 526px;
+  height: auto; }
+/* line 66, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul {
+  margin: 45px 0 0 0;
+  float: right; }
+/* line 69, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul li {
+  float: left;
+  text-align: center;
+  width: 244px;
+  color: #252525;
+  margin-right: 35px; }
+/* line 75, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul li:last-child {
+  margin-right: 0; }
+/* line 78, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul li img {
+  height: 112px;
+  width: auto;
+  margin-bottom: 15px; }
+/* line 83, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul li h3 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px; }
+/* line 89, ../scss/spledgehammers.scss */
+.spledgehammer-steps-full .spledgehammer-steps-centered .site-pads ul li p {
+  font-size: 22px;
+  line-height: 28px; }
+
+/* line 98, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: linear-gradient(#343333, #141415);
+  min-width: 1170px; }
+/* line 103, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .main-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding: 40px 0; }
+/* line 111, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box {
+  margin-bottom: 35px; }
+/* line 114, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .title-block span {
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+  padding: 0 15px; }
+/* line 124, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block {
+  background: #383838; }
+/* line 126, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads {
+  padding: 37px 47px; }
+/* line 128, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left {
+  float: left; }
+/* line 130, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .spledge-logo {
+  float: left; }
+/* line 133, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location {
+  float: left;
+  margin-left: 50px; }
+/* line 136, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h2 {
+  color: #FFFFFF;
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold; }
+/* line 142, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h2 span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 148, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h3 {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #f8981d;
+  font-weight: bold;
+  margin-top: 90px; }
+/* line 155, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h3 span {
+  display: block;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 28px; }
+/* line 164, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .campaign-meter {
+  float: right;
+  margin-top: 15px; }
+/* line 171, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer {
+  background: #383838; }
+/* line 173, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads {
+  padding: 37px 47px; }
+/* line 175, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .badge-img {
+  float: left; }
+/* line 178, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .spledgehammer-form {
+  float: left;
+  margin-left: 50px; }
+/* line 181, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .spledgehammer-form h2 {
+  font-size: 35px;
+  color: #f8981d;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: url("../images/spledgehammer/white-checkmark.png") left 17px no-repeat;
+  padding-left: 40px;
+  padding-top: 4px;
+  margin-bottom: 40px; }
+/* line 191, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .spledgehammer-form form {
+  color: #FFFFFF; }
+/* line 193, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .spledgehammer-form form span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px; }
+/* line 198, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .start-spledgehammer .start-spledgehammer-pads .spledgehammer-form form textarea {
+  margin-bottom: 15px;
+  width: 575px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 2px solid #d1d1d1;
+  color: #8f8e8e;
+  line-height: 20px;
+  padding: 7px; }
+/* line 211, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block {
+  margin: 15px 0 100px 0;
+  text-align: right;
+  position: relative; }
+/* line 215, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block .drop-hammer {
+  display: block;
+  margin-bottom: 25px;
+  position: absolute;
+  right: 48px; }
+/* line 221, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block .send-btn {
+  margin-top: 170px;
+  display: inline-block; }
+/* line 224, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block .send-btn:before {
+  display: inline-block;
+  content: "Drop the ΓÇÿHAMMER!";
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  padding-right: 50px; }
+/* line 234, ../scss/spledgehammers.scss */
+.spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block .send-btn .red-btn {
+  padding: 5px 50px 7px;
+  text-transform: uppercase; }

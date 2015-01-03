@@ -1,0 +1,33 @@
+﻿#Slide_1 {
+  background: url("../images/Slide-01.jpg") center top no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
+#Slide_2 {
+  background: url("../images/Slide-02.jpg") center top no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
+#Slide_3 {
+  background: url("../images/Slide-03.jpg") center top no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
+#Slide_4 {
+  background: url("../images/Slide-04.jpg") center top no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
+.navigation-menus {
+  background-repeat: no-repeat;
+  background-size: 20%; }
+
+/*# sourceMappingURL=custom-home.css.map */

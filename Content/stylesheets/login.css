@@ -1,0 +1,8 @@
+/* line 2, ../scss/login.scss */
+.login h2 {
+  color: #ffffff;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 15px;
+  text-transform: uppercase; }

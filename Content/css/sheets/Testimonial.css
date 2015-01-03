@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.modal-dialog {
+    padding-top: 80px !important;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+.divDescription {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+input[type=text], textarea {
+}
+
+#content {
+    display: inline-block;
+}
+
+.ui-front {
+    z-index: 99999 !important;
+}
+
+.ui-dialog {
+    width: auto !important;
+    max-width: 80% !important;
+}
+
+.challenge-accepted-full {
+    height: auto !important;
+}

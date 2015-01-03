@@ -1,0 +1,110 @@
+
+div#Stage {
+margin: -60px 0 0 -110px;
+}
+
+.goaltext {
+color: #fff;
+font-family: 'Open Sans Condensed', Verdana, sans-serif;
+font-weight: 300;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+position:relative;
+height:0px;
+letter-spacing: 0.2pt;
+}
+
+.start {
+top: 240px;
+left: -146px;
+}
+.goal {
+top: 240px;
+left: 120px;
+}
+
+.pledged {
+color: #e71f26;
+top: -20px;
+}
+
+.gtd {
+top: 300px;
+font-weight: 700;
+font-size: 35px;
+}
+
+.percent{
+color:#e71f26;
+font-size: 35px;
+}
+
+div#Stage_Meter {
+background-size: 100% 130% !important;
+background-position: 50% !important;
+}
+div#Stage_Hand {
+background-size: 100% 130% !important;
+background-position: 50% !important;
+}
+div#Stage_MercuryBG,div#Stage_Mercury {
+background-size: 100% 640% !important;
+background-position: 50% !important;
+}
+
+.pledged.goaltext.pledg0 {
+left: -445px;
+top: 202px;
+text-align: right;
+}
+.pledged.goaltext.pledg10 {
+left: -448px;
+top: 171px;
+text-align: right;
+}
+.pledged.goaltext.pledg20 {
+left: -434px;
+top: 109px;
+text-align: right;
+}
+.pledged.goaltext.pledg30 {
+left: -398px;
+top: 60px;
+text-align: right;
+}
+.pledged.goaltext.pledg40 {
+left: -87px;
+top: 28px;
+text-align: center;
+}
+.pledged.goaltext.pledg50 {
+left: -30px;
+top: 10px;
+text-align: center;
+}
+.pledged.goaltext.pledg60 {
+left: 34px;
+top: 10px;
+text-align: center;
+}
+.pledged.goaltext.pledg70 {
+left: 361px;
+top: 33px;
+text-align: left;
+}
+.pledged.goaltext.pledg80 {
+left: 414px;
+top: 74px;
+text-align: left;
+}
+.pledged.goaltext.pledg90 {
+left: 452px;
+top: 131px;
+text-align: left;
+}
+.pledged.goaltext.pledg100 {
+left: 470px;
+top: 206px;
+text-align: left;
+}

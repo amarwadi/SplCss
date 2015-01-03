@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.modal-dialog {
+    padding-top: 80px !important;
+}
+
+.row {
+    padding-bottom: 15px;
+}
+
+#ParentsCategoryList {
+    float: left;
+    margin-right: 29px;
+    padding: 4px 10px 3px 10px;
+}
+
+#slide-nav-campaigns li {
+    top: 220px !important;
+}
+
+    #slide-nav-campaigns li:first-child {
+        left: -35px !important;
+    }
+
+    #slide-nav-campaigns li:last-child {
+        right: -35px !important;
+    }

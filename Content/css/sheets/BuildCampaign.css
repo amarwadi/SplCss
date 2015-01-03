@@ -1,0 +1,463 @@
+﻿/* line 140, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings {
+    float: right;
+    color: #595959;
+}
+    /* line 143, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings span {
+        float: left;
+        font-size: 20px;
+        padding-right: 10px;
+    }
+    /* line 148, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings select {
+        background: url("../images/build-campaign/dropdown-arrow-two.jpg") no-repeat scroll right center #9f9d9a;
+        border: medium none;
+        border-radius: 0 0 0 0;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 0 15px 0 0;
+        -moz-appearance: none;
+        text-indent: 3px;
+        text-overflow: '';
+        text-transform: uppercase;
+        width: 203px;
+    }
+    /* line 163, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings input {
+        color: #595959;
+        border: none;
+        padding: 8px 7px;
+        font-size: 18px;
+    }
+    /* line 169, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .campaign-title {
+        float: right;
+    }
+        /* line 171, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .campaign-title input {
+            width: 470px;
+            float: left;
+        }
+    /* line 176, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .type-option-block {
+        margin-top: 15px;
+        float: right;
+    }
+        /* line 180, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .type-option-block .type-block, .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .type-option-block .option-block {
+            float: left;
+        }
+        /* line 183, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .type-option-block .type-block {
+            margin: 0 20px 0 65px;
+        }
+    /* line 188, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .date-block select {
+        float: left;
+        background: url("../images/build-campaign/dropdown-arrow-two.jpg") no-repeat scroll right center white;
+        color: #9F9D9A;
+        font-weight: normal;
+    }
+    /* line 194, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .build-campaign-form-block .general-settings .date-block .divider {
+        padding: 0 15px;
+        width: auto;
+    }
+/* line 202, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings {
+    float: left;
+}
+    /* line 204, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings span {
+        width: 184px;
+        text-align: right;
+        padding-top: 2px;
+    }
+    /* line 209, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings div {
+        margin-bottom: 15px;
+    }
+        /* line 211, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings div:last-child {
+            margin-bottom: 0;
+        }
+    /* line 216, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .fundrasing-block input {
+        width: 189px;
+    }
+    /* line 221, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .total-performance input {
+        float: left;
+        width: 100px;
+    }
+    /* line 225, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .total-performance .games {
+        width: auto;
+        padding: 2px 0 0 17px;
+    }
+    /* line 231, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .total-performance span.tooltip {
+        background-position: 34px 9px;
+        position: relative;
+    }
+        /* line 234, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .total-performance span.tooltip .tooltip-block {
+            width: 305px;
+            top: -60px;
+            left: -300px;
+            text-align: left;
+        }
+            /* line 239, ../scss/build-campaign.scss */
+            .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .total-performance span.tooltip .tooltip-block .right-arrow {
+                top: 44%;
+                right: -10px;
+            }
+    /* line 247, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers input {
+        float: left;
+        width: 100px;
+    }
+    /* line 251, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers .total-numbers-txt {
+        float: left;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 0 0 17px;
+        text-align: left;
+        width: auto;
+        color: #9f9d9a;
+    }
+        /* line 259, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers .total-numbers-txt i {
+            display: block;
+        }
+    /* line 263, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers span.tooltip {
+        background-position: 27px 9px;
+        position: relative;
+    }
+        /* line 266, ../scss/build-campaign.scss */
+        .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers span.tooltip .tooltip-block {
+            width: 305px;
+            top: -60px;
+            left: -300px;
+            text-align: left;
+        }
+            /* line 271, ../scss/build-campaign.scss */
+            .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .fundraising-settings-block .general-settings .estimated-spledgers span.tooltip .tooltip-block .right-arrow {
+                top: 44%;
+                right: -10px;
+            }
+/* line 280, ../scss/build-campaign.scss */
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .save-continue-block {
+    padding: 40px;
+}
+    /* line 282, ../scss/build-campaign.scss */
+    .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .save-continue-block .red-btn {
+        float: right;
+    }
+
+.option-block {
+    float: left;
+}
+
+.field-validation-error {
+    float: none !important;
+    width: auto !important;
+    padding: 0px !important;
+}
+
+    .field-validation-error span, field-validation-error span span {
+        width: auto !important;
+        padding: 0px !important;
+    }
+
+
+.field-validation-valid {
+    float: none !important;
+    width: auto !important;
+    padding: 0px !important;
+    display: none;
+}
+
+.divider {
+    padding: 0 10px !important;
+}
+
+
+.build-campaign-input {
+    color: #595959;
+    border: 1px;
+    padding: 8px 7px;
+    font-size: 18px;
+}
+
+.build-campaign-font {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+#CampaignPurpose {
+    color: #595959;
+    border: none;
+    padding: 8px 7px;
+    font-size: 18px;
+}
+
+.bottom-beneficiary-result {
+    border: 1px solid;
+    border-style: dotted;
+    border-radius: 5px;
+    color: #c09853;
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+    margin: 0 auto 20px auto;
+}
+
+#divSearchResult {
+}
+
+#divInnerResult {
+    margin: 0 auto 20px auto;
+}
+
+.beneficiary-row {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+    .beneficiary-row > div {
+        float: left;
+    }
+
+#divSelectedBeneficiaries {
+    margin: 0 auto 20px auto;
+}
+
+.added-beneficiary-header {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#spnUploadImage {
+    background-image: url("/Content/images/build-campaign/Browse.PNG");
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#divThumbnail {
+    overflow: auto;
+    max-height: 165px;
+}
+
+.select-list {
+    background: url("../images/build-campaign/dropdown-arrow-two.jpg") no-repeat scroll right center #9f9d9a;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 15px 0 0;
+    text-indent: 3px;
+}
+
+
+#txtGoal, #txtPledgeAmmount, #txtProgramFundraisingGoal {
+    color: #9f9d9a !important;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
+
+#content {
+    display: inline-block;
+}
+
+#spnLoading {
+    display: none;
+}
+
+.tooltip {
+    opacity: 10 !important;
+}
+
+.performance-table {
+    width: 100%;
+}
+
+/* line 186, ../scss/program.scss */
+.performance-table {
+    width: 100%;
+}
+    /* line 189, ../scss/program.scss */
+    .performance-table tbody tr.titles {
+        background: #62a744;
+        border-bottom: 3px solid #2E2F2F;
+    }
+        /* line 192, ../scss/program.scss */
+        .performance-table tbody tr.titles th {
+            color: #FFFFFF;
+            font-size: 22px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+            /* line 198, ../scss/program.scss */
+            .performance-table tbody tr.titles th:first-child {
+                background: url("../images/clip-board-icon.jpg") center left no-repeat;
+                padding: 9px 0 12px 64px;
+            }
+/* line 202, ../scss/program.scss */
+.programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th:last-child {
+    background: url("../images/money-icon.jpg") center left no-repeat;
+    padding: 9px 0 12px 40px;
+}
+/* line 208, ../scss/program.scss */
+.performance-table tbody tr.info {
+    background: #EEEEEE;
+}
+    /* line 210, ../scss/program.scss */
+    .performance-table tbody tr.info td {
+        color: #383838;
+        font-size: 20px;
+        padding: 4px 0 4px 6px;
+    }
+        /* line 214, ../scss/program.scss */
+        .performance-table tbody tr.info td:first-child {
+            padding: 4px 0 4px 19px;
+        }
+
+
+
+/* line 222, ../scss/program.scss */
+.spledger-caculator {
+    color: #383838;
+    text-transform: uppercase;
+    background: #EEEEEE;
+}
+    /* line 226, ../scss/program.scss */
+    .spledger-caculator .calc-dropdown {
+        margin: 3px 0 0 0;
+        overflow: auto;
+        cursor: pointer;
+    }
+        /* line 230, ../scss/program.scss */
+        .spledger-caculator .calc-dropdown li {
+            font-size: 22px;
+            font-weight: bold;
+            padding: 4px 19px;
+        }
+            /* line 234, ../scss/program.scss */
+            .spledger-caculator .calc-dropdown li:first-child {
+                float: left;
+            }
+            /* line 237, ../scss/program.scss */
+            .spledger-caculator .calc-dropdown li:last-child {
+                float: right;
+            }
+                /* line 239, ../scss/program.scss */
+                .spledger-caculator .calc-dropdown li:last-child img {
+                    -webkit-transform: translate(0px, -3px) rotate(265deg);
+                    -moz-transform: translate(0px, -3px) rotate(265deg);
+                    -ms-transform: translate(0px, -3px) rotate(265deg);
+                    -o-transform: translate(0px, -3px) rotate(265deg);
+                    transform: translate(0px, -3px) rotate(265deg);
+                }
+                /* line 242, ../scss/program.scss */
+                .spledger-caculator .calc-dropdown li:last-child .rotate {
+                    -webkit-transform: translate(0px, -3px) rotate(360deg);
+                    -moz-transform: translate(0px, -3px) rotate(360deg);
+                    -ms-transform: translate(0px, -3px) rotate(360deg);
+                    -o-transform: translate(0px, -3px) rotate(360deg);
+                    transform: translate(0px, -3px) rotate(360deg);
+                }
+    /* line 248, ../scss/program.scss */
+    .spledger-caculator .form-inputs-block {
+        display: none;
+    }
+        /* line 251, ../scss/program.scss */
+        .spledger-caculator .form-inputs-block ul {
+            margin: 0;
+            padding: 19px;
+        }
+            /* line 254, ../scss/program.scss */
+            .spledger-caculator .form-inputs-block ul li {
+                font-size: 22px;
+                overflow: auto;
+                margin-bottom: 5px;
+            }
+                /* line 258, ../scss/program.scss */
+                .spledger-caculator .form-inputs-block ul li:last-child {
+                    margin: 20px 0 0 0;
+                }
+                    /* line 260, ../scss/program.scss */
+                    .spledger-caculator .form-inputs-block ul li:last-child span {
+                        font-weight: bold;
+                    }
+                    /* line 263, ../scss/program.scss */
+                    .spledger-caculator .form-inputs-block ul li:last-child input {
+                        background: #EEEEEE;
+                        border: 1px solid #bdbdbd;
+                    }
+                /* line 268, ../scss/program.scss */
+                .spledger-caculator .form-inputs-block ul li span {
+                    float: left;
+                }
+                /* line 271, ../scss/program.scss */
+                .spledger-caculator .form-inputs-block ul li input {
+                    float: right;
+                    background: #bdbdbd;
+                    border: none;
+                    font-size: 16px;
+                    width: 313px;
+                    padding: 4px 10px;
+                }
+
+
+    /* line 277, ../scss/phone.scss */
+    .spledger-caculator .calc-dropdown li {
+        font-size: 16px;
+    }
+    /* line 283, ../scss/phone.scss */
+    .spledger-caculator .form-inputs-block ul {
+        padding: 0 0 20px 0;
+        width: 89%;
+        margin: 0 auto;
+    }
+        /* line 287, ../scss/phone.scss */
+        .spledger-caculator .form-inputs-block ul li {
+            font-size: 16px;
+        }
+            /* line 289, ../scss/phone.scss */
+            .spledger-caculator .form-inputs-block ul li span {
+                float: left;
+                display: block;
+                width: 55%;
+                text-align: left;
+            }
+            /* line 293, ../scss/phone.scss */
+            .spledger-caculator .form-inputs-block ul li input {
+                width: 35%;
+                float: left;
+            }
+
+
+.program-block .program-pads .prg-setting {
+    width: 485px !important;
+}
+
+.build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol .active {
+    color: #373838;
+    background: #f8981d !important;
+}
+
+.model-header{
+    background-color: #62a744;
+    color: #ffffff !important;
+}

@@ -1,0 +1,49 @@
+﻿#divNoResult, #divEmpty {
+    border: 1px solid;
+    border-style: dotted;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#divEmpty {
+    display: none;
+}
+
+.clearfix {
+    margin-bottom: 15px;
+}
+
+.modal-dialog {
+    width: 75% !important;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-content, .modal-body {
+    display: inline-block;
+}
+
+#divSearchResult > col-md-12 {
+    display: inline-block;
+}
+
+#divTotalShowing {
+    text-align: left;
+    padding: 16px;
+    font-weight: bold;
+}
+
+#divOrganization {
+    border: 2px solid black;
+}
+
+#spanRecords {
+    color: cadetblue;
+}
+
+#spnBeneficiarySearchLoading {
+    display: none;
+}

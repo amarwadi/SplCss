@@ -1,0 +1,157 @@
+/* line 3, ../scss/get-started.scss */
+.get-started-full {
+  min-width: 1170px; }
+/* line 5, ../scss/get-started.scss */
+.get-started-full .get-started-img {
+  padding-top: 131px;
+  background: url("../images/get-started/get-started-bg.jpg") center top no-repeat !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  height: 100% !important;
+  position: relative;
+  min-height: 777px; }
+/* line 14, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .get-started-intro {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px; }
+/* line 18, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .get-started-intro h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px; }
+/* line 24, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .get-started-intro p {
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 55px; }
+/* line 28, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .get-started-intro p span {
+  display: block; }
+/* line 33, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container {
+  width: 960px;
+  margin: 0 auto 125px; }
+/* line 36, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block {
+  width: 440px; }
+/* line 38, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block:first-child {
+  float: left; }
+/* line 41, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block:last-child {
+  float: right; }
+/* line 45, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .title-block .title-pads {
+  padding: 15px 30px; }
+/* line 47, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .title-block .title-pads h2 {
+  font-size: 26px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: bold;
+  float: left;
+  margin-top: 5px; }
+/* line 55, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .title-block .title-pads h2 span {
+  display: block; }
+/* line 59, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .title-block .title-pads img {
+  float: right; }
+/* line 64, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .get-started-list {
+  margin: 0;
+  background: #EEEEEE;
+  min-height: 358px; }
+/* line 68, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .get-started-list li {
+  position: relative;
+  display: block;
+  color: #221f1f;
+  font-size: 23px;
+  border-bottom: 1px solid #a1a1a1;
+  padding: 15px 35px 15px 65px;
+  background: url("../images/get-started/get-started-checkmark.png") 25px 17px no-repeat; }
+/* line 76, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .get-started-list li:last-child {
+  border-bottom: none; }
+/* line 79, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .get-started-list li img {
+  position: absolute;
+  top: 15px;
+  right: 90px; }
+/* line 85, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .sign-up-container .sign-up-block .get-started-list .payment-list {
+  padding-bottom: 45px; }
+/* line 91, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block {
+  background: #363737; }
+/* line 93, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads {
+  padding: 16px 31px 26px; }
+/* line 95, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 0.5px;
+  font-weight: bold; }
+/* line 102, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns {
+  width: 310px;
+  margin: 10px auto 15px; }
+/* line 105, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li {
+  display: inline-block; }
+/* line 107, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li:first-child {
+  float: left; }
+/* line 110, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li:last-child {
+  float: right; }
+/* line 113, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li a {
+  width: 148px;
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 0 7px; }
+/* line 123, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li .facebook {
+  background: #3468af url("../images/get-started/facebook-icon.png") 26px 10px no-repeat; }
+/* line 125, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li .facebook:hover {
+  background: #4478bf url("../images/get-started/facebook-icon.png") 26px 10px no-repeat; }
+/* line 129, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li .google-plus {
+  background: #e64c65 url("../images/get-started/google-plus-icon.png") 26px 10px no-repeat; }
+/* line 131, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .social-btns li .google-plus:hover {
+  background: #f2647b url("../images/get-started/google-plus-icon.png") 26px 10px no-repeat; }
+/* line 137, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .email-address {
+  width: 310px;
+  margin: 0 auto;
+  display: block;
+  font-size: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #8b8d8f url("../images/get-started/email-address-icon.png") 20px center no-repeat;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 0 7px;
+  text-transform: uppercase;
+  text-indent: 59px; }
+/* line 149, ../scss/get-started.scss */
+.get-started-full .get-started-img .get-started-centered .site-pads .social-block .social-pads .email-address:hover {
+  background: #a7aaad url("../images/get-started/email-address-icon.png") 20px center no-repeat; }

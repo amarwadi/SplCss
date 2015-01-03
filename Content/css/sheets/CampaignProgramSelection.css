@@ -1,0 +1,31 @@
+﻿.image-holder {
+        width: 20% !important;
+    }
+
+    .program-main-info {
+        width: 75% !important;
+    }
+
+    .build-campaign-form-block,
+    .image-holder > img {
+        width: 100% !important;
+    }
+
+    .program-main-pads > h2 {
+        font-size: 25px !important;
+    }
+
+    .program-main-pads > p {
+        width: 100% !important;
+    }
+
+    .build-campaign-form-block {
+        padding: 0px !important;
+    }
+
+    .programs-single-centered > site-pads {
+        background: #eeeaea;
+    }
+    .spledger-caculator ul li input {
+        width: 190px !important;
+    }

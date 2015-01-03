@@ -1,0 +1,151 @@
+@import "compass/css3";
+.overview-block-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	min-width: 1170px;
+	.overview-block-centered {
+		.site-pads {
+			.single-over-blocks {
+				.overview-block {
+					background: #2E302F;
+					margin-bottom: 52px;
+					&:first-child {
+						margin-top: 52px;
+					}
+					.overview-pads {
+						padding: 24px 14px 14px 43px;
+						.image-holder {
+							float: left;
+							text-transform: uppercase;
+							text-align: center;
+							.program-number {
+								font-size: 22px;
+								color: #d3d3d3;
+								font-weight: bold;
+								margin-bottom: 35px;
+							}
+							h2,
+							span {
+								color: #FFFFFF;
+							}
+							h2 {
+								font-size: 28px;
+								font-weight: bold;
+								letter-spacing: 0.5px;
+								margin-top: 30px;
+							}
+							span {
+								font-size: 22px;
+								letter-spacing: 0.5px;
+							}
+						}
+						.overview-main-info {
+							float: left;
+							width: 768px;
+							background: url( '../images/border-repeat-one.jpg' ) top left repeat-y;
+							margin-left: 10px;
+							.overview-main-pads {
+								position: relative;
+								padding: 0 0 0 10px;
+								h2 {
+									font-size: 35px;
+									line-height: 40px;
+									text-transform: uppercase;
+									font-weight: bold;
+									letter-spacing: 0.5px;
+									color: #FFFFFF;
+								}
+								> p {
+									width: 580px;
+									color: #d3d3d3;
+									font-size: 19px;
+									margin: 10px 0 20px;
+								}
+								.performance-table {
+									width: 100%;
+									position: relative;
+									tbody {
+										text-transform: uppercase;
+										tr.titles {
+											background: #62a744;
+											border-bottom: 3px solid #2E2F2F;
+											th {
+												width: 291px;
+												color: #FFFFFF;
+												font-size: 22px;
+												color: #FFFFFF;
+												text-transform: uppercase;
+												font-weight: bold;
+												&:first-child {
+													background: url( '../images/clip-board-icon.jpg' ) center left no-repeat;
+													padding: 9px 0 12px 0;
+													text-indent: 59px;
+												}
+												&:last-child {
+													background: url( '../images/money-icon.jpg' ) center left no-repeat;
+													padding: 9px 0 12px 40px;
+												}
+											}
+										}
+										tr.info {
+											background: #EEEEEE;
+											td {
+												position: relative;;
+												color: #383838;
+												font-size: 20px;
+												padding: 4px 0 4px 6px;
+												&:first-child {
+													padding: 4px 0 4px 19px;
+													border-right: 1px solid #8a8a8a;
+												}
+											}
+										}
+										.one {
+											border-bottom: 1px solid #8a8a8a;
+										}
+										.two {
+											.tooltip-block {
+											  width: 305px;
+											  top: 31px;
+											  left: -310px;
+											  .right-arrow {
+											  	top: 44%;
+											  	right: -10px;
+											  }
+											}
+										}
+									}
+								}
+								.goal-table {
+									margin-top: 15px !important;
+									tbody {
+										tr {
+											&:last-child {
+												background: #FFFFFF !important;
+												td {
+													font-weight: bold !important;
+													text-transform: uppercase !important;
+												}
+											}
+										}
+										tr.titles {
+											th {
+												background: none !important;
+												text-indent: 24px !important;
+											}
+										}
+										tr.info {
+											border-bottom: 1px solid #8A8A8A !important;
+										}
+										.four {
+											border-bottom: none !important;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

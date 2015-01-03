@@ -1,0 +1,383 @@
+@import "compass/css3";
+
+.meet-match-header-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	padding: 40px 0 50px;
+	margin-top: 131px;
+	min-width: 1170px;
+	.meet-match-header-centered {
+		.site-pads {
+			color: #FFFFFF;
+			.header-left {
+				img {
+					float: left;
+					padding-top: 20px;
+				}
+				.title-intro-block {
+					width: 392px;
+					float: left;
+					padding-left: 50px;
+					h1 {
+						font-size: 40px;
+						text-transform: uppercase;
+						font-weight: bold;
+						letter-spacing: 0.5px;
+					}
+					p {
+						font-size: 20px;
+						line-height: 23px;
+					}
+					.read-more {
+						color: #7e7e7e;
+						text-decoration: none;
+						font-size: 20px;
+						&:hover {
+							color: #EEEEEE;
+						}
+					}
+				}
+			}
+			.header-right {
+				float: left;
+				ul {
+					margin: 20px 0 0 130px;
+					li {
+						display: block;
+						font-size: 20px;
+						background: url( '../images/spledgehammer/checkmark-orange.png' ) left 3px no-repeat;
+						padding: 3px 0 10px 45px;
+						letter-spacing: 0.5px;
+					}
+				}
+			}
+		}
+	}
+}
+.meet-match-content-full {
+	@include background-image(linear-gradient(#343333, #141415));
+	min-width: 1170px;
+	.meet-match-content-centered {
+		.site-pads {
+			.main-title {
+				font-size: 24px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+				color: #a8a5a5;
+				padding: 20px 0;
+			}
+			.burry-tach-box {
+				margin-bottom: 35px;
+				.title-block {
+					span {
+						text-align: right;
+						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.7);
+						font-size: 30px;
+						font-weight: bold;
+						display: block;
+						padding: 0 15px;
+					}
+				}
+				.main-content-block {
+					background: #383838;
+					.main-content-pads {
+						padding: 37px 47px;
+						.content-left {
+							float: left;
+							.spledge-logo  {
+								float: left;
+							}
+							.title-location {
+								float: left;
+								margin-left: 50px;
+								h2 {
+									color: #FFFFFF;
+									font-size: 33px;
+									line-height: 40px;
+									text-transform: uppercase;
+									font-weight: bold;
+									span {
+										display: block;
+										text-transform: capitalize;
+										font-size: 28px;
+									}
+								}
+								h3 {
+									font-size: 40px;
+									line-height: 45px;
+									text-transform: uppercase;
+									color: #f8981d;
+									font-weight: bold;
+									margin-top: 90px;
+									span {
+										display: block;
+										color: #FFFFFF;
+										text-transform: capitalize;
+										font-size: 28px;
+										sub {
+											position: relative;
+											top: -4px;
+										}
+									}
+								}
+							}
+						}
+						.campaign-meter {
+							float: right;
+							margin-top: 15px;
+						}
+						.match-amount {
+							width: 894px;
+							border-top: 2px solid #a1a1a1;
+							float: right;
+							margin-top: 25px;
+							.match-intro {
+								font-size: 27px;
+								color: #FFFFFF;
+								padding-top: 10px;
+							}
+							.match-outro {
+								font-size: 25px;
+								color: #FFFFFF;
+								padding-top: 10px;	
+								sub {
+									position: relative;
+									top: -4px;
+								}
+							}
+							form {
+								padding: 10px 0 25px;
+								border-bottom: 2px solid #a1a1a1;
+								ul {
+									margin: 0;
+									li {
+										float: left;
+										margin-right: 62px;
+										&:first-child {
+											span {
+												font-size: 22px;
+												color: #f8981d;
+												position: relative;
+												top: 35px;												
+											}
+										}
+										&:last-child {
+											margin-right: 0;
+										}
+										p {
+											float: left;
+											color: #FFFFFF;
+											font-size: 25px;
+											line-height: 34px;
+											font-weight: bold;
+											letter-spacing: 0.4px;
+											i {
+												display: block;
+												font-size: 22px;
+												font-weight: normal;
+											}
+										}
+										input[type="radio"] {
+											display: none;
+										}
+										input[type="radio"] + label span {
+									    display: inline-block;
+									    float: left;
+									    width: 24px;
+									    height: 24px;
+									    margin: 4px 10px 0 0;
+									    vertical-align: middle;
+									    cursor: pointer;
+									    -moz-border-radius: 50%;
+									    border-radius: 50%;
+									    background-color: #FFFFFF;
+									    border: 2px solid #000000;
+									    margin-right: 15px;
+										}
+										input[type="radio"]:checked + label span {
+											background: #FFFFFF url( '../images/checkmark-radio.png' ) 3px 5px no-repeat;
+										}
+										input[type="radio"]:checked + label p {
+											color: #f8981d;
+										}
+										input[type="radio"] + label span,
+										input[type="radio"]:checked + label span {
+										  -webkit-transition:background-color 0.2s linear;
+										  -o-transition:background-color 0.2s linear;
+										  -moz-transition:background-color 0.2s linear;
+										  transition:background-color 0.2s linear;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.burry-tach-block {
+				background: #383838;
+				.burry-tach-block-pads {
+					padding: 37px 47px;
+					.img-block {
+						position: relative;
+						float: left;
+						.badge-img {
+							position: absolute;
+						}
+						img {
+							width: 103px;
+							height: auto;
+							&:last-child {
+								opacity: 0;
+								visibility: hidden;
+							}
+						}
+						.active {
+								opacity: 1.0 !important;
+								visibility: visible !important;
+						}
+					}
+					.meet-match-form {
+						float: left;
+						margin-left: 150px;
+						form {
+							color: #FFFFFF;
+							ul {
+								margin: 0;
+								li {
+									font-size: 30px;
+									color: #FFFFFF;
+									text-transform: uppercase;
+									font-weight: bold;
+									clear: both;
+									input[type="radio"] {
+										display: none;
+									}
+									input[type="radio"] + label span {
+								    display: inline-block;
+								    float: left;
+								    width: 24px;
+								    height: 24px;
+								    margin: 4px 10px 0 0;
+								    vertical-align: middle;
+								    cursor: pointer;
+								    -moz-border-radius: 50%;
+								    border-radius: 50%;
+								    background-color: #FFFFFF;
+								    border: 2px solid #000000;
+								    margin-right: 15px;
+									}
+									input[type="radio"]:checked + label span {
+										background: #FFFFFF url( '../images/checkmark-radio.png' ) 3px 5px no-repeat;
+									}
+									input[type="radio"] + label span,
+									input[type="radio"]:checked + label span {
+									  -webkit-transition:background-color 0.2s linear;
+									  -o-transition:background-color 0.2s linear;
+									  -moz-transition:background-color 0.2s linear;
+									  transition:background-color 0.2s linear;
+									}
+									&:nth-child(1) {
+										overflow: auto;
+										margin-bottom: 40px;
+										input[type="radio"] + label span {
+											margin: 12px 15px 0 0;
+										}
+										label {
+											p {
+												float: left;
+												i {
+													color: #f8981d;
+												}
+												.lrg-txt {
+													font-size: 40px;
+												}
+												.small-txt {
+													font-size: 30px;
+												}
+											}
+										}
+									}
+									&:nth-child(2) {
+										span {
+											text-transform: capitalize;
+											font-size: 22px;
+											font-weight: normal;
+											display: block;
+											margin-top: 12px;
+										}
+										textarea {
+									    border: 2px solid #d1d1d1;
+									    border-radius: 3px;
+									    color: #8f8e8e;
+									    line-height: 20px;
+									    margin-bottom: 15px;
+									    padding: 7px;
+									    width: 575px;
+									    font-size: 20px;
+										}
+									}
+									&:nth-child(3) {
+										font-size: 22px;
+										text-transform: unset;
+										font-weight: normal;
+									}
+									label {
+										color: #FFFFFF;
+									}
+									input[type="radio"] {
+										display: none;
+									}
+									input[type="radio"] + label span {
+								    display: inline-block;
+								    width: 24px;
+								    height: 24px;
+								    margin: -5px 4px 0 0;
+								    vertical-align: middle;
+								    cursor: pointer;
+								    -moz-border-radius: 50%;
+								    border-radius: 50%;
+								    background-color: #FFFFFF;
+								    border: 2px solid #000000;
+								    margin-right: 15px;
+									}
+									input[type="radio"]:checked + label span {
+										background: #FFFFFF url( '../images/checkmark-radio.png' ) 3px 5px no-repeat;
+									}
+									input[type="radio"] + label span,
+									input[type="radio"]:checked + label span {
+									  -webkit-transition:background-color 0.2s linear;
+									  -o-transition:background-color 0.2s linear;
+									  -moz-transition:background-color 0.2s linear;
+									  transition:background-color 0.2s linear;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.drop-hammer-block {
+				margin: 75px 0 85px;
+				text-align: right;
+				position: relative;
+				.send-btn {
+					display: inline-block;
+					&:before {
+				    color: #bec2c0;
+				    content: "Step 2: Enter payment information";
+				    display: inline-block;
+				    font-size: 20px;
+				    letter-spacing: 0.5px;
+				    padding-right: 30px;
+					}
+					.red-btn {
+						padding: 5px 50px 7px;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+	}
+}

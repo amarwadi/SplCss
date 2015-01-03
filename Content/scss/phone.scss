@@ -1,0 +1,348 @@
+@media only screen and (max-width: 768px) {
+
+	/*---------- classess ----------*/
+
+	.visible-phone {
+		display: block !important;
+	}
+
+	.hidden-phone {
+		display: none !important;
+	}
+
+	/*---------- header ----------*/
+
+	header {
+		.sticky-header {
+			.sign-up-bar-full {
+				.sign-up-centered {
+					.site-pads {
+						ul {
+							li {
+								a {
+									font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.nav-bar-full {
+			.nav-bar-centered {
+				.site-pads {
+					padding: 9px 15px 10px;
+					background: #F4F3F4;
+					.nav-search-block {
+						.mobile-menu {
+							font-size: 22px;
+							margin: 8px 10px 0 0;
+							cursor: pointer;
+							&:hover {
+								color: #E70000;
+							}
+						}
+						.search-icon {
+							padding: 0;
+							margin: 8px 0;
+						}
+						nav {
+							ul {
+								display: none;
+							}
+						}
+					}
+					.logo {
+						width: 185px;
+					}
+				}
+			}
+		}
+	}
+
+	/*---------- home ----------*/
+
+	.challenge-accepted-full {
+		.challenge-accepted-full-img {
+			.challenge-accepted-centered {
+				.site-pads {
+					.block-one-txt {
+						h1 {
+							font-size: 32px;						
+						}
+						p {
+							font-size: 27px;
+							line-height: 26px;
+						}
+						ul {
+							li {
+								margin-right: 1%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.make-difference-full {
+		.make-difference-full-img {
+			padding-top: 10px;
+			.make-difference-centered {
+				.site-pads {
+					h2.title {
+						font-size: 23px;
+					}
+					.difference-rotate-block {
+						.difference-rotate {
+							.difference-candiate {
+								float: none !important;
+								width: auto;
+								margin-bottom: 15px;
+								&:last-child {
+									margin-bottom: 0;
+								}
+								.canidate-content {
+									.canidate-pads {
+										h2 {
+											font-size: 24px;
+										}
+										.logo-description-block {
+											> a {
+												width: 100%;
+												text-align: center;
+												img {
+													max-width: 124px;
+													margin-bottom: 10px;
+												}
+											}
+											.canidate-name-block {
+												padding-left: 0 !important;
+											}
+										}
+										.date-goal-block {
+											.date-goal-txt {
+												.to-date,
+												.main-goal {
+													float: none;
+												}
+												.to-date {
+													margin-bottom: 5px;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						.button-container {
+							padding: 25px 0;
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.fundraising-facts-full {
+		.fundraising-facts-full-img {
+			.fundraising-facts-centered {
+				.site-pads {
+					h2 {
+						font-size: 32px;
+						font-size: 30px;
+					}
+					.btn-container {
+						margin-left: 32px;
+						li {
+							margin-right: 2px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.testimonial-block-full {
+		.testimonial-block-centered {
+			.site-pads {
+				h2 {
+					font-size: 24px;
+				}
+				.testimonial-row {
+					.testimonial-block {
+						float: none;
+						width: auto;
+						background: url("../images/bottom-shadow.png") no-repeat bottom center;
+						background-size: 100% auto;
+						margin-bottom: 25px;
+						padding-bottom: 67px;
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*---------- programs ----------*/
+
+	.program-header-full {
+		.program-img-full {
+			height: auto;
+			padding-top: 0;
+			img {
+				display: none;
+			}
+			.program-centered {
+				.site-pads {
+					.program-header-content {
+						width: auto;
+						padding: 0 0 3% 0;
+						margin-left: 0;
+						h1 {
+							font-size: 32px;
+						}
+						p {
+							font-size: 18px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.programs-available-full {
+		.programs-available-centered {
+			.site-pads {
+				.available-rows-block {
+					ul {
+						li {
+							width: auto;
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+	.green-bar-full {
+		.green-bar-centered {
+			.site-pads {
+				.bar-left,
+				.bar-right {
+					float: none;
+				}
+			}
+		}
+	}
+	.programs-single-full {
+		.programs-single-centered {
+			.site-pads {
+				.single-programs-blocks {
+					.program-block {
+						.program-pads {
+							.program-main-info {
+								.program-main-pads {
+									padding: 0;
+									h2 {
+										font-size: 38px;
+										line-height: 35px;
+									}
+									p {
+										width: auto;
+									}
+									.performance-table {
+										tbody {
+											tr.titles {
+												th {
+													font-size: 16px;
+												}
+											}
+											tr.info {
+												td {
+													font-size: 16px;
+												}
+											}
+										}
+									}
+								}
+							}
+							.program-main-info {
+								.view-build-campaign-block {
+									float: left;
+								}
+							}
+							.program-main-info {
+								.spledger-caculator {
+									.calc-dropdown {
+										li {
+											font-size: 16px;
+										}
+									}
+									.form-inputs-block {
+										form {
+											ul {
+												padding: 0 0 20px 0;
+												width: 89%;
+												margin: 0 auto;
+												li {
+													font-size: 16px;
+													span {
+														float: none;
+														display: block;
+													}
+													input {
+														width: 92%;
+														float: none;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*---------- footer ----------*/
+
+	footer {
+		.footer-main-full {
+			.get-started-info {
+		    float: none;
+		    margin-right: 0;
+		    width: auto;
+			}
+			.get-involved-block {
+		    float: none;
+		    width: auto;
+		    background: none;
+		    min-height: 0;
+		    ul {
+		    	li {
+		    		margin-right: 19%;
+		    	}
+		    }
+			}
+			.stay-connected-block {
+				float: none;
+			}
+		}
+		.footer-btm-full {
+			.footer-btm-centered {
+				.site-pads {
+					.copyright-info {
+						font-size: 14px;
+						p {
+							line-height: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}

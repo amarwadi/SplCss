@@ -1,0 +1,16 @@
+﻿#existing-card-spn {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 12px;
+    color: #4c3f18;
+}
+
+.payment-background {
+    background: #EEEAE9 !important;
+}
+
+.check-box-payment {
+    margin-right: 456px !important;
+    width: 17px !important;
+    margin-top: 9px !important;
+}

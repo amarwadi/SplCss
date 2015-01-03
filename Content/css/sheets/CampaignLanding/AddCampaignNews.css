@@ -1,0 +1,19 @@
+﻿label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.Text-Box {
+    width: 220px;
+    height: 25px;
+}
+
+.ui-dialog {
+    width: auto !important;
+    max-width: 60% !important;
+}
+
+/*#imgUploadedImage {
+    width: 100% !important;
+}*/

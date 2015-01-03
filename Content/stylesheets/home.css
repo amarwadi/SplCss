@@ -1,0 +1,230 @@
+/* line 3, ../scss/home.scss */
+.challenge-accepted-full {
+  position: relative;
+  min-width: 1170px;
+  height: 100%; }
+/* line 7, ../scss/home.scss */
+.challenge-accepted-full .slideshow {
+  height: 100% !important;
+  width: 100%;
+  position: relative;
+  z-index: 0; }
+/* line 13, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img {
+  height: 100%;
+  background: url("../images/block-one.jpg") center top no-repeat !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  height: 100% !important;
+  width: 100%; }
+/* line 20, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered {
+  padding: 12% 0 0; }
+/* line 23, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt {
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: 0.5px; }
+/* line 27, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-shadow: 1px 2px 42px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase; }
+/* line 34, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt p {
+  font-size: 25px;
+  line-height: 30px;
+  text-shadow: 1px 0px 15px black; }
+/* line 39, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt ul {
+  margin: 30px 0 35px; }
+/* line 41, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt ul li {
+  display: inline-block;
+  margin-left: 47px; }
+/* line 52, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt ul .watch-video a {
+  display: none; }
+/* line 57, ../scss/home.scss */
+.challenge-accepted-full .challenge-accepted-full-img .challenge-accepted-centered .site-pads .block-one-txt .vid-popup {
+  width: 200px;
+  height: auto; }
+/* line 65, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full {
+  position: absolute;
+  z-index: 149;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 20px 0; }
+/* line 74, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads .giant-form-block {
+  width: 860px;
+  margin: 0 auto; }
+/* line 78, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 15px; }
+/* line 87, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads #campaign-form .campaign-title, .challenge-accepted-full .black-bar-full .black-bar-centered .site-pads #campaign-form .campaign-city {
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #A7A29A;
+  border-left: none;
+  color: #A7A29A;
+  float: left;
+  padding: 9px 0; }
+/* line 98, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads #campaign-form .campaign-title {
+  width: 328px;
+  text-indent: 9px;
+  border-right: 1px solid #A7A29A; }
+/* line 103, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads #campaign-form .campaign-city {
+  background: url("../images/map-icon.png") 10px center no-repeat;
+  padding-left: 35px; }
+/* line 107, ../scss/home.scss */
+.challenge-accepted-full .black-bar-full .black-bar-centered .site-pads #campaign-form .submit-icon {
+  color: #878788;
+  font-size: 20px;
+  padding-top: 4px; }
+
+/* line 117, ../scss/home.scss */
+.make-difference-full {
+  min-width: 1170px; }
+/* line 119, ../scss/home.scss */
+.make-difference-full .make-difference-full-img {
+  background: url("../images/block-two.jpg") center top no-repeat !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  height: 100% !important;
+  padding: 60px 0;
+  position: relative; }
+/* line 127, ../scss/home.scss */
+.make-difference-full .make-difference-full-img .make-difference-centered .site-pads h2.title {
+  padding: 0 0 2%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+/* line 335, ../scss/home.scss */
+.fundraising-facts-full {
+  min-width: 1170px; }
+/* line 337, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img {
+  background: url("../images/block-three.jpg") center top no-repeat !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  height: 100% !important;
+  padding: 60px 0;
+  position: relative; }
+/* line 345, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 {
+  color: #221f1f;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px; }
+/* line 352, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 span {
+  display: block; }
+/* line 356, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads p {
+  font-size: 25px;
+  line-height: 28px; }
+/* line 359, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads p span {
+  display: block; }
+/* line 363, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks {
+  margin: 22px 0 0 0; }
+/* line 365, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks li {
+  font-size: 22px;
+  background: url("../images/black-check-mark.png") left 4px no-repeat;
+  padding: 4px 0 1px 41px;
+  margin-bottom: 5px; }
+/* line 370, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks li:last-child {
+  margin-bottom: 0; }
+/* line 375, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container {
+  margin: 35px 0 0 42px; }
+/* line 377, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li {
+  float: left;
+  margin-right: 25px; }
+/* line 380, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li:last-child {
+  margin-right: 0; }
+/* line 383, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li .red-btn {
+  padding: 9px 20px 9px; }
+/* line 388, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li .black-apple-btn:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8; }
+
+/* line 399, ../scss/home.scss */
+.testimonial-block-full {
+  background: #f3f3f3;
+  padding: 34px 0;
+  min-width: 1170px; }
+/* line 405, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads h2 {
+  font-size: 40px;
+  color: #221f1e;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px; }
+/* line 414, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block {
+  float: left;
+  width: 369px;
+  background: url("../images/small-shadow-right.jpg") center right no-repeat;
+  min-height: 189px;
+  margin-right: 16px; }
+/* line 420, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block:last-child {
+  background: none;
+  margin-right: 0; }
+/* line 425, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .testimonial-avatar {
+  float: left; }
+/* line 428, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block {
+  float: left;
+  width: 250px;
+  margin-left: 20px; }
+/* line 432, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block q {
+  font-size: 19px;
+  font-style: italic;
+  letter-spacing: 0.5px; }
+/* line 437, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block cite {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 24px; }
+/* line 442, ../scss/home.scss */
+.testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block cite span {
+  display: block;
+  font-weight: normal; }
