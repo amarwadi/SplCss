@@ -533,7 +533,8 @@
 background: #62a744; 
 color: #ffffff;
 border-radius: 5px;
-padding:6px 15px; 
+padding:6px 15px;
+cursor:pointer; 
 }
 
 #uploadify:hover { 

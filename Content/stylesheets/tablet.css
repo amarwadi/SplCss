@@ -839,7 +839,7 @@
   /* line 1213, ../scss/tablet.scss */
   .video-full .video-holder-img {
     height: auto;
-    padding: 60px 0; }
+    padding: 60px 0 10px 0; }
   /* line 1218, ../scss/tablet.scss */
   .video-full .video-holder-img .video-centered .site-pads .video-content {
     margin-top: 0; }
@@ -850,7 +850,7 @@
   /* line 1229, ../scss/tablet.scss */
   .how-it-works-info-full .how-it-works-info-centered .site-pads .how-it-works-img {
     right: 15px;
-    max-width: 287px;
+    max-width: 245px;
     width: 30%;
     height: auto; }
 

@@ -97,31 +97,31 @@
     text-align: center;
     color: #FFFFFF; }
     .faq-full .faq-centered .site-pads h2 {
-      font-size: 45px;
-      line-height: 50px;
+      font-size: 30px;
+      line-height: 40px;
       font-weight: bold;
       text-transform: uppercase;
-      padding: 20px 0 20px; }
+      padding: 10px 0 10px; }
       .faq-full .faq-centered .site-pads h2 span {
         display: block; }
     .faq-full .faq-centered .site-pads p {
-      font-size: 30px;
-      line-height: 37px;
-      padding-bottom: 50px; }
+      font-size: 20px;
+      line-height: 25px;
+      padding-bottom: 30px; }
 
 .faq-sec {
   overflow: hidden; }
   .faq-sec p {
-    font-size: 22px;
-    line-height: 28px;
-    margin: 20px 0 40px 0;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0 20px 0;
     text-align: justify; }
     .faq-sec p.smallmarg {
       margin: 20px 0 10px 0; }
   .faq-sec .faq-left {
     float: left;
     text-align: left;
-    width: 28%;
+    width: 25%;
     padding-bottom: 500em;
     margin-bottom: -500em;
     background-image: linear-gradient(#343333, #141415); }
@@ -130,7 +130,7 @@
       padding: 5px 0; }
       .faq-sec .faq-left .nav-tabs li a {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: none;
         text-transform: uppercase; }
         .faq-sec .faq-left .nav-tabs li a:hover {
@@ -144,25 +144,25 @@
           color: #373838; }
   .faq-sec .faq-right {
     float: right;
-    width: 60%;
+    width: 68%;
     padding-bottom: 500em;
     margin-bottom: -500em;
     text-align: left;
     padding-right: 45px; }
   .faq-sec .faq-content h2 {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 28px;
     text-transform: uppercase;
-    margin: 30px 0; }
+    margin: 25px 0; }
   .faq-sec .faq-content .faq-item h3 {
     font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 20px; }
+    font-size: 21px;
+    margin-bottom: 0; }
   .faq-sec .faq-content .faq-item ol {
     margin-left: 30px; }
     .faq-sec .faq-content .faq-item ol li {
-      font-size: 22px;
-      margin-bottom: 10px;
+      font-size: 18px;
+      margin-bottom: 5px;
       list-style-type: decimal; }
 
 .support-options-full {
