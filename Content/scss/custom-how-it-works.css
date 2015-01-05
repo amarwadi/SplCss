@@ -7,7 +7,7 @@
   .why-spledger-full .why-spledger-centered .site-pads h2 {
     margin: 20px 0 10px;
     color: #282728;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: bold;
@@ -52,8 +52,8 @@
     font-weight: bold;
     text-align: center; }
   .why-spledger-full p {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 26px;
     text-align: justify; }
 
 .about-us-full {
@@ -64,24 +64,24 @@
     text-align: center;
     color: #FFFFFF; }
     .about-us-full .about-us-centered .site-pads h2 {
-      font-size: 45px;
-      line-height: 50px;
+      font-size: 35px;
+      line-height: 40px;
       font-weight: bold;
       text-transform: uppercase;
-      padding: 60px 0 20px; }
+      padding: 20px 0 10px; }
       .about-us-full .about-us-centered .site-pads h2 span {
         display: block; }
     .about-us-full .about-us-centered .site-pads p {
-      font-size: 30px;
-      line-height: 37px;
-      padding-bottom: 50px; }
+      font-size: 21px;
+      line-height: 27px;
+      padding-bottom: 30px; }
   .about-us-full p {
-    font-size: 22px;
-    line-height: 28px; }
+    font-size: 20px;
+    line-height: 26px; }
 
 .about-us-content p {
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 20px;
+  line-height: 26px;
   margin: 20px 0 40px 0; }
   .about-us-content p span.emphasize {
     font-style: italic; }
@@ -164,9 +164,6 @@
       font-size: 18px;
       margin-bottom: 5px;
       list-style-type: decimal; }
-
-.support-options-full {
-  margin-top: -10px; }
 
 .support-options-selections-full {
   margin-top: -10px; }

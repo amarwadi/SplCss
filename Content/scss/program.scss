@@ -8,23 +8,24 @@
 		.program-centered {
 			.site-pads {
 				color: #FFFFFF;
-				padding: 40px 15px 50px;
+				padding: 30px 15px 20px;
 				img {
 					float: left;
 					margin-top: 15px;
+                    
 				}
 				.program-header-content {
 					float: left;
 					margin-left: 50px;
 					h1 {
-						font-size: 50px;
+						font-size: 40px;
 						text-transform: uppercase;
 						font-weight: bold;
 						letter-spacing: 0.5px;
 					}
 					p {
 						width: 605px;
-						font-size: 25px;
+						font-size: 21px;
                         text-align:justify;
 
 					}
@@ -39,7 +40,7 @@
 	.programs-available-centered {
 		.site-pads {
 			h2 {
-				font-size: 28px;
+				font-size: 26px;
 				text-transform: uppercase;
 				color: #221f1f;
 				text-align: center;
@@ -68,6 +69,11 @@
 								background: #FFFFFF;
 								@include box-shadow( 0px 0 6px rgba(0, 0, 0, 0.2) );
 							}
+
+                            img{
+                                width:250px;
+                            }
+
 							.program-content {
 								border-bottom: 2px solid #d2d2d2;
 								width: 80%;
@@ -76,13 +82,13 @@
 								padding-bottom: 10px;
 								h3 {
 									font-size: 22px;
-                                    line-height:22px;
+                                    line-height:30px;
 									text-transform: uppercase;
 									font-weight: bold;
 									margin: 8px 0 0 0;
 								}
 								p {
-									line-height: 25px;
+									line-height: 20px;
 									span {
 										display: block;
 									}
@@ -102,11 +108,11 @@
 		.site-pads {
 			color: #FFFFFF;
 			text-transform: uppercase;
-			padding: 30px 15px;
+			padding: 15px 15px;
 			.bar-left {
 				float: left;
 				h2 {
-					font-size: 30px;
+					font-size: 26px;
 					color: #FFFFFF;
 					font-weight: bold;
 				}
@@ -119,7 +125,7 @@
 					&:before {
 						content: "FILTER BY:";
 						float: left;
-						font-size: 20px;
+						font-size: 18px;
 						font-weight: bold;
 						padding-right: 15px;
 					}
@@ -160,12 +166,12 @@
 			.single-programs-blocks {
 				.program-block {
 					background: #2e2f2f;
-					margin-bottom: 52px;
+					margin-bottom: 22px;
 					&:first-child {
-						margin-top: 52px;
+						margin-top: 22px;
 					}
 					.program-pads {
-						padding: 24px 14px 14px 43px;
+						padding: 14px 14px 14px 33px;
 						.image-holder {
 							float: left;
 						}
@@ -177,8 +183,8 @@
 							.program-main-pads {
 								padding: 0 0 0 10px;
 								h2 {
-									font-size: 35px;
-									line-height: 45px;
+									font-size: 31px;
+									line-height: 41px;
 									text-transform: uppercase;
 									font-weight: bold;
 									letter-spacing: 0.5px;
@@ -187,7 +193,7 @@
 								p {
 									text-align:justify;
 									color: #d3d3d3;
-									font-size: 19px;
+									font-size: 18px;
 									margin: 10px 0 20px;
 								}
 								.performance-table {
@@ -198,7 +204,7 @@
 											border-bottom: 3px solid #2E2F2F;
 											th {
 												color: #FFFFFF;
-												font-size: 22px;
+												font-size: 20px;
 												text-transform: uppercase;
 												font-weight: bold;
 												&:first-child {
@@ -216,7 +222,7 @@
 											background: #EEEEEE;
 											td {
 												color: #383838;
-												font-size: 20px;
+												font-size: 18px;
 												padding: 4px 0 4px 6px;
 												&:first-child {
 													padding: 4px 0 4px 19px;
@@ -235,7 +241,7 @@
 									overflow: auto;
 									cursor: pointer;
 									li {
-										font-size: 22px;
+										font-size: 20px;
 										font-weight: bold;
 										padding: 4px 19px;
 										&:first-child {
@@ -259,7 +265,7 @@
 											margin: 0;
 											padding: 19px;
 											li {
-												font-size: 22px;
+												font-size: 20px;
 												overflow: auto;
 												margin-bottom: 5px;
 												&:last-child {
@@ -306,7 +312,7 @@
 										display: block;
 										color: #FFFFFF;
 										text-decoration: none;
-										font-size: 20px;
+										font-size: 18px;
 									}
 								}
 							}
