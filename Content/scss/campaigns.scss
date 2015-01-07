@@ -7,7 +7,16 @@
         height: auto;
         padding: 131px 0 78px;
         background: url( '../images/campaigns/money-header.jpg' ) center top / cover no-repeat;
-
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            @include background-image(linear-gradient(left, rgba(0,0,0,1) 0%,  rgba(0,0,0,1) 20%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 78%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%));
+        }
         .campagin-centered {
             .site-pads {
                 .campagin-header-content {
