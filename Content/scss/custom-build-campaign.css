@@ -1,4 +1,4 @@
-.circular {
+﻿.circular {
   height: 100px;
   width: 100px;
   /*border-radius: 100px;*/
@@ -9,11 +9,11 @@
   text-align: justify; }
 
 .difference-rotate-block .difference-rotate .difference-candiate .canidate-content .canidate-pads h2 a {
-  font-size: 30px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: bold;
   color: #d3d3d3;
-  margin-bottom: 15px;
+  margin: 0 0 10px 0;
   text-decoration: none; }
 
 #spnUploadImage {
@@ -32,7 +32,7 @@
   text-decoration: none; }
 
 .added-program-sec {
-  margin: 20px 0;
+  margin: 10px 0;
   padding: 10px;
   border-bottom: 1px solid #2e2f2f; }
   .added-program-sec h3 {
@@ -42,12 +42,14 @@
     text-align: center;
     text-transform: uppercase; }
 
-.campaign-programs-sec h2 {
-  font-size: 28px;
-  font-weight: bold;
-  padding-top: 30px;
-  text-align: center;
-  text-transform: uppercase; }
+.campaign-programs-sec {
+  margin-top: 10px; }
+  .campaign-programs-sec h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase; }
 
 .black {
   color: #221f1f; }
@@ -100,12 +102,16 @@
   font-weight: bold;
   padding-top: 20px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #595959; }
 .build-campaign-sec h3 {
-  font-size: 22px;
+  font-size: 22px !important;
   font-weight: bold;
-  margin: 8px 0 0;
-  text-transform: uppercase; }
+  margin: 8px 0 10px 0 !important;
+  text-transform: uppercase;
+  color: #595959; }
+.build-campaign-sec p {
+  font-size: 16px !important; }
 .build-campaign-sec .red-txt {
   color: #ff0000 !important; }
 
@@ -191,36 +197,79 @@ table.performance-table {
 .beneficiary-modal {
   max-width: 700px; }
 
-.beneficiary-result {
+.beneficiary-result-item {
   float: left;
   margin-bottom: 10px;
   padding: 0 0 10px 0;
   border-bottom: solid 1px #2e302f;
   width: 80%; }
-  .beneficiary-result .ben-logo {
+  .beneficiary-result-item .ben-logo {
     width: 100px;
-    height: 100px; }
-  .beneficiary-result .address {
+    height: 100px;
     float: left;
-    font-size: 20px; }
-  .beneficiary-result h3 {
-    font-size: 20px;
+    margin-right: 10px; }
+  .beneficiary-result-item .address {
+    float: left;
+    font-size: 16px; }
+  .beneficiary-result-item .alias {
+    font-size: 16px;
+    clear: both;
+    float: left; }
+  .beneficiary-result-item h3 {
+    font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase; }
-  .beneficiary-result .ben-details {
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom: 10px; }
+  .beneficiary-result-item .ben-details {
     margin: 0 15px;
     float: left; }
+    .beneficiary-result-item .ben-details p {
+      font-size: 16px;
+      text-align: justify;
+      float: left; }
+  .beneficiary-result-item .green-btn {
+    font-size: 16px !important;
+    padding: 5px 10px; }
 
 .selected-beneficiary-sec {
   padding: 20px;
   margin-bottom: 50px; }
+  .selected-beneficiary-sec h2 {
+    font-size: 24px;
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #adadad; }
+  .selected-beneficiary-sec .header {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #adadad; }
+    .selected-beneficiary-sec .header h2 {
+      text-align: left !important;
+      margin: 0 0 10px 0; }
+    .selected-beneficiary-sec .header img {
+      margin-right: 10px;
+      max-height: 150px;
+      max-width: 150px; }
+    .selected-beneficiary-sec .header .tools {
+      float: right; }
+      .selected-beneficiary-sec .header .tools .red-btn {
+        font-size: 14px; }
+  .selected-beneficiary-sec .details {
+    margin-top: 20px;
+    font-size: 18px; }
+    .selected-beneficiary-sec .details a {
+      text-decoration: none; }
+    .selected-beneficiary-sec .details table {
+      margin-top: 20px; }
+      .selected-beneficiary-sec .details table tr td {
+        font-size: 18px; }
   .selected-beneficiary-sec .beneficiary-item {
     margin-top: 20px;
     border-top: solid 1px #2e302f;
     padding: 20px 0; }
   .selected-beneficiary-sec p {
-    font-size: 20px;
-    line-height: 1.5em; }
+    font-size: 18px;
+    line-height: 22px; }
   .selected-beneficiary-sec .address {
     float: left;
     font-size: 20px; }
@@ -342,7 +391,7 @@ button.red-btn {
   overflow: hidden;
   width: 110px;
   height: 110px;
-  border: 10px solid #D2D2D2;
+  border: 5px solid #D2D2D2;
   float: left;
   display: block;
   margin: 0 auto 10px;
@@ -371,8 +420,9 @@ button.red-btn {
 .logo-holder img {
   width: 110px;
   height: 110px;
-  border: 10px solid #D2D2D2; }
+  border: 5px solid #D2D2D2; }
 
 .recent-activity-list {
   margin-bottom: 20px; }
 
+/*# sourceMappingURL=custom-build-campaign.css.map */

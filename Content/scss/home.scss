@@ -120,7 +120,7 @@
 		background: url( '../images/block-two.jpg' ) center top no-repeat !important;
 		@include background-size( cover !important );
 		height: 100% !important;
-		padding: 60px 0;
+		padding: 10px 0;
 		position: relative;
 		.make-difference-centered {
 			.site-pads {
@@ -129,7 +129,7 @@
 					color: #FFFFFF;
 					text-transform: uppercase;
 					text-align: center;
-					font-size: 45px;
+					font-size: 30px;
 					font-weight: bold;
 				}
 				// .difference-rotate-block {

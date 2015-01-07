@@ -279,7 +279,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #d3d3d3;
-  margin-bottom: 15px; }
+  margin: 0 0 10px 0; }
 /* line 274, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block a {
   float: left; }

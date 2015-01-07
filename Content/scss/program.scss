@@ -8,7 +8,7 @@
 		.program-centered {
 			.site-pads {
 				color: #FFFFFF;
-				padding: 30px 15px 20px;
+				padding: 20px 15px 10px;
 				img {
 					float: left;
 					margin-top: 15px;
@@ -18,14 +18,15 @@
 					float: left;
 					margin-left: 50px;
 					h1 {
-						font-size: 40px;
+						font-size: 36px;
 						text-transform: uppercase;
 						font-weight: bold;
 						letter-spacing: 0.5px;
 					}
 					p {
-						width: 605px;
-						font-size: 21px;
+						max-width: 765px;
+                        padding-bottom:20px;
+						font-size: 18px;
                         text-align:justify;
 
 					}
@@ -40,12 +41,12 @@
 	.programs-available-centered {
 		.site-pads {
 			h2 {
-				font-size: 26px;
+				font-size: 22px;
 				text-transform: uppercase;
 				color: #221f1f;
 				text-align: center;
 				font-weight: bold;
-				padding-top: 30px;
+				padding-top: 20px;
 				span {
 					color: #62A744;
 				}
@@ -62,7 +63,7 @@
 							text-align: center;
 							width: 285px;
 							display: block;
-							padding: 25px 0;
+							padding: 0 0 15px 0;
 							@include border-radius( 5px );
 							@include box-shadow( 0px 0 6px rgba(0, 0, 0, 0) );
 							&:hover {
@@ -71,7 +72,7 @@
 							}
 
                             img{
-                                width:250px;
+                                width:225px;
                             }
 
 							.program-content {
@@ -81,13 +82,14 @@
 								display: block;
 								padding-bottom: 10px;
 								h3 {
-									font-size: 22px;
-                                    line-height:30px;
+									font-size: 18px;
+                                    line-height:22px;
 									text-transform: uppercase;
 									font-weight: bold;
 									margin: 8px 0 0 0;
 								}
 								p {
+                                    font-size:18px;
 									line-height: 20px;
 									span {
 										display: block;
@@ -108,11 +110,11 @@
 		.site-pads {
 			color: #FFFFFF;
 			text-transform: uppercase;
-			padding: 15px 15px;
+			padding: 10px;
 			.bar-left {
 				float: left;
 				h2 {
-					font-size: 26px;
+					font-size: 24px;
 					color: #FFFFFF;
 					font-weight: bold;
 				}
@@ -125,7 +127,7 @@
 					&:before {
 						content: "FILTER BY:";
 						float: left;
-						font-size: 18px;
+						font-size: 16px;
 						font-weight: bold;
 						padding-right: 15px;
 					}
@@ -140,7 +142,7 @@
 							text-decoration: none;
 							background: #FFFFFF;
 							color: #62a744;
-							font-size: 18px;
+							font-size: 16px;
 							padding: 2px 15px;
 							&:hover {
 								background: #302f2f;
@@ -174,6 +176,9 @@
 						padding: 14px 14px 14px 33px;
 						.image-holder {
 							float: left;
+                            img{
+                                width:240px !important;
+                            }
 						}
 						.program-main-info {
 							float: left;
@@ -183,8 +188,8 @@
 							.program-main-pads {
 								padding: 0 0 0 10px;
 								h2 {
-									font-size: 31px;
-									line-height: 41px;
+									font-size: 28px;
+									line-height: 31px;
 									text-transform: uppercase;
 									font-weight: bold;
 									letter-spacing: 0.5px;
@@ -193,7 +198,7 @@
 								p {
 									text-align:justify;
 									color: #d3d3d3;
-									font-size: 18px;
+									font-size: 16px;
 									margin: 10px 0 20px;
 								}
 								.performance-table {
@@ -204,17 +209,17 @@
 											border-bottom: 3px solid #2E2F2F;
 											th {
 												color: #FFFFFF;
-												font-size: 20px;
+												font-size: 18px;
 												text-transform: uppercase;
 												font-weight: bold;
 												&:first-child {
 													background: url( '../images/clip-board-icon.jpg' ) center left no-repeat;
-													padding: 9px 0 12px 64px;
+													padding: 9px 0 12px 44px;
                                                     background-position-x: 10px;
 												}
 												&:last-child {
 													background: url( '../images/money-icon.jpg' ) center left no-repeat;
-													padding: 9px 0 12px 40px;
+													padding: 9px 0 12px 25px;
 												}
 											}
 										}
@@ -222,7 +227,7 @@
 											background: #EEEEEE;
 											td {
 												color: #383838;
-												font-size: 18px;
+												font-size: 16px;
 												padding: 4px 0 4px 6px;
 												&:first-child {
 													padding: 4px 0 4px 19px;
@@ -241,7 +246,7 @@
 									overflow: auto;
 									cursor: pointer;
 									li {
-										font-size: 20px;
+										font-size: 18px;
 										font-weight: bold;
 										padding: 4px 19px;
 										&:first-child {
@@ -265,7 +270,7 @@
 											margin: 0;
 											padding: 19px;
 											li {
-												font-size: 20px;
+												font-size: 18px;
 												overflow: auto;
 												margin-bottom: 5px;
 												&:last-child {
@@ -285,7 +290,7 @@
 													float: right;
 													background: #bdbdbd;
 													border: none;
-													font-size: 16px;
+													font-size: 14px;
 													width: 313px;
 													padding: 4px 10px;
 												}
