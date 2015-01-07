@@ -219,7 +219,7 @@
 .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th:first-child {
   background: url("../images/clip-board-icon.jpg") center left no-repeat;
   padding: 9px 0 12px 44px;
-  background-position-x: 10px; }
+  background-position: 5px; }
 /* line 220, ../scss/program.scss */
 .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th:last-child {
   background: url("../images/money-icon.jpg") center left no-repeat;

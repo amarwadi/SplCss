@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -8,38 +8,38 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none; }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -2089,7 +2089,7 @@ header .active {
 .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th:first-child {
   background: url("../images/clip-board-icon.jpg") center left no-repeat;
   padding: 9px 0 12px 44px;
-  background-position-x: 10px; }
+  background-position: 5px; }
 /* line 220, ../scss/program.scss */
 .programs-single-full .programs-single-centered .site-pads .single-programs-blocks .program-block .program-pads .program-main-info .program-main-pads .performance-table tbody tr.titles th:last-child {
   background: url("../images/money-icon.jpg") center left no-repeat;
@@ -2199,31 +2199,16 @@ header .active {
 .campagin-header-full .campagin-img-full {
   height: auto;
   padding: 131px 0 78px;
-  background: url("../images/campaigns/money-header.jpg") center top/cover no-repeat;
-  position: relative; }
-/* line 11, ../scss/campaigns.scss */
-.campagin-header-full .campagin-img-full:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIi8+PHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3OCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI4MiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #000000), color-stop(20%, #000000), color-stop(22%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(78%, rgba(0, 0, 0, 0)), color-stop(82%, #000000), color-stop(100%, #000000));
-  background-image: -moz-linear-gradient(left, #000000 0%, #000000 20%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 78%, #000000 82%, #000000 100%);
-  background-image: -webkit-linear-gradient(left, #000000 0%, #000000 20%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 78%, #000000 82%, #000000 100%);
-  background-image: linear-gradient(to right, #000000 0%, #000000 20%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 78%, #000000 82%, #000000 100%); }
-/* line 23, ../scss/campaigns.scss */
+  background: url("../images/campaigns/money-header.jpg") center top/cover no-repeat; }
+/* line 14, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full {
   width: 1014px;
   background: rgba(0, 0, 0, 0.2);
   margin: 48px auto 0; }
-/* line 28, ../scss/campaigns.scss */
+/* line 19, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads {
   padding: 35px 25px; }
-/* line 31, ../scss/campaigns.scss */
+/* line 22, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads h1 {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -2231,7 +2216,7 @@ header .active {
   letter-spacing: 0.5px;
   font-weight: bold;
   float: left; }
-/* line 40, ../scss/campaigns.scss */
+/* line 31, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads h2 {
   color: #FFFFFF;
   font-size: 30px;
@@ -2239,11 +2224,11 @@ header .active {
   text-transform: uppercase;
   float: left;
   margin-right: 15px; }
-/* line 50, ../scss/campaigns.scss */
+/* line 41, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form {
   float: right;
   margin-top: 10px; }
-/* line 54, ../scss/campaigns.scss */
+/* line 45, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form .campaign-title, .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form .campaign-city {
   background: none;
   border-top: none;
@@ -2253,31 +2238,31 @@ header .active {
   color: #A7A29A;
   float: left;
   padding: 9px 0; }
-/* line 66, ../scss/campaigns.scss */
+/* line 57, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form .campaign-title {
   width: 308px;
   text-indent: 9px;
   border-right: 1px solid #A7A29A; }
-/* line 72, ../scss/campaigns.scss */
+/* line 63, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form .campaign-city {
   background: url("../images/map-icon.png") 10px center no-repeat;
   padding-left: 35px; }
-/* line 77, ../scss/campaigns.scss */
+/* line 68, ../scss/campaigns.scss */
 .campagin-header-full .campagin-img-full .campagin-centered .site-pads .campagin-header-content .campaign-box-full .campaign-box-pads #campaign-form .submit-icon {
   color: #878788;
   font-size: 20px;
   padding-top: 4px; }
 
-/* line 91, ../scss/campaigns.scss */
+/* line 82, ../scss/campaigns.scss */
 .grey-bar-full {
   background: #464646;
   padding: 21px 0;
   min-width: 1170px; }
-/* line 98, ../scss/campaigns.scss */
+/* line 89, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list {
   margin: 0;
   float: left; }
-/* line 102, ../scss/campaigns.scss */
+/* line 93, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list:before {
   content: "Filter:";
   float: left;
@@ -2288,14 +2273,14 @@ header .active {
   margin-right: 10px;
   position: relative;
   top: 4px; }
-/* line 114, ../scss/campaigns.scss */
+/* line 105, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li {
   float: left;
   margin-right: 10px; }
-/* line 118, ../scss/campaigns.scss */
+/* line 109, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li:last-child {
   margin-right: 0; }
-/* line 122, ../scss/campaigns.scss */
+/* line 113, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li a {
   display: block;
   text-decoration: none;
@@ -2306,23 +2291,23 @@ header .active {
   font-weight: bold;
   letter-spacing: 0.5px;
   padding: 5px 15px; }
-/* line 133, ../scss/campaigns.scss */
+/* line 124, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li a:hover {
   background: #61605F; }
-/* line 138, ../scss/campaigns.scss */
+/* line 129, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li .active-green {
   background: #62a744; }
-/* line 142, ../scss/campaigns.scss */
+/* line 133, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li .active-blue {
   background: #6daede; }
-/* line 146, ../scss/campaigns.scss */
+/* line 137, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads .filter-list li .active-pink {
   background: #d4558b; }
-/* line 152, ../scss/campaigns.scss */
+/* line 143, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads #filter-form {
   float: right;
   overflow: hidden; }
-/* line 156, ../scss/campaigns.scss */
+/* line 147, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads #filter-form select {
   background: #9f9d9a url("../images/campaigns/dropdown-arrow.jpg") right center no-repeat;
   border: none !important;
@@ -2342,23 +2327,23 @@ header .active {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 174, ../scss/campaigns.scss */
+/* line 165, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads #filter-form select:first-child {
   margin-left: 0; }
-/* line 179, ../scss/campaigns.scss */
+/* line 170, ../scss/campaigns.scss */
 .grey-bar-full .grey-bar-centered .site-pads #filter-form select[disabled] {
   background: #61605f url("../images/campaigns/dropdown-arrow-disabled.jpg") right center no-repeat;
   color: #b0b0b0; }
 
-/* line 188, ../scss/campaigns.scss */
+/* line 179, ../scss/campaigns.scss */
 .campagin-blocks-full {
   background: #e0dfdf;
   padding: 77px 0 43px 0;
   min-width: 1170px; }
-/* line 195, ../scss/campaigns.scss */
+/* line 186, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row {
   margin-bottom: 30px; }
-/* line 198, ../scss/campaigns.scss */
+/* line 189, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block {
   width: 555px;
   background: #FFFFFF;
@@ -2370,7 +2355,7 @@ header .active {
                     &:last-child {
                         float: right;
                     }*/ }
-/* line 212, ../scss/campaigns.scss */
+/* line 203, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .top-bar span {
   color: rgba(255, 255, 255, 0.4);
   font-size: 18px;
@@ -2379,25 +2364,25 @@ header .active {
   text-align: right;
   text-transform: uppercase;
   display: block; }
-/* line 223, ../scss/campaigns.scss */
+/* line 214, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content {
   color: #373838;
   padding: 10px 14px 20px 14px; }
-/* line 227, ../scss/campaigns.scss */
+/* line 218, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content h2 {
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 0.5px;
   font-weight: bold;
   margin-bottom: 10px; }
-/* line 235, ../scss/campaigns.scss */
+/* line 226, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .logo-holder {
   float: left; }
-/* line 239, ../scss/campaigns.scss */
+/* line 230, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info {
   width: 375px;
   float: right; }
-/* line 243, ../scss/campaigns.scss */
+/* line 234, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info h3 {
   font-size: 20px;
   line-height: 24px;
@@ -2405,69 +2390,69 @@ header .active {
   border-bottom: 1px solid #bcbcbc;
   padding-bottom: 10px;
   margin: 0; }
-/* line 251, ../scss/campaigns.scss */
+/* line 242, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info h3 span {
   display: block;
   font-weight: normal; }
-/* line 258, ../scss/campaigns.scss */
+/* line 249, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campagin-details li {
   font-size: 20px;
   text-transform: uppercase; }
-/* line 263, ../scss/campaigns.scss */
+/* line 254, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campagin-details li:last-child span {
   float: none; }
-/* line 268, ../scss/campaigns.scss */
+/* line 259, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campagin-details li span {
   float: right;
   font-weight: bold; }
-/* line 273, ../scss/campaigns.scss */
+/* line 264, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campagin-details li .red-txt {
   color: #ff0000; }
-/* line 277, ../scss/campaigns.scss */
+/* line 268, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campagin-details li .green-txt {
   color: #6db447; }
-/* line 283, ../scss/campaigns.scss */
+/* line 274, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns {
   margin: 0 10px 0 0; }
-/* line 286, ../scss/campaigns.scss */
+/* line 277, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns li {
   float: left;
   margin-right: 9px; }
-/* line 290, ../scss/campaigns.scss */
+/* line 281, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns li .red-btn {
   font-size: 18px; }
-/* line 294, ../scss/campaigns.scss */
+/* line 285, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns li .follow-btn {
   font-size: 18px; }
-/* line 298, ../scss/campaigns.scss */
+/* line 289, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns li .follow-white-btn {
   font-size: 18px !important; }
-/* line 302, ../scss/campaigns.scss */
+/* line 293, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .campaign-row .campagin-block .campagin-content .campaign-info .campaign-btns li:last-child {
   margin-right: 0; }
-/* line 312, ../scss/campaigns.scss */
+/* line 303, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .pagination {
   margin: 40px 0 0 0;
   text-align: center;
   font-size: 22px;
   color: #909090; }
-/* line 318, ../scss/campaigns.scss */
+/* line 309, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .pagination li {
   display: inline-block;
   width: 30px;
   height: 30px;
   cursor: pointer; }
-/* line 324, ../scss/campaigns.scss */
+/* line 315, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .pagination li:hover {
   color: #565556; }
-/* line 329, ../scss/campaigns.scss */
+/* line 320, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .pagination .active-page {
   background: #565556;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
   color: #FFFFFF; }
-/* line 334, ../scss/campaigns.scss */
+/* line 325, ../scss/campaigns.scss */
 .campagin-blocks-full .campagin-blocks-centered .site-pads .pagination .active-page:hover {
   color: #FFFFFF; }
 
@@ -3238,13 +3223,13 @@ header .active {
 /* line 8, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block {
   background: #2E302F;
-  margin-bottom: 52px; }
+  margin-bottom: 32px; }
 /* line 11, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block:first-child {
-  margin-top: 52px; }
+  margin-top: 32px; }
 /* line 14, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads {
-  padding: 24px 14px 14px 43px; }
+  padding: 14px 10px 10px 28px; }
 /* line 16, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder {
   float: left;
@@ -3252,59 +3237,61 @@ header .active {
   text-align: center; }
 /* line 20, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder .program-number {
-  font-size: 22px;
+  font-size: 17px;
   color: #d3d3d3;
   font-weight: bold;
-  margin-bottom: 35px; }
-/* line 26, ../scss/campaign-overview.scss */
+  margin-bottom: 10px; }
+/* line 27, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder img {
+  width: 250px; }
+/* line 31, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder h2, .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder span {
   color: #FFFFFF; }
-/* line 30, ../scss/campaign-overview.scss */
+/* line 35, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder h2 {
-  font-size: 28px;
+  font-size: 21px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin-top: 30px; }
-/* line 36, ../scss/campaign-overview.scss */
-.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder span {
-  font-size: 22px;
-  letter-spacing: 0.5px; }
+  margin-top: 20px; }
 /* line 41, ../scss/campaign-overview.scss */
+.overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .image-holder span {
+  font-size: 18px;
+  letter-spacing: 0.5px; }
+/* line 46, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info {
   float: left;
   width: 768px;
   background: url("../images/border-repeat-one.jpg") top left repeat-y;
   margin-left: 10px; }
-/* line 46, ../scss/campaign-overview.scss */
+/* line 51, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads {
   position: relative;
   padding: 0 0 0 10px; }
-/* line 49, ../scss/campaign-overview.scss */
+/* line 54, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads h2 {
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 27px;
+  line-height: 30px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
   color: #FFFFFF; }
-/* line 57, ../scss/campaign-overview.scss */
+/* line 62, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads > p {
-  width: 580px;
   color: #d3d3d3;
-  font-size: 19px;
-  margin: 10px 0 20px; }
-/* line 63, ../scss/campaign-overview.scss */
+  font-size: 15px;
+  margin: 7px 0 14px; }
+/* line 67, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table {
   width: 100%;
   position: relative; }
-/* line 66, ../scss/campaign-overview.scss */
+/* line 70, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody {
   text-transform: uppercase; }
-/* line 68, ../scss/campaign-overview.scss */
+/* line 72, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles {
   background: #62a744;
   border-bottom: 3px solid #2E2F2F; }
-/* line 71, ../scss/campaign-overview.scss */
+/* line 75, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th {
   width: 291px;
   color: #FFFFFF;
@@ -3312,62 +3299,63 @@ header .active {
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 78, ../scss/campaign-overview.scss */
+/* line 82, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th:first-child {
   background: url("../images/clip-board-icon.jpg") center left no-repeat;
   padding: 9px 0 12px 0;
-  text-indent: 59px; }
-/* line 83, ../scss/campaign-overview.scss */
+  text-indent: 59px;
+  background-position: 5px; }
+/* line 88, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.titles th:last-child {
   background: url("../images/money-icon.jpg") center left no-repeat;
   padding: 9px 0 12px 40px; }
-/* line 89, ../scss/campaign-overview.scss */
+/* line 94, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info {
   background: #EEEEEE; }
-/* line 91, ../scss/campaign-overview.scss */
+/* line 96, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info td {
   position: relative;
   color: #383838;
-  font-size: 20px;
+  font-size: 16px;
   padding: 4px 0 4px 6px; }
-/* line 96, ../scss/campaign-overview.scss */
+/* line 101, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody tr.info td:first-child {
   padding: 4px 0 4px 19px;
   border-right: 1px solid #8a8a8a; }
-/* line 102, ../scss/campaign-overview.scss */
+/* line 107, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .one {
   border-bottom: 1px solid #8a8a8a; }
-/* line 106, ../scss/campaign-overview.scss */
+/* line 111, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .two .tooltip-block {
   width: 305px;
   top: 31px;
   left: -310px; }
-/* line 110, ../scss/campaign-overview.scss */
+/* line 115, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .performance-table tbody .two .tooltip-block .right-arrow {
   top: 44%;
   right: -10px; }
-/* line 118, ../scss/campaign-overview.scss */
+/* line 123, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table {
   margin-top: 15px !important; }
-/* line 122, ../scss/campaign-overview.scss */
+/* line 127, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr:last-child {
   background: #FFFFFF !important; }
-/* line 124, ../scss/campaign-overview.scss */
+/* line 129, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr:last-child td {
   font-weight: bold !important;
   text-transform: uppercase !important; }
-/* line 131, ../scss/campaign-overview.scss */
+/* line 136, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr.titles th {
   background: none !important;
   text-indent: 24px !important; }
-/* line 136, ../scss/campaign-overview.scss */
+/* line 141, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody tr.info {
   border-bottom: 1px solid #8A8A8A !important; }
-/* line 139, ../scss/campaign-overview.scss */
+/* line 144, ../scss/campaign-overview.scss */
 .overview-block-full .overview-block-centered .site-pads .single-over-blocks .overview-block .overview-pads .overview-main-info .overview-main-pads .goal-table tbody .four {
   border-bottom: none !important; }
 
-/* line 2, ../scss/campaign-performance.scss */
+/* line 3, ../scss/campaign-performance.scss */
 .performance-block-full {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -3376,186 +3364,189 @@ header .active {
   background-image: -webkit-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
   min-width: 1170px; }
-/* line 7, ../scss/campaign-performance.scss */
+/* line 9, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .main-header {
-  font-size: 30px;
+  font-size: 26px;
   color: #d7d7d7;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin-top: 30px; }
-/* line 16, ../scss/campaign-performance.scss */
+  margin-top: 20px; }
+/* line 19, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block {
   background: #2E302F;
-  margin-bottom: 52px; }
-/* line 19, ../scss/campaign-performance.scss */
+  margin-bottom: 30px; }
+/* line 23, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block:first-child {
-  margin-top: 52px; }
-/* line 22, ../scss/campaign-performance.scss */
+  margin-top: 30px; }
+/* line 27, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads {
-  padding: 24px 14px 14px 23px; }
-/* line 24, ../scss/campaign-performance.scss */
+  padding: 18px 10px 10px 16px; }
+/* line 30, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder {
   float: left;
   text-transform: uppercase;
   text-align: center; }
-/* line 28, ../scss/campaign-performance.scss */
+/* line 35, ../scss/campaign-performance.scss */
+.performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder img {
+  width: 250px; }
+/* line 39, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder .program-number {
-  font-size: 22px;
+  font-size: 18px;
   color: #d3d3d3;
   font-weight: bold;
-  margin-bottom: 35px; }
-/* line 34, ../scss/campaign-performance.scss */
+  margin-bottom: 15px; }
+/* line 46, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder h2, .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder span {
   color: #FFFFFF; }
-/* line 38, ../scss/campaign-performance.scss */
+/* line 51, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder h2 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   letter-spacing: 0.5px;
-  margin-top: 30px; }
-/* line 44, ../scss/campaign-performance.scss */
+  margin-top: 20px; }
+/* line 58, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .image-holder span {
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 0.5px; }
-/* line 49, ../scss/campaign-performance.scss */
+/* line 64, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info {
   float: left;
   width: 768px;
   background: url("../images/border-repeat-one.jpg") top left repeat-y;
   margin-left: 10px; }
-/* line 54, ../scss/campaign-performance.scss */
+/* line 70, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads {
   position: relative;
   padding: 0 0 0 10px; }
-/* line 57, ../scss/campaign-performance.scss */
+/* line 74, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads h2 {
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 28px;
+  line-height: 30px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
   color: #FFFFFF; }
-/* line 65, ../scss/campaign-performance.scss */
+/* line 83, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads > p {
-  width: 580px;
   color: #d3d3d3;
-  font-size: 19px;
-  margin: 10px 0 20px; }
-/* line 71, ../scss/campaign-performance.scss */
+  font-size: 16px;
+  margin: 7px 0 16px; }
+/* line 89, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table {
   width: 100%;
   position: relative; }
-/* line 74, ../scss/campaign-performance.scss */
+/* line 93, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody {
   text-transform: uppercase; }
-/* line 76, ../scss/campaign-performance.scss */
+/* line 96, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.titles {
   background: #62a744;
   border-bottom: 3px solid #2E2F2F; }
-/* line 79, ../scss/campaign-performance.scss */
+/* line 100, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.titles th {
   width: 291px;
   color: #FFFFFF;
-  font-size: 20px;
-  line-height: 20px;
-  padding: 10px 0;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 7px 0;
   text-transform: uppercase;
   text-align: center; }
-/* line 87, ../scss/campaign-performance.scss */
+/* line 109, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.titles th span {
   display: block; }
-/* line 90, ../scss/campaign-performance.scss */
+/* line 113, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.titles th:first-child {
   padding: 0 85px; }
-/* line 95, ../scss/campaign-performance.scss */
+/* line 119, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info {
   border-bottom: 1px solid #8A8A8A; }
-/* line 97, ../scss/campaign-performance.scss */
+/* line 122, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info td {
   color: #383838;
-  font-size: 20px;
+  font-size: 16px;
   padding: 4px 0 4px 0;
   text-align: center; }
-/* line 102, ../scss/campaign-performance.scss */
+/* line 128, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info td:last-child {
   text-align: right;
   padding-right: 25px; }
-/* line 106, ../scss/campaign-performance.scss */
+/* line 133, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info td i {
   float: left;
   padding-left: 10px; }
-/* line 110, ../scss/campaign-performance.scss */
+/* line 138, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info td span {
   float: right;
   padding-right: 10px; }
-/* line 115, ../scss/campaign-performance.scss */
+/* line 144, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info .even {
   background: #EEEEEE; }
-/* line 118, ../scss/campaign-performance.scss */
+/* line 148, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info .odd {
   background: #FFFFFF; }
-/* line 121, ../scss/campaign-performance.scss */
+/* line 152, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .performance-table tbody tr.info .main-title {
   padding: 4px 12px;
   border-right: 1px solid #8a8a8a;
   text-align: left; }
-/* line 129, ../scss/campaign-performance.scss */
+/* line 161, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table {
   width: 100%;
   position: relative;
   margin-top: 20px; }
-/* line 133, ../scss/campaign-performance.scss */
+/* line 166, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody {
   text-transform: uppercase; }
-/* line 135, ../scss/campaign-performance.scss */
+/* line 169, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.titles {
   background: #62a744;
   border-bottom: 3px solid #2E2F2F; }
-/* line 138, ../scss/campaign-performance.scss */
+/* line 173, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.titles th {
   width: 291px;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 16px;
   padding: 10px 15px;
   color: #FFFFFF;
   text-transform: uppercase;
   text-align: left; }
-/* line 148, ../scss/campaign-performance.scss */
+/* line 184, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.info {
   border-bottom: 1px solid #8A8A8A; }
-/* line 150, ../scss/campaign-performance.scss */
+/* line 187, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.info td {
   color: #383838;
-  font-size: 20px;
+  font-size: 16px;
   padding: 4px 25px;
   text-align: right; }
-/* line 156, ../scss/campaign-performance.scss */
+/* line 194, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.info .even {
   background: #EEEEEE; }
-/* line 159, ../scss/campaign-performance.scss */
+/* line 198, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.info .odd {
   background: #FFFFFF; }
-/* line 162, ../scss/campaign-performance.scss */
+/* line 202, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .spledger-performance-table tbody tr.info .main-title {
   padding: 4px 12px;
   border-right: 1px solid #8a8a8a;
   text-align: left; }
-/* line 170, ../scss/campaign-performance.scss */
+/* line 211, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .performance-block .performance-pads .performance-main-info .performance-main-pads .games-completed {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.5px;
   margin: 15px 0 0 0; }
-/* line 181, ../scss/campaign-performance.scss */
+/* line 223, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .spledge-now-btn-container {
   margin-bottom: 52px; }
-/* line 183, ../scss/campaign-performance.scss */
+/* line 226, ../scss/campaign-performance.scss */
 .performance-block-full .performance-block-centered .site-pads .single-over-blocks .spledge-now-btn-container .red-btn {
-  float: right; }
+  float: right;
+  font-size: 16px; }
 
-/* line 191, ../scss/campaign-performance.scss */
+/* line 236, ../scss/campaign-performance.scss */
 .performance-block-filter-full {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -3564,29 +3555,29 @@ header .active {
   background-image: -webkit-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
   min-width: 1170px; }
-/* line 196, ../scss/campaign-performance.scss */
+/* line 242, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .title-filter-block {
-  margin: 30px 0; }
-/* line 198, ../scss/campaign-performance.scss */
+  margin: 20px 0; }
+/* line 245, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .title-filter-block .main-header {
-  font-size: 30px;
+  font-size: 26px;
   color: #d7d7d7;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
   float: left; }
-/* line 206, ../scss/campaign-performance.scss */
+/* line 254, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .title-filter-block .sort-by-filter {
   float: right; }
-/* line 209, ../scss/campaign-performance.scss */
+/* line 258, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .title-filter-block .sort-by-filter form:before {
   content: "Sort By";
   color: #d7d7d7;
-  font-size: 22px;
+  font-size: 18px;
   text-transform: uppercase;
   padding-right: 15px;
   font-weight: bold; }
-/* line 217, ../scss/campaign-performance.scss */
+/* line 267, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .title-filter-block .sort-by-filter form select {
   -moz-appearance: none;
   background: url("../images/campaigns/dropdown-arrow.jpg") no-repeat scroll right center #9F9D9A;
@@ -3601,79 +3592,79 @@ header .active {
   text-overflow: "";
   text-transform: uppercase;
   width: 150px; }
-/* line 236, ../scss/campaign-performance.scss */
+/* line 287, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block {
   text-transform: uppercase;
   text-align: center;
   color: #FFFFFF;
-  padding: 25px 20px 25px; }
-/* line 241, ../scss/campaign-performance.scss */
+  padding: 15px 10px 15px; }
+/* line 293, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-01 {
-  font-size: 40px;
-  line-height: 30px;
+  font-size: 28px;
+  line-height: 21px;
   font-weight: bold; }
-/* line 245, ../scss/campaign-performance.scss */
+/* line 298, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-01 i {
-  font-size: 30px;
+  font-size: 21px;
   font-weight: normal; }
-/* line 249, ../scss/campaign-performance.scss */
+/* line 303, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-01 span {
   font-weight: normal; }
-/* line 253, ../scss/campaign-performance.scss */
+/* line 308, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-02 {
-  font-size: 32px;
-  line-height: 45px; }
-/* line 256, ../scss/campaign-performance.scss */
+  font-size: 21px;
+  line-height: 28px; }
+/* line 312, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-02 span {
   font-weight: bold; }
-/* line 260, ../scss/campaign-performance.scss */
+/* line 317, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .top-title-block .line-info-03 {
-  font-size: 40px;
+  font-size: 28px;
   font-weight: bold;
-  line-height: 32px; }
-/* line 266, ../scss/campaign-performance.scss */
+  line-height: 21px; }
+/* line 324, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row {
-  margin-bottom: 40px; }
-/* line 268, ../scss/campaign-performance.scss */
+  margin-bottom: 28px; }
+/* line 327, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block {
   width: 555px;
-  background: #2c2d2d;
-  /*&:first-child {
-  	float: left;
-  }
-  &:last-child {
-  	float: right;
-  }*/ }
-/* line 277, ../scss/campaign-performance.scss */
+  background: #2c2d2d; }
+/* line 331, ../scss/campaign-performance.scss */
+.performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block:first-child {
+  float: left; }
+/* line 335, ../scss/campaign-performance.scss */
+.performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block:last-child {
+  float: right; }
+/* line 339, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads {
-  padding: 38px 18px 18px; }
-/* line 280, ../scss/campaign-performance.scss */
+  padding: 18px 7px 7px; }
+/* line 343, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .image-title img {
   float: left; }
-/* line 283, ../scss/campaign-performance.scss */
+/* line 347, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .image-title h2 {
   float: left;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 32px;
-  padding: 35px 0 0 20px;
+  font-size: 21px;
+  line-height: 24px;
+  padding: 18px 0 0 5px;
   letter-spacing: 0.5px; }
-/* line 292, ../scss/campaign-performance.scss */
+/* line 357, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .image-title h2 span {
   display: block; }
-/* line 297, ../scss/campaign-performance.scss */
+/* line 363, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block {
-  margin-top: 20px; }
-/* line 299, ../scss/campaign-performance.scss */
+  margin-top: 10px; }
+/* line 366, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block h3.cat-title {
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 18px;
   width: 388px;
   margin: 0 auto 7px; }
-/* line 306, ../scss/campaign-performance.scss */
+/* line 374, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block {
   background: #FFFFFF;
   overflow: auto;
@@ -3683,40 +3674,40 @@ header .active {
   text-align: center;
   width: 388px;
   margin: 0 auto; }
-/* line 313, ../scss/campaign-performance.scss */
+/* line 382, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li {
   display: inline-block;
   color: #4f5151;
   text-align: center;
   padding: 15px 24.9px 18px;
   border-right: 1px solid #b4b4b4; }
-/* line 319, ../scss/campaign-performance.scss */
+/* line 389, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li:last-child {
   border-right: none; }
-/* line 322, ../scss/campaign-performance.scss */
+/* line 393, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li span {
   display: block; }
-/* line 325, ../scss/campaign-performance.scss */
+/* line 397, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li .lrg-txt {
-  font-size: 55px;
+  font-size: 40px;
   font-weight: bold;
-  line-height: 42px; }
-/* line 330, ../scss/campaign-performance.scss */
+  line-height: 36px; }
+/* line 403, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li .medium-txt {
-  font-size: 22px;
-  font-weight: bold; }
-/* line 334, ../scss/campaign-performance.scss */
-.performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li .small-txt {
   font-size: 18px;
+  font-weight: bold; }
+/* line 408, ../scss/campaign-performance.scss */
+.performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .countdown-block .goal-date-block li .small-txt {
+  font-size: 14px;
   line-height: 10px;
   text-transform: uppercase; }
-/* line 342, ../scss/campaign-performance.scss */
+/* line 417, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .spledge-value {
   color: #fefefe;
-  font-size: 27px;
+  font-size: 20px;
   width: 388px;
-  margin: 10px auto 5px; }
-/* line 347, ../scss/campaign-performance.scss */
+  margin: 8px auto 5px; }
+/* line 423, ../scss/campaign-performance.scss */
 .performance-block-filter-full .performance-block-filter-centered .site-pads .performance-single-boxes .performance-row .performance-block .performance-pads .spledge-value i {
   font-weight: bold; }
 
@@ -4971,11 +4962,11 @@ header .active {
   min-width: 1170px; }
 /* line 6, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered {
-  padding: 15px 0 20px; }
+  padding: 10px 0 15px; }
 /* line 9, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads h2 {
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -4984,9 +4975,8 @@ header .active {
 /* line 18, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger {
   float: left;
-  margin-top: 10px;
   border-bottom: 1px solid #A7A29A; }
-/* line 22, ../scss/spledgers.scss */
+/* line 21, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger .enter-name {
   background: none;
   border: none;
@@ -4994,20 +4984,20 @@ header .active {
   float: left;
   padding: 9px 0;
   width: 562px; }
-/* line 30, ../scss/spledgers.scss */
+/* line 29, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger .submit-icon {
   color: #878788;
   font-size: 20px;
   padding-top: 4px; }
 
-/* line 39, ../scss/spledgers.scss */
+/* line 38, ../scss/spledgers.scss */
 .top-spledgers-full-popup {
   background: #f3f3f3;
   min-width: 1170px; }
-/* line 44, ../scss/spledgers.scss */
+/* line 43, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block {
   padding: 30px 0; }
-/* line 46, ../scss/spledgers.scss */
+/* line 45, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block .select-wrapper {
   background: #9f9d9a url("../images/campaigns/dropdown-arrow.jpg") right center no-repeat;
   border: none !important;
@@ -5033,7 +5023,7 @@ header .active {
   /*Removes default arrow from firefox*/
   /*My custom style for fonts*/
   float: right; }
-/* line 68, ../scss/spledgers.scss */
+/* line 67, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block select {
   cursor: pointer;
   margin: 0;
@@ -5043,7 +5033,7 @@ header .active {
   position: absolute;
   z-index: 2;
   height: 45px; }
-/* line 77, ../scss/spledgers.scss */
+/* line 76, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block .holder {
   cursor: pointer;
   display: block;
@@ -5051,60 +5041,61 @@ header .active {
   overflow: hidden;
   position: relative;
   white-space: nowrap; }
-/* line 87, ../scss/spledgers.scss */
+/* line 86, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li {
   width: 555px;
   position: relative;
   background: #FFFFFF;
   margin-bottom: 30px; }
-/* line 92, ../scss/spledgers.scss */
+/* line 91, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li:nth-child(1n) {
   float: left; }
-/* line 95, ../scss/spledgers.scss */
+/* line 94, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li:nth-child(2n) {
   float: right; }
-/* line 98, ../scss/spledgers.scss */
+/* line 97, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .ranking {
   position: absolute;
   color: #d3d3d3;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   top: 0;
   left: 9px; }
-/* line 106, ../scss/spledgers.scss */
+/* line 105, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info {
-  padding: 20px 50px; }
-/* line 108, ../scss/spledgers.scss */
+  padding: 16px 26px; }
+/* line 107, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block {
   float: left; }
-/* line 110, ../scss/spledgers.scss */
+/* line 109, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block img {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   border: 7px solid #d3d3d3;
   float: left; }
-/* line 115, ../scss/spledgers.scss */
+/* line 114, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block {
   float: left;
   margin-left: 15px; }
-/* line 118, ../scss/spledgers.scss */
+/* line 117, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #373838;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 124, ../scss/spledgers.scss */
+/* line 123, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   color: #707070; }
-/* line 128, ../scss/spledgers.scss */
+/* line 127, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan span {
   display: block; }
-/* line 134, ../scss/spledgers.scss */
+/* line 133, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .cat-icon {
-  float: right; }
+  float: right;
+  width: 70px; }
 /* line 138, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledger-info-expand {
   background: #e0dddd;
@@ -5153,31 +5144,33 @@ header .active {
   float: left;
   border-right: 1px solid #dddddd;
   color: #373838;
-  font-size: 17px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold; }
 /* line 190, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-left span {
   color: #FF0000;
-  font-size: 30px; }
+  font-size: 24px; }
 /* line 194, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-left p {
-  line-height: 54px; }
-/* line 198, ../scss/spledgers.scss */
+  line-height: 46px;
+  float: left;
+  margin-left: 10px; }
+/* line 200, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right {
   float: right; }
-/* line 200, ../scss/spledgers.scss */
+/* line 202, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges {
   float: right;
   padding-right: 51px; }
-/* line 203, ../scss/spledgers.scss */
+/* line 205, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges li {
   display: inline-block;
   margin-right: 3px; }
-/* line 206, ../scss/spledgers.scss */
+/* line 208, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges li:last-child {
   margin-right: 0; }
-/* line 213, ../scss/spledgers.scss */
+/* line 215, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .close {
   position: absolute;
   top: 10px;
@@ -5188,19 +5181,19 @@ header .active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
 
-/* line 229, ../scss/spledgers.scss */
+/* line 231, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li {
   width: 750px;
   position: relative;
   background: #FFFFFF;
   margin-bottom: 30px; }
-/* line 234, ../scss/spledgers.scss */
+/* line 236, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li:nth-child(1n) {
   float: left; }
-/* line 237, ../scss/spledgers.scss */
+/* line 239, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li:nth-child(2n) {
   float: right; }
-/* line 240, ../scss/spledgers.scss */
+/* line 242, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .ranking {
   position: absolute;
   color: #d3d3d3;
@@ -5208,94 +5201,94 @@ header .active {
   font-weight: bold;
   top: 0;
   left: 9px; }
-/* line 248, ../scss/spledgers.scss */
+/* line 250, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info {
   padding: 20px 50px; }
-/* line 250, ../scss/spledgers.scss */
+/* line 252, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block {
   float: left; }
-/* line 252, ../scss/spledgers.scss */
+/* line 254, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block img {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   border: 7px solid #d3d3d3;
   float: left; }
-/* line 257, ../scss/spledgers.scss */
+/* line 259, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block {
   float: left;
   margin-left: 15px; }
-/* line 260, ../scss/spledgers.scss */
+/* line 262, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block h3 {
   font-size: 24px;
   color: #373838;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 266, ../scss/spledgers.scss */
+/* line 268, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan {
   font-size: 20px;
   line-height: 20px;
   color: #707070; }
-/* line 270, ../scss/spledgers.scss */
+/* line 272, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan span {
   display: block; }
-/* line 276, ../scss/spledgers.scss */
+/* line 278, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .cat-icon {
   float: right; }
-/* line 280, ../scss/spledgers.scss */
+/* line 282, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand {
   background: #e0dddd;
   border-top: 7px solid #4f5151; }
-/* line 284, ../scss/spledgers.scss */
+/* line 286, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads {
   padding: 16px 16px 16px 46px; }
-/* line 286, ../scss/spledgers.scss */
+/* line 288, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads img {
   width: 79px;
   height: auto;
   float: left; }
-/* line 291, ../scss/spledgers.scss */
+/* line 293, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table {
   width: 586px;
   float: right;
   font-size: 20px; }
-/* line 297, ../scss/spledgers.scss */
+/* line 299, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th {
   color: #9f9d9a;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.5px; }
-/* line 303, ../scss/spledgers.scss */
+/* line 305, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(1) {
   width: 235px; }
-/* line 306, ../scss/spledgers.scss */
+/* line 308, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(4) {
   padding-right: 15px;
   text-align: right; }
-/* line 310, ../scss/spledgers.scss */
+/* line 312, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(4), .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(5) {
   width: 0; }
-/* line 316, ../scss/spledgers.scss */
+/* line 318, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info {
   color: #383838; }
-/* line 319, ../scss/spledgers.scss */
+/* line 321, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(2) {
   font-size: 16px;
   color: #5f5f5f; }
-/* line 323, ../scss/spledgers.scss */
+/* line 325, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) {
   text-align: right; }
-/* line 325, ../scss/spledgers.scss */
+/* line 327, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) strong, .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) span {
   padding-right: 17px; }
-/* line 330, ../scss/spledgers.scss */
+/* line 332, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:last-child {
   text-align: right; }
-/* line 339, ../scss/spledgers.scss */
+/* line 341, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .spledge-box {
   border-bottom: 1px solid #FFFFFF; }
-/* line 342, ../scss/spledgers.scss */
+/* line 344, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support {
   background: #9f9d9a;
   color: #FFFFFF;
@@ -5304,21 +5297,21 @@ header .active {
   font-size: 22px;
   letter-spacing: 0.5px;
   padding: 10px 15px 10px 45px; }
-/* line 351, ../scss/spledgers.scss */
+/* line 353, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support h4, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support h4 {
   float: left; }
-/* line 354, ../scss/spledgers.scss */
+/* line 356, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support .total, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support .total {
   float: right; }
-/* line 359, ../scss/spledgers.scss */
+/* line 361, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block {
   border-top: 1px solid #dddddd;
   text-align: center; }
-/* line 362, ../scss/spledgers.scss */
+/* line 364, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-block {
   width: 49%;
   height: 58px; }
-/* line 366, ../scss/spledgers.scss */
+/* line 368, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left {
   float: left;
   border-right: 1px solid #dddddd;
@@ -5326,28 +5319,28 @@ header .active {
   font-size: 17px;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 373, ../scss/spledgers.scss */
+/* line 375, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left span {
   color: #FF0000;
   font-size: 30px; }
-/* line 377, ../scss/spledgers.scss */
+/* line 379, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left p {
   line-height: 54px; }
-/* line 381, ../scss/spledgers.scss */
+/* line 383, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right {
   float: right; }
-/* line 383, ../scss/spledgers.scss */
+/* line 385, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges {
   float: right;
   padding-right: 51px; }
-/* line 386, ../scss/spledgers.scss */
+/* line 388, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges li {
   display: inline-block;
   margin-right: 3px; }
-/* line 389, ../scss/spledgers.scss */
+/* line 391, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges li:last-child {
   margin-right: 0; }
-/* line 396, ../scss/spledgers.scss */
+/* line 398, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .close {
   position: absolute;
   top: 10px;
@@ -5953,7 +5946,7 @@ header .active {
 /* line 224, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .drop-hammer-block .send-btn:before {
   display: inline-block;
-  content: "Drop the ‘HAMMER!";
+  content: "Drop the ΓÇÿHAMMER!";
   color: #FFFFFF;
   font-size: 35px;
   font-weight: bold;

@@ -1,357 +1,433 @@
 @import "compass/css3";
+
 .performance-block-full {
-	@include background-image(linear-gradient(#343333, #141415));
-	min-width: 1170px;
-	.performance-block-centered {
-		.site-pads {
-			.main-header {
-				font-size: 30px;
-				color: #d7d7d7;
-				text-transform: uppercase;
-				font-weight: bold;
-				letter-spacing: 0.5px;
-				margin-top: 30px;
-			}
-			.single-over-blocks {
-				.performance-block {
-					background: #2E302F;
-					margin-bottom: 52px;
-					&:first-child {
-						margin-top: 52px;
-					}
-					.performance-pads {
-						padding: 24px 14px 14px 23px;
-						.image-holder {
-							float: left;
-							text-transform: uppercase;
-							text-align: center;
-							.program-number {
-								font-size: 22px;
-								color: #d3d3d3;
-								font-weight: bold;
-								margin-bottom: 35px;
-							}
-							h2,
-							span {
-								color: #FFFFFF;
-							}
-							h2 {
-								font-size: 30px;
-								font-weight: bold;
-								letter-spacing: 0.5px;
-								margin-top: 30px;
-							}
-							span {
-								font-size: 22px;
-								letter-spacing: 0.5px;
-							}
-						}
-						.performance-main-info {
-							float: left;
-							width: 768px;
-							background: url( '../images/border-repeat-one.jpg' ) top left repeat-y;
-							margin-left: 10px;
-							.performance-main-pads {
-								position: relative;
-								padding: 0 0 0 10px;
-								h2 {
-									font-size: 35px;
-									line-height: 40px;
-									text-transform: uppercase;
-									font-weight: bold;
-									letter-spacing: 0.5px;
-									color: #FFFFFF;
-								}
-								> p {
-									width: 580px;
-									color: #d3d3d3;
-									font-size: 19px;
-									margin: 10px 0 20px;
-								}
-								.performance-table {
-									width: 100%;
-									position: relative;
-									tbody {
-										text-transform: uppercase;
-										tr.titles {
-											background: #62a744;
-											border-bottom: 3px solid #2E2F2F;
-											th {
-												width: 291px;
-												color: #FFFFFF;
-												font-size: 20px;
-												line-height: 20px;
-												padding: 10px 0;
-												text-transform: uppercase;
-												text-align: center;
-												span {
-													display: block;
-												}
-												&:first-child {
-													padding: 0 85px;
-												}
-											}
-										}
-										tr.info {
-											border-bottom: 1px solid #8A8A8A;
-											td {
-												color: #383838;
-												font-size: 20px;
-												padding: 4px 0 4px 0;
-												text-align: center;
-												&:last-child {
-													text-align: right;
-													padding-right: 25px;
-												}
-												i {
-													float: left;
-													padding-left: 10px;
-												}
-												span {
-													float: right;
-													padding-right: 10px;
-												}
-											}
-											.even {
-												background: #EEEEEE;
-											}
-											.odd {
-												background: #FFFFFF;
-											}
-											.main-title {
-												padding: 4px 12px;
-												border-right: 1px solid #8a8a8a;
-												text-align: left;
-											}
-										}
-									}
-								}
-								.spledger-performance-table {
-									width: 100%;
-									position: relative;
-									margin-top: 20px;
-									tbody {
-										text-transform: uppercase;
-										tr.titles {
-											background: #62a744;
-											border-bottom: 3px solid #2E2F2F;
-											th {
-												width: 291px;
-												font-size: 20px;
-												line-height: 20px;
-												padding: 10px 15px;
-												color: #FFFFFF;
-												text-transform: uppercase;
-												text-align: left;
-											}
-										}
-										tr.info {
-											border-bottom: 1px solid #8A8A8A;
-											td {
-												color: #383838;
-												font-size: 20px;
-												padding: 4px 25px;
-												text-align: right;
-											}
-											.even {
-												background: #EEEEEE;
-											}
-											.odd {
-												background: #FFFFFF;
-											}
-											.main-title {
-												padding: 4px 12px;
-												border-right: 1px solid #8a8a8a;
-												text-align: left;
-											}
-										}
-									}
-								}
-								.games-completed {
-									text-transform: uppercase;
-									font-size: 20px;
-									font-weight: bold;
-									letter-spacing: 0.5px;
-									margin: 15px 0 0 0;
-								}
-							}
-						}
-					}
-				}
-				.spledge-now-btn-container {
-					margin-bottom: 52px;
-					.red-btn {
-						float: right;
-					}
-				}
-			}
-		}
-	}
+    @include background-image(linear-gradient(#343333, #141415));
+    min-width: 1170px;
+
+    .performance-block-centered {
+        .site-pads {
+            .main-header {
+                font-size: 26px;
+                color: #d7d7d7;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+                margin-top: 20px;
+            }
+
+            .single-over-blocks {
+                .performance-block {
+                    background: #2E302F;
+                    margin-bottom: 30px;
+
+                    &:first-child {
+                        margin-top: 30px;
+                    }
+
+                    .performance-pads {
+                        padding: 18px 10px 10px 16px;
+
+                        .image-holder {
+                            float: left;
+                            text-transform: uppercase;
+                            text-align: center;
+
+                            img {
+                                width: 250px;
+                            }
+
+                            .program-number {
+                                font-size: 18px;
+                                color: #d3d3d3;
+                                font-weight: bold;
+                                margin-bottom: 15px;
+                            }
+
+                            h2,
+                            span {
+                                color: #FFFFFF;
+                            }
+
+                            h2 {
+                                font-size: 26px;
+                                font-weight: bold;
+                                letter-spacing: 0.5px;
+                                margin-top: 20px;
+                            }
+
+                            span {
+                                font-size: 18px;
+                                letter-spacing: 0.5px;
+                            }
+                        }
+
+                        .performance-main-info {
+                            float: left;
+                            width: 768px;
+                            background: url( '../images/border-repeat-one.jpg' ) top left repeat-y;
+                            margin-left: 10px;
+
+                            .performance-main-pads {
+                                position: relative;
+                                padding: 0 0 0 10px;
+
+                                h2 {
+                                    font-size: 28px;
+                                    line-height: 30px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                    letter-spacing: 0.5px;
+                                    color: #FFFFFF;
+                                }
+
+                                > p {
+                                    color: #d3d3d3;
+                                    font-size: 16px;
+                                    margin: 7px 0 16px;
+                                }
+
+                                .performance-table {
+                                    width: 100%;
+                                    position: relative;
+
+                                    tbody {
+                                        text-transform: uppercase;
+
+                                        tr.titles {
+                                            background: #62a744;
+                                            border-bottom: 3px solid #2E2F2F;
+
+                                            th {
+                                                width: 291px;
+                                                color: #FFFFFF;
+                                                font-size: 16px;
+                                                line-height: 18px;
+                                                padding: 7px 0;
+                                                text-transform: uppercase;
+                                                text-align: center;
+
+                                                span {
+                                                    display: block;
+                                                }
+
+                                                &:first-child {
+                                                    padding: 0 85px;
+                                                }
+                                            }
+                                        }
+
+                                        tr.info {
+                                            border-bottom: 1px solid #8A8A8A;
+
+                                            td {
+                                                color: #383838;
+                                                font-size: 16px;
+                                                padding: 4px 0 4px 0;
+                                                text-align: center;
+
+                                                &:last-child {
+                                                    text-align: right;
+                                                    padding-right: 25px;
+                                                }
+
+                                                i {
+                                                    float: left;
+                                                    padding-left: 10px;
+                                                }
+
+                                                span {
+                                                    float: right;
+                                                    padding-right: 10px;
+                                                }
+                                            }
+
+                                            .even {
+                                                background: #EEEEEE;
+                                            }
+
+                                            .odd {
+                                                background: #FFFFFF;
+                                            }
+
+                                            .main-title {
+                                                padding: 4px 12px;
+                                                border-right: 1px solid #8a8a8a;
+                                                text-align: left;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .spledger-performance-table {
+                                    width: 100%;
+                                    position: relative;
+                                    margin-top: 20px;
+
+                                    tbody {
+                                        text-transform: uppercase;
+
+                                        tr.titles {
+                                            background: #62a744;
+                                            border-bottom: 3px solid #2E2F2F;
+
+                                            th {
+                                                width: 291px;
+                                                font-size: 16px;
+                                                line-height: 16px;
+                                                padding: 10px 15px;
+                                                color: #FFFFFF;
+                                                text-transform: uppercase;
+                                                text-align: left;
+                                            }
+                                        }
+
+                                        tr.info {
+                                            border-bottom: 1px solid #8A8A8A;
+
+                                            td {
+                                                color: #383838;
+                                                font-size: 16px;
+                                                padding: 4px 25px;
+                                                text-align: right;
+                                            }
+
+                                            .even {
+                                                background: #EEEEEE;
+                                            }
+
+                                            .odd {
+                                                background: #FFFFFF;
+                                            }
+
+                                            .main-title {
+                                                padding: 4px 12px;
+                                                border-right: 1px solid #8a8a8a;
+                                                text-align: left;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .games-completed {
+                                    text-transform: uppercase;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    letter-spacing: 0.5px;
+                                    margin: 15px 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .spledge-now-btn-container {
+                    margin-bottom: 52px;
+
+                    .red-btn {
+                        float: right;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
 }
+
 .performance-block-filter-full {
-	@include background-image(linear-gradient(#343333, #141415));
-	min-width: 1170px;
-	.performance-block-filter-centered {
-		.site-pads {
-			.title-filter-block {
-				margin: 30px 0;
-				.main-header {
-					font-size: 30px;
-					color: #d7d7d7;
-					text-transform: uppercase;
-					font-weight: bold;
-					letter-spacing: 0.5px;
-					float: left;
-				}
-				.sort-by-filter {
-					float: right;
-					form {
-						&:before {
-							content: "Sort By";
-							color: #d7d7d7;
-							font-size: 22px;
-							text-transform: uppercase;
-							padding-right: 15px;
-							font-weight: bold;
-						}
-						select {
-					    -moz-appearance: none;
-					    background: url("../images/campaigns/dropdown-arrow.jpg") no-repeat scroll right center #9F9D9A;
-					    border: medium none;
-					    border-radius: 0 0 0 0;
-					    color: #FFFFFF;
-					    font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
-					    font-size: 22px;
-					    font-weight: bold;
-					    padding: 0 15px 0 0;
-					    text-indent: 3px;
-					    text-overflow: "";
-					    text-transform: uppercase;
-					    width: 150px;
-						}
-					}
-				}
-			}
-			.performance-single-boxes {
-				.top-title-block {
-					text-transform: uppercase;
-					text-align: center;
-					color: #FFFFFF;
-					padding: 25px 20px 25px;
-					.line-info-01 {
-						font-size: 40px;
-						line-height: 30px;
-						font-weight: bold;
-						i {
-							font-size: 30px;
-							font-weight: normal;
-						}
-						span {
-							font-weight: normal;
-						}
-					}
-					.line-info-02 {
-						font-size: 32px;
-						line-height: 45px;
-						span {
-							font-weight: bold;
-						}
-					}
-					.line-info-03 {
-						font-size: 40px;
-						font-weight: bold;
-						line-height: 32px;
-					}
-				}
-				.performance-row {
-					margin-bottom: 40px;
-					.performance-block {
-						width: 555px;
-						background: #2c2d2d;
-						/*&:first-child {
-							float: left;
-						}
-						&:last-child {
-							float: right;
-						}*/
-						.performance-pads {
-							padding: 38px 18px 18px;
-							.image-title {
-								img {
-									float:left;
-								}
-								h2 {
-									float: left;
-									color: #FFFFFF;
-									text-transform: uppercase;
-									font-weight: bold;
-									font-size: 30px;
-									line-height: 32px;
-									padding: 35px 0 0 20px;
-									letter-spacing: 0.5px;
-									span {
-										display: block;
-									}
-								}
-							}
-							.countdown-block {
-								margin-top: 20px;
-								h3.cat-title {
-									color: #FFFFFF;
-									text-transform: uppercase;
-									font-size: 22px;
-									width: 388px;
-									margin: 0 auto 7px;
-								}
-								.goal-date-block {
-									background: #FFFFFF;
-									overflow: auto;
-									@include border-radius( 8px );
-									text-align: center;
-									width: 388px;
-									margin: 0 auto;
-									li {
-										display: inline-block;
-										color: #4f5151;
-										text-align: center;
-										padding: 15px 24.9px 18px;
-										border-right: 1px solid #b4b4b4;
-										&:last-child {
-											border-right: none;
-										}
-										span {
-											display: block;
-										}
-										.lrg-txt {
-											font-size: 55px;
-											font-weight: bold;
-											line-height: 42px;
-										}
-										.medium-txt {
-											font-size: 22px;
-											font-weight: bold;
-										}
-										.small-txt {
-											font-size: 18px;
-											line-height: 10px;
-											text-transform: uppercase;
-										}
-									}
-								}
-							}
-							.spledge-value {
-								color: #fefefe;
-								font-size: 27px;
-								width: 388px;
-								margin: 10px auto 5px;
-								i {
-									font-weight: bold;
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    @include background-image(linear-gradient(#343333, #141415));
+    min-width: 1170px;
+
+    .performance-block-filter-centered {
+        .site-pads {
+            .title-filter-block {
+                margin: 20px 0;
+
+                .main-header {
+                    font-size: 26px;
+                    color: #d7d7d7;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    letter-spacing: 0.5px;
+                    float: left;
+                }
+
+                .sort-by-filter {
+                    float: right;
+
+                    form {
+                        &:before {
+                            content: "Sort By";
+                            color: #d7d7d7;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            padding-right: 15px;
+                            font-weight: bold;
+                        }
+
+                        select {
+                            -moz-appearance: none;
+                            background: url("../images/campaigns/dropdown-arrow.jpg") no-repeat scroll right center #9F9D9A;
+                            border: medium none;
+                            border-radius: 0 0 0 0;
+                            color: #FFFFFF;
+                            font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+                            font-size: 22px;
+                            font-weight: bold;
+                            padding: 0 15px 0 0;
+                            text-indent: 3px;
+                            text-overflow: "";
+                            text-transform: uppercase;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+
+            .performance-single-boxes {
+                .top-title-block {
+                    text-transform: uppercase;
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding: 15px 10px 15px;
+
+                    .line-info-01 {
+                        font-size: 28px;
+                        line-height: 21px;
+                        font-weight: bold;
+
+                        i {
+                            font-size: 21px;
+                            font-weight: normal;
+                        }
+
+                        span {
+                            font-weight: normal;
+                        }
+                    }
+
+                    .line-info-02 {
+                        font-size: 21px;
+                        line-height: 28px;
+
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+
+                    .line-info-03 {
+                        font-size: 28px;
+                        font-weight: bold;
+                        line-height: 21px;
+                    }
+                }
+
+                .performance-row {
+                    margin-bottom: 28px;
+
+                    .performance-block {
+                        width: 555px;
+                        background: #2c2d2d;
+
+                        &:first-child {
+                            float: left;
+                        }
+
+                        &:last-child {
+                            float: right;
+                        }
+
+                        .performance-pads {
+                            padding: 18px 7px 7px;
+
+                            .image-title {
+                                img {
+                                    float: left;
+                                }
+
+                                h2 {
+                                    float: left;
+                                    color: #FFFFFF;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                    font-size: 21px;
+                                    line-height: 24px;
+                                    padding: 18px 0 0 5px;
+                                    letter-spacing: 0.5px;
+
+                                    span {
+                                        display: block;
+                                    }
+                                }
+                            }
+
+                            .countdown-block {
+                                margin-top: 10px;
+
+                                h3.cat-title {
+                                    color: #FFFFFF;
+                                    text-transform: uppercase;
+                                    font-size: 18px;
+                                    width: 388px;
+                                    margin: 0 auto 7px;
+                                }
+
+                                .goal-date-block {
+                                    background: #FFFFFF;
+                                    overflow: auto;
+                                    @include border-radius( 8px );
+                                    text-align: center;
+                                    width: 388px;
+                                    margin: 0 auto;
+
+                                    li {
+                                        display: inline-block;
+                                        color: #4f5151;
+                                        text-align: center;
+                                        padding: 15px 24.9px 18px;
+                                        border-right: 1px solid #b4b4b4;
+
+                                        &:last-child {
+                                            border-right: none;
+                                        }
+
+                                        span {
+                                            display: block;
+                                        }
+
+                                        .lrg-txt {
+                                            font-size: 40px;
+                                            font-weight: bold;
+                                            line-height: 36px;
+                                        }
+
+                                        .medium-txt {
+                                            font-size: 18px;
+                                            font-weight: bold;
+                                        }
+
+                                        .small-txt {
+                                            font-size: 14px;
+                                            line-height: 10px;
+                                            text-transform: uppercase;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .spledge-value {
+                                color: #fefefe;
+                                font-size: 20px;
+                                width: 388px;
+                                margin: 8px auto 5px;
+
+                                i {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

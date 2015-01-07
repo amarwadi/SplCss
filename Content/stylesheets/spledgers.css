@@ -9,11 +9,11 @@
   min-width: 1170px; }
 /* line 6, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered {
-  padding: 15px 0 20px; }
+  padding: 10px 0 15px; }
 /* line 9, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads h2 {
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -22,9 +22,8 @@
 /* line 18, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger {
   float: left;
-  margin-top: 10px;
   border-bottom: 1px solid #A7A29A; }
-/* line 22, ../scss/spledgers.scss */
+/* line 21, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger .enter-name {
   background: none;
   border: none;
@@ -32,20 +31,20 @@
   float: left;
   padding: 9px 0;
   width: 562px; }
-/* line 30, ../scss/spledgers.scss */
+/* line 29, ../scss/spledgers.scss */
 .find-spledger-full .find-spledger-centered .site-pads #find-spedger .submit-icon {
   color: #878788;
   font-size: 20px;
   padding-top: 4px; }
 
-/* line 39, ../scss/spledgers.scss */
+/* line 38, ../scss/spledgers.scss */
 .top-spledgers-full-popup {
   background: #f3f3f3;
   min-width: 1170px; }
-/* line 44, ../scss/spledgers.scss */
+/* line 43, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block {
   padding: 30px 0; }
-/* line 46, ../scss/spledgers.scss */
+/* line 45, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block .select-wrapper {
   background: #9f9d9a url("../images/campaigns/dropdown-arrow.jpg") right center no-repeat;
   border: none !important;
@@ -71,7 +70,7 @@
   /*Removes default arrow from firefox*/
   /*My custom style for fonts*/
   float: right; }
-/* line 68, ../scss/spledgers.scss */
+/* line 67, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block select {
   cursor: pointer;
   margin: 0;
@@ -81,7 +80,7 @@
   position: absolute;
   z-index: 2;
   height: 45px; }
-/* line 77, ../scss/spledgers.scss */
+/* line 76, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .select-speldger-block .holder {
   cursor: pointer;
   display: block;
@@ -89,60 +88,61 @@
   overflow: hidden;
   position: relative;
   white-space: nowrap; }
-/* line 87, ../scss/spledgers.scss */
+/* line 86, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li {
   width: 555px;
   position: relative;
   background: #FFFFFF;
   margin-bottom: 30px; }
-/* line 92, ../scss/spledgers.scss */
+/* line 91, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li:nth-child(1n) {
   float: left; }
-/* line 95, ../scss/spledgers.scss */
+/* line 94, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li:nth-child(2n) {
   float: right; }
-/* line 98, ../scss/spledgers.scss */
+/* line 97, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .ranking {
   position: absolute;
   color: #d3d3d3;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   top: 0;
   left: 9px; }
-/* line 106, ../scss/spledgers.scss */
+/* line 105, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info {
-  padding: 20px 50px; }
-/* line 108, ../scss/spledgers.scss */
+  padding: 16px 26px; }
+/* line 107, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block {
   float: left; }
-/* line 110, ../scss/spledgers.scss */
+/* line 109, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block img {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   border: 7px solid #d3d3d3;
   float: left; }
-/* line 115, ../scss/spledgers.scss */
+/* line 114, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block {
   float: left;
   margin-left: 15px; }
-/* line 118, ../scss/spledgers.scss */
+/* line 117, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #373838;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 124, ../scss/spledgers.scss */
+/* line 123, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   color: #707070; }
-/* line 128, ../scss/spledgers.scss */
+/* line 127, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan span {
   display: block; }
-/* line 134, ../scss/spledgers.scss */
+/* line 133, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .cat-icon {
-  float: right; }
+  float: right;
+  width: 70px; }
 /* line 138, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .spledger-info-expand {
   background: #e0dddd;
@@ -191,31 +191,33 @@
   float: left;
   border-right: 1px solid #dddddd;
   color: #373838;
-  font-size: 17px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold; }
 /* line 190, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-left span {
   color: #FF0000;
-  font-size: 30px; }
+  font-size: 24px; }
 /* line 194, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-left p {
-  line-height: 54px; }
-/* line 198, ../scss/spledgers.scss */
+  line-height: 46px;
+  float: left;
+  margin-left: 10px; }
+/* line 200, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right {
   float: right; }
-/* line 200, ../scss/spledgers.scss */
+/* line 202, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges {
   float: right;
   padding-right: 51px; }
-/* line 203, ../scss/spledgers.scss */
+/* line 205, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges li {
   display: inline-block;
   margin-right: 3px; }
-/* line 206, ../scss/spledgers.scss */
+/* line 208, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .support-info-block .support-right .cat-badges li:last-child {
   margin-right: 0; }
-/* line 213, ../scss/spledgers.scss */
+/* line 215, ../scss/spledgers.scss */
 .top-spledgers-full-popup .top-spledgers-centered .site-pads .top-spledger-list > li .close {
   position: absolute;
   top: 10px;
@@ -226,19 +228,19 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
 
-/* line 229, ../scss/spledgers.scss */
+/* line 231, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li {
   width: 750px;
   position: relative;
   background: #FFFFFF;
   margin-bottom: 30px; }
-/* line 234, ../scss/spledgers.scss */
+/* line 236, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li:nth-child(1n) {
   float: left; }
-/* line 237, ../scss/spledgers.scss */
+/* line 239, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li:nth-child(2n) {
   float: right; }
-/* line 240, ../scss/spledgers.scss */
+/* line 242, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .ranking {
   position: absolute;
   color: #d3d3d3;
@@ -246,94 +248,94 @@
   font-weight: bold;
   top: 0;
   left: 9px; }
-/* line 248, ../scss/spledgers.scss */
+/* line 250, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info {
   padding: 20px 50px; }
-/* line 250, ../scss/spledgers.scss */
+/* line 252, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block {
   float: left; }
-/* line 252, ../scss/spledgers.scss */
+/* line 254, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block img {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   border: 7px solid #d3d3d3;
   float: left; }
-/* line 257, ../scss/spledgers.scss */
+/* line 259, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block {
   float: left;
   margin-left: 15px; }
-/* line 260, ../scss/spledgers.scss */
+/* line 262, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block h3 {
   font-size: 24px;
   color: #373838;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 266, ../scss/spledgers.scss */
+/* line 268, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan {
   font-size: 20px;
   line-height: 20px;
   color: #707070; }
-/* line 270, ../scss/spledgers.scss */
+/* line 272, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .img-name-block .name-city-block .city-state-slogan span {
   display: block; }
-/* line 276, ../scss/spledgers.scss */
+/* line 278, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledge-img-info .cat-icon {
   float: right; }
-/* line 280, ../scss/spledgers.scss */
+/* line 282, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand {
   background: #e0dddd;
   border-top: 7px solid #4f5151; }
-/* line 284, ../scss/spledgers.scss */
+/* line 286, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads {
   padding: 16px 16px 16px 46px; }
-/* line 286, ../scss/spledgers.scss */
+/* line 288, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads img {
   width: 79px;
   height: auto;
   float: left; }
-/* line 291, ../scss/spledgers.scss */
+/* line 293, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table {
   width: 586px;
   float: right;
   font-size: 20px; }
-/* line 297, ../scss/spledgers.scss */
+/* line 299, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th {
   color: #9f9d9a;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 0.5px; }
-/* line 303, ../scss/spledgers.scss */
+/* line 305, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(1) {
   width: 235px; }
-/* line 306, ../scss/spledgers.scss */
+/* line 308, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(4) {
   padding-right: 15px;
   text-align: right; }
-/* line 310, ../scss/spledgers.scss */
+/* line 312, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(4), .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .titles th:nth-child(5) {
   width: 0; }
-/* line 316, ../scss/spledgers.scss */
+/* line 318, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info {
   color: #383838; }
-/* line 319, ../scss/spledgers.scss */
+/* line 321, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(2) {
   font-size: 16px;
   color: #5f5f5f; }
-/* line 323, ../scss/spledgers.scss */
+/* line 325, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) {
   text-align: right; }
-/* line 325, ../scss/spledgers.scss */
+/* line 327, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) strong, .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:nth-child(4) span {
   padding-right: 17px; }
-/* line 330, ../scss/spledgers.scss */
+/* line 332, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .info-box .info-pads table tbody .info td:last-child {
   text-align: right; }
-/* line 339, ../scss/spledgers.scss */
+/* line 341, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .spledge-box {
   border-bottom: 1px solid #FFFFFF; }
-/* line 342, ../scss/spledgers.scss */
+/* line 344, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support {
   background: #9f9d9a;
   color: #FFFFFF;
@@ -342,21 +344,21 @@
   font-size: 22px;
   letter-spacing: 0.5px;
   padding: 10px 15px 10px 45px; }
-/* line 351, ../scss/spledgers.scss */
+/* line 353, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support h4, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support h4 {
   float: left; }
-/* line 354, ../scss/spledgers.scss */
+/* line 356, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .spledger-info-expand .direct-support .total, .popup-block .top-spledger-list-popup > li .spledger-info-expand .total-support .total {
   float: right; }
-/* line 359, ../scss/spledgers.scss */
+/* line 361, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block {
   border-top: 1px solid #dddddd;
   text-align: center; }
-/* line 362, ../scss/spledgers.scss */
+/* line 364, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-block {
   width: 49%;
   height: 58px; }
-/* line 366, ../scss/spledgers.scss */
+/* line 368, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left {
   float: left;
   border-right: 1px solid #dddddd;
@@ -364,28 +366,28 @@
   font-size: 17px;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 373, ../scss/spledgers.scss */
+/* line 375, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left span {
   color: #FF0000;
   font-size: 30px; }
-/* line 377, ../scss/spledgers.scss */
+/* line 379, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-left p {
   line-height: 54px; }
-/* line 381, ../scss/spledgers.scss */
+/* line 383, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right {
   float: right; }
-/* line 383, ../scss/spledgers.scss */
+/* line 385, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges {
   float: right;
   padding-right: 51px; }
-/* line 386, ../scss/spledgers.scss */
+/* line 388, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges li {
   display: inline-block;
   margin-right: 3px; }
-/* line 389, ../scss/spledgers.scss */
+/* line 391, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .support-info-block .support-right .cat-badges li:last-child {
   margin-right: 0; }
-/* line 396, ../scss/spledgers.scss */
+/* line 398, ../scss/spledgers.scss */
 .popup-block .top-spledger-list-popup > li .close {
   position: absolute;
   top: 10px;

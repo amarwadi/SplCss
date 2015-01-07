@@ -7,34 +7,39 @@
 			.single-over-blocks {
 				.overview-block {
 					background: #2E302F;
-					margin-bottom: 52px;
+					margin-bottom: 32px;
 					&:first-child {
-						margin-top: 52px;
+						margin-top: 32px;
 					}
 					.overview-pads {
-						padding: 24px 14px 14px 43px;
+						padding: 14px 10px 10px 28px;
 						.image-holder {
 							float: left;
 							text-transform: uppercase;
 							text-align: center;
 							.program-number {
-								font-size: 22px;
+								font-size: 17px;
 								color: #d3d3d3;
 								font-weight: bold;
-								margin-bottom: 35px;
+								margin-bottom: 10px;
 							}
+
+                            img{
+                                width:250px;
+                            }
+
 							h2,
 							span {
 								color: #FFFFFF;
 							}
 							h2 {
-								font-size: 28px;
+								font-size: 21px;
 								font-weight: bold;
 								letter-spacing: 0.5px;
-								margin-top: 30px;
+								margin-top: 20px;
 							}
 							span {
-								font-size: 22px;
+								font-size: 18px;
 								letter-spacing: 0.5px;
 							}
 						}
@@ -47,18 +52,17 @@
 								position: relative;
 								padding: 0 0 0 10px;
 								h2 {
-									font-size: 35px;
-									line-height: 40px;
+									font-size: 27px;
+									line-height: 30px;
 									text-transform: uppercase;
 									font-weight: bold;
 									letter-spacing: 0.5px;
 									color: #FFFFFF;
 								}
 								> p {
-									width: 580px;
 									color: #d3d3d3;
-									font-size: 19px;
-									margin: 10px 0 20px;
+									font-size: 15px;
+									margin: 7px 0 14px;
 								}
 								.performance-table {
 									width: 100%;
@@ -79,6 +83,7 @@
 													background: url( '../images/clip-board-icon.jpg' ) center left no-repeat;
 													padding: 9px 0 12px 0;
 													text-indent: 59px;
+                                                    background-position:5px;
 												}
 												&:last-child {
 													background: url( '../images/money-icon.jpg' ) center left no-repeat;
@@ -91,7 +96,7 @@
 											td {
 												position: relative;;
 												color: #383838;
-												font-size: 20px;
+												font-size: 16px;
 												padding: 4px 0 4px 6px;
 												&:first-child {
 													padding: 4px 0 4px 19px;
