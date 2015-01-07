@@ -789,18 +789,18 @@ background: #62a744;
 }
 
 
-header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul > li.nav-item-01 > a:hover:after {
+/*header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul > li.nav-item-01 > a:hover:after {
     content: "";
     width: 100%;
     margin: 23px auto 0;
     height: 3px;
     background: none !important;
     display: block;
-}
+}*/
 
-header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul .nav-item-01 a:hover:after {
+/*header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul .nav-item-01 a:hover:after {
     background: none !important;
-}
+}*/
 
 .vertical-align-top {
     vertical-align: top !important;

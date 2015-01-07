@@ -50,9 +50,20 @@
 							font-weight: bold;
 							text-transform: uppercase;
 							letter-spacing: 0.5px;
-							background: #6db447;
+							
 							padding: 9.2px 40px;
 						}
+                        h2.sports {
+                            background: #6db447 !important;
+                        }
+
+                        h2.scholastics {
+                            background: #6EAFDE !important;
+                        }
+
+                        h2.service {
+                            background: #d4558b !important;
+                        }
 						.build-campaign-form-block {
 							padding: 30px 90px 30px 40px;
 							position: relative;

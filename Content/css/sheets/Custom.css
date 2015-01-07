@@ -207,9 +207,9 @@ header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul > l
     padding-top: 110px !important;
 }
 
-header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul .nav-item-01 a:hover:after {
+/*header .nav-bar-full .nav-bar-centered .site-pads .nav-search-block nav > ul .nav-item-01 a:hover:after {
     background: none !important;
-}
+}*/
 
 .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol .active {
     background: #f8981d !important;
