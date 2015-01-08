@@ -13,7 +13,7 @@
 			right: 0;
 			bottom: 0;
 			left: 0;
-			@include background-image(linear-gradient(left, rgba(243,243,243,1) 0%,  rgba(243,243,243,1) 20%, rgba(243,243,243,0) 30%, rgba(243,243,243,0) 50%, rgba(243,243,243,0) 78%, rgba(243,243,243,1) 84%, rgba(243,243,243,1) 100%));
+			@include background-image(linear-gradient(left, rgba(0,0,0,1) 0%,  rgba(0,0,0,1) 20%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 78%, rgba(0,0,0,1) 84%, rgba(0,0,0,1) 100%));
 		}
 		.program-centered {
 			.site-pads {
