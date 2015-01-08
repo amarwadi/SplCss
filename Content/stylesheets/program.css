@@ -5,7 +5,7 @@
 /* line 5, ../scss/program.scss */
 .program-header-full .program-img-full {
   background: url("../images/program-top-img.jpg") center top/cover no-repeat;
-  padding-top: 131px;
+  margin-top: 109px;
   position: relative; }
 /* line 9, ../scss/program.scss */
 .program-header-full .program-img-full:before {
