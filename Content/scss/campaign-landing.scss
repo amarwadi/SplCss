@@ -351,7 +351,7 @@
                                     text-transform: uppercase;
                                     font-size: 20px;
                                     float: left;
-                                    padding: 0 25px;
+                                    padding: 0 5px 0 2px;
 
                                     &.title-case {
                                         text-transform: none;
@@ -403,6 +403,7 @@
                     font-size: 21px;
                     text-transform: uppercase;
                     font-weight: bold;
+                    margin-top:15px;
                 }
 
                 p {
@@ -564,7 +565,7 @@
                     }
 
                     .performance-pads {
-                        padding: 18px;
+                        padding: 10px;
 
                         .image-title {
                             min-height: 150px;
@@ -591,7 +592,7 @@
                         }
 
                         .countdown-block {
-                            margin-top: 10px;
+                            margin-top: 0;
 
                             h3.cat-title {
                                 color: #FFFFFF;
@@ -695,7 +696,7 @@
     .top-spledgers-centered {
         .site-pads {
             .title-btn-block {
-                padding: 21px 0;
+                padding: 15px 0;
 
                 h2 {
                     font-size: 26px;
@@ -707,7 +708,7 @@
                 }
 
                 .see-all-btn {
-                    font-size: 20px;
+                    font-size: 18px;
                     color: #FFFFFF;
                     font-weight: bold;
                     text-transform: uppercase;
@@ -842,10 +843,10 @@
 
             .recent-news-block {
                 background: #FFFFFF;
-                margin-bottom: 50px;
+                margin-bottom: 35px;
 
                 .recent-news-pads {
-                    padding: 40px;
+                    padding: 20px;
 
                     .news-left {
                         width: 571px;
@@ -853,8 +854,8 @@
                         color: #221f1f;
 
                         h2 {
-                            font-size: 35px;
-                            line-height: 38px;
+                            font-size: 24px;
+                            line-height: 28px;
                             text-transform: uppercase;
                             letter-spacing: 0.5px;
                             font-weight: bold;
@@ -862,13 +863,13 @@
 
                         .post-data {
                             display: block;
-                            font-size: 18px;
+                            font-size: 16px;
                             text-transform: uppercase;
                             margin-bottom: 15px;
                         }
 
                         p {
-                            font-size: 19px;
+                            font-size: 16px;
                         }
 
                         .post-more {
@@ -878,7 +879,7 @@
                                 float: left;
                                 border-right: 1px solid #221f1f;
                                 padding: 0 8px;
-                                font-size: 20px;
+                                font-size: 18px;
 
                                 &:first-child {
                                     padding-left: 0;
