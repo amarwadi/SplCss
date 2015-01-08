@@ -219,8 +219,8 @@
 
                         li {
                             display: inline-block;
-                            width: 164px;
-                            height: 143px;
+                            width: 144px;
+                            height: 133px;
                             margin-right: 14px;
                             @include border-radius( 10px );
 
@@ -230,12 +230,12 @@
                         }
 
                         .list-pads {
-                            padding: 28px 10px 0;
+                            padding: 18px 10px 0;
                         }
 
                         .grey-box {
                             background: #505251;
-                            font-size: 74px;
+                            font-size: 54px;
                             line-height: 49px;
                             font-weight: bold;
                             color: #FFFFFF;
@@ -250,7 +250,7 @@
 
                         .white-box {
                             background: #FFFFFF;
-                            font-size: 74px;
+                            font-size: 54px;
                             line-height: 49px;
                             font-weight: bold;
                             color: #4f5151;
@@ -269,7 +269,7 @@
                     }
 
                     .status-to-date-bar {
-                        width: 526px;
+                        width: 462px;
                         margin: 0 auto;
 
                         .date-goal-block {
@@ -363,7 +363,7 @@
                                     }
 
                                     &:last-child {
-                                        padding-right: 0;
+                                        padding: 0;
                                         float: right;
                                     }
 

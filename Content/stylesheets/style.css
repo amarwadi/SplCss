@@ -2640,8 +2640,8 @@ header .active {
 /* line 220, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .spledge-info li {
   display: inline-block;
-  width: 164px;
-  height: 143px;
+  width: 144px;
+  height: 133px;
   margin-right: 14px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -2651,11 +2651,11 @@ header .active {
   margin-right: 0; }
 /* line 232, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .spledge-info .list-pads {
-  padding: 28px 10px 0; }
+  padding: 18px 10px 0; }
 /* line 236, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .spledge-info .grey-box {
   background: #505251;
-  font-size: 74px;
+  font-size: 54px;
   line-height: 49px;
   font-weight: bold;
   color: #FFFFFF; }
@@ -2668,7 +2668,7 @@ header .active {
 /* line 251, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .spledge-info .white-box {
   background: #FFFFFF;
-  font-size: 74px;
+  font-size: 54px;
   line-height: 49px;
   font-weight: bold;
   color: #4f5151; }
@@ -2683,7 +2683,7 @@ header .active {
   text-transform: none; }
 /* line 271, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .status-to-date-bar {
-  width: 526px;
+  width: 462px;
   margin: 0 auto; }
 /* line 275, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .status-to-date-bar .date-goal-block {
@@ -2768,7 +2768,7 @@ header .active {
   border-right: 1px solid #d3d3d3; }
 /* line 365, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .status-to-date-bar .performance-block ul li:last-child {
-  padding-right: 0;
+  padding: 0;
   float: right; }
 /* line 370, ../scss/campaign-landing.scss */
 .status-to-date-full .status-to-date-centered .site-pads .status-info-block .status-right .status-to-date-bar .performance-block ul li .list-item-arow {
