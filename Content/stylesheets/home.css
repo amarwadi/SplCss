@@ -111,7 +111,21 @@
   height: 100% !important;
   padding: 10px 0;
   position: relative; }
-/* line 127, ../scss/home.scss */
+/* line 125, ../scss/home.scss */
+.make-difference-full .make-difference-full-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5MjcyOCIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjMjkyNzI4Ii8+PHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiMyOTI3MjgiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMyOTI3MjgiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3OCUiIHN0b3AtY29sb3I9IiMyOTI3MjgiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI4MiUiIHN0b3AtY29sb3I9IiMyOTI3MjgiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyOTI3MjgiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #292728), color-stop(20%, #292728), color-stop(22%, rgba(41, 39, 40, 0)), color-stop(50%, rgba(41, 39, 40, 0)), color-stop(78%, rgba(41, 39, 40, 0)), color-stop(82%, #292728), color-stop(100%, #292728));
+  background-image: -moz-linear-gradient(left, #292728 0%, #292728 20%, rgba(41, 39, 40, 0) 22%, rgba(41, 39, 40, 0) 50%, rgba(41, 39, 40, 0) 78%, #292728 82%, #292728 100%);
+  background-image: -webkit-linear-gradient(left, #292728 0%, #292728 20%, rgba(41, 39, 40, 0) 22%, rgba(41, 39, 40, 0) 50%, rgba(41, 39, 40, 0) 78%, #292728 82%, #292728 100%);
+  background-image: linear-gradient(to right, #292728 0%, #292728 20%, rgba(41, 39, 40, 0) 22%, rgba(41, 39, 40, 0) 50%, rgba(41, 39, 40, 0) 78%, #292728 82%, #292728 100%); }
+/* line 136, ../scss/home.scss */
 .make-difference-full .make-difference-full-img .make-difference-centered .site-pads h2.title {
   padding: 0 0 2%;
   color: #FFFFFF;
@@ -120,10 +134,10 @@
   font-size: 30px;
   font-weight: bold; }
 
-/* line 335, ../scss/home.scss */
+/* line 344, ../scss/home.scss */
 .fundraising-facts-full {
   min-width: 1170px; }
-/* line 337, ../scss/home.scss */
+/* line 346, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img {
   background: url("../images/Home-Index/homepage-fundraising-section/Fundraising-never-more-fun.jpg") center top no-repeat !important;
   -moz-background-size: cover !important;
@@ -133,7 +147,21 @@
   height: 100% !important;
   padding: 60px 0;
   position: relative; }
-/* line 345, ../scss/home.scss */
+/* line 352, ../scss/home.scss */
+.fundraising-facts-full .fundraising-facts-full-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3OCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI4MiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff), color-stop(20%, #ffffff), color-stop(22%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0)), color-stop(78%, rgba(255, 255, 255, 0)), color-stop(82%, #ffffff), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(left, #ffffff 0%, #ffffff 20%, rgba(255, 255, 255, 0) 22%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 78%, #ffffff 82%, #ffffff 100%);
+  background-image: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 20%, rgba(255, 255, 255, 0) 22%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 78%, #ffffff 82%, #ffffff 100%);
+  background-image: linear-gradient(to right, #ffffff 0%, #ffffff 20%, rgba(255, 255, 255, 0) 22%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 78%, #ffffff 82%, #ffffff 100%); }
+/* line 363, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 {
   color: #221f1f;
   font-size: 40px;
@@ -141,52 +169,52 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 25px; }
-/* line 352, ../scss/home.scss */
+/* line 370, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads h2 span {
   display: block; }
-/* line 356, ../scss/home.scss */
+/* line 374, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads p {
   font-size: 25px;
   line-height: 28px; }
-/* line 359, ../scss/home.scss */
+/* line 377, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads p span {
   display: block; }
-/* line 363, ../scss/home.scss */
+/* line 381, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks {
   margin: 22px 0 0 0; }
-/* line 365, ../scss/home.scss */
+/* line 383, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks li {
   font-size: 22px;
   background: url("../images/black-check-mark.png") left 4px no-repeat;
   padding: 4px 0 1px 41px;
   margin-bottom: 5px; }
-/* line 370, ../scss/home.scss */
+/* line 388, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .fundrasing-list-perks li:last-child {
   margin-bottom: 0; }
-/* line 375, ../scss/home.scss */
+/* line 393, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container {
   margin: 35px 0 0 42px; }
-/* line 377, ../scss/home.scss */
+/* line 395, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li {
   float: left;
   margin-right: 25px; }
-/* line 380, ../scss/home.scss */
+/* line 398, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li:last-child {
   margin-right: 0; }
-/* line 383, ../scss/home.scss */
+/* line 401, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li .red-btn {
   padding: 9px 20px 9px; }
-/* line 388, ../scss/home.scss */
+/* line 406, ../scss/home.scss */
 .fundraising-facts-full .fundraising-facts-full-img .fundraising-facts-centered .site-pads .btn-container li .black-apple-btn:hover img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8; }
 
-/* line 399, ../scss/home.scss */
+/* line 417, ../scss/home.scss */
 .testimonial-block-full {
   background: #f3f3f3;
   padding: 34px 0;
   min-width: 1170px; }
-/* line 405, ../scss/home.scss */
+/* line 423, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads h2 {
   font-size: 40px;
   color: #221f1e;
@@ -194,37 +222,37 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 25px; }
-/* line 414, ../scss/home.scss */
+/* line 432, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block {
   float: left;
   width: 369px;
   background: url("../images/small-shadow-right.jpg") center right no-repeat;
   min-height: 189px;
   margin-right: 16px; }
-/* line 420, ../scss/home.scss */
+/* line 438, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block:last-child {
   background: none;
   margin-right: 0; }
-/* line 425, ../scss/home.scss */
+/* line 443, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .testimonial-avatar {
   float: left; }
-/* line 428, ../scss/home.scss */
+/* line 446, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block {
   float: left;
   width: 250px;
   margin-left: 20px; }
-/* line 432, ../scss/home.scss */
+/* line 450, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block q {
   font-size: 19px;
   font-style: italic;
   letter-spacing: 0.5px; }
-/* line 437, ../scss/home.scss */
+/* line 455, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block cite {
   display: block;
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px; }
-/* line 442, ../scss/home.scss */
+/* line 460, ../scss/home.scss */
 .testimonial-block-full .testimonial-block-centered .site-pads .testimonial-row .testimonial-block .testimonial-pads .quote-block cite span {
   display: block;
   font-weight: normal; }
