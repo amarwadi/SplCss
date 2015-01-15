@@ -1,447 +1,533 @@
 @import "compass/css3";
 
 .campaign-dashboard {
-	.top-spledgers-full {
-		min-width: 1170px;
-		.top-spledgers-centered {
-			.site-pads {
-				.top-spledger-list {
-					border-bottom: none;
-				}
-			}
-		}
-	}
+    .top-spledgers-full {
+        min-width: 1170px;
+
+        .top-spledgers-centered {
+            .site-pads {
+                .top-spledger-list {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
 }
+
 .total-campaign-earnings-full {
-	@include background-image(linear-gradient(#343333, #141415));
-	min-width: 1170px;
-	.total-campaign-earnings-centered {
-		.site-pads {
-			h1 {
-				font-size: 35px;
-				text-transform: uppercase;
-				color: #FFFFFF;
-				letter-spacing: 0.5px;
-				font-weight: bold;
-				margin: 5px 0 15px;
-			}
-			.date-range-block {
-				float: left;
-				p {
-					font-size: 20px;
-					font-weight: bold;
-					text-transform: uppercase;
-					color: #969595;
-					letter-spacing: 0.5px;
-					float: left;
-					line-height: 40px;
-					span {
-						color: #FFFFFF;
-					}
-				}
-			}
-			.range-campaigns {
-				float: right;
-				form {
-					select {
-					background: #9f9d9a url( '../images/campaigns/dropdown-arrow.jpg' ) right center no-repeat;
-					border: none  ! important;    
-					outline: medium none !important;
-					display: inline-flex !important;
-					height: 38px !important;
-					width: 220px;
-					text-indent: 10px;
-					vertical-align: top;
-					-webkit-appearance: none;
-					color: #FFFFFF;
-					text-transform: uppercase;
-					font-weight: bold;
-					font-size: 20px;
-					font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
-					margin-left: 10px;
-					@include border-radius( 0 );
-					}
-					.calander-dates {
-						float: left;
-						overflow: auto;
-						margin-right: 129px;
-						&:before {
-							content: "Range: ";
-							text-transform: uppercase;
-							color: #969595;
-							font-size: 22px;
-							font-weight: bold;
-							letter-spacing: 0.5px;
-						}
-						select {
-							width: 150px;
-						}
-					}
-				}
-			}
-			.campaign-earnings {
-				padding: 50px 0;
-				.earnings-left {
-			    float: left;
-			    width: 478px;
-				}
-				.earnings-right {
-			    background: url("../images/border-repeat-one.jpg") repeat-y scroll left top;
-			    display: block;
-			    float: right;
-			    width: 652px;	
-					.spledge-info {
-						display: block;
-						margin: 0 auto;
-						text-align: center;
-						li {
-							display: inline-block;
-							width: 164px;
-							height: 143px;
-							margin-right: 14px;
-							@include border-radius( 10px );
-							&:last-child {
-								margin-right: 0;
-							}
-						}
-						.list-pads {
-							padding: 28px 10px 0;
-						}
-						.grey-box {
-							background: #505251;
-							font-size: 74px;
-							line-height: 49px;
-							font-weight: bold;
-							color: #FFFFFF;
-							span {
-								display: block;
-								font-weight: normal;
-								font-size: 20px;
-								text-transform: uppercase;
-							}
-						}
-						.white-box {
-							background: #FFFFFF;
-							font-size: 74px;
-							line-height: 49px;
-							font-weight: bold;
-							color: #4f5151;
-							span {
-								display: block;
-								font-weight: normal;
-								font-size: 20px;
-								text-transform: uppercase;
-							}
-						}
-					}
-					.status-to-date-bar {
-						width: 526px;
-						margin: 0 auto;
-						.date-goal-block {
-							clear: both;
-							color: #FFFFFF;
-							margin-top: 15px;
-							.date-goal-txt {
-								text-transform: uppercase;
-								font-size: 28px;
-								span {
-									font-size: 40px;
-									font-weight: bold;
-									letter-spacing: 0.5px;
-								}
-								.to-date {
-									float: left;
-									span {
-										color: #FF0000;
-										font-family: 'Open Sans', sans-serif;
-									}
-								}
-								.main-goal {
-									float: right;
-								}
-							}
-						}
-						.progressbar-block {
-							.progressbar {
-								height: 25px;
-								border: none;
-								margin-top: 5px;
-								@include border-radius( 0 );
-								.ui-progressbar-value {
-									background: #e70000;
-									@include border-radius( 0 );
-									.progress-label {
-								    color: #FFFFFF;
-								    float: right;
-								    font-size: 16px;
-								    font-weight: 100;
-								    padding: 0 5px 0 0;
-								    &:first-child {
-								    	display: none;
-								    }
-									}
-								}
-							}
-						}
-						.performance-block {
-							color: #d3d3d3;
-							position: relative;
-							.tooltip {
-								position: absolute;
-								background: #FFFFFF;
-								@include border-radius( 10px );
-								padding: 3px 25px 5px;
-								color: #000000;
-								font-size: 18px;
-								text-transform: uppercase;
-								font-weight: bold;
-								@include opacity( 0 );
-							}
-							ul {
-								li {
-									text-transform: uppercase;
-									font-size: 20px;
-									float: left;
-									padding: 0 25px;
+    @include background-image(linear-gradient(#343333, #141415));
+    min-width: 1170px;
+
+    .total-campaign-earnings-centered {
+        .site-pads {
+            h1 {
+                font-size: 35px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                letter-spacing: 0.5px;
+                font-weight: bold;
+                margin: 5px 0 15px;
+            }
+
+            .date-range-block {
+                float: left;
+
+                p {
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #969595;
+                    letter-spacing: 0.5px;
+                    float: left;
+                    line-height: 40px;
+
+                    span {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .range-campaigns {
+                float: right;
+
+                form {
+                    select {
+                        background: #9f9d9a url( '../images/campaigns/dropdown-arrow.jpg' ) right center no-repeat;
+                        border: none !important;
+                        outline: medium none !important;
+                        display: inline-flex !important;
+                        height: 38px !important;
+                        width: 220px;
+                        text-indent: 10px;
+                        vertical-align: top;
+                        -webkit-appearance: none;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: 20px;
+                        font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+                        margin-left: 10px;
+                        @include border-radius( 0 );
+                    }
+
+                    .calander-dates {
+                        float: left;
+                        overflow: auto;
+                        margin-right: 129px;
+
+                        &:before {
+                            content: "Range: ";
+                            text-transform: uppercase;
+                            color: #969595;
+                            font-size: 22px;
+                            font-weight: bold;
+                            letter-spacing: 0.5px;
+                        }
+
+                        select {
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+
+            .campaign-earnings {
+                padding: 50px 0;
+
+                .earnings-left {
+                    float: left;
+                    width: 478px;
+                }
+
+                .earnings-right {
+                    background: url("../images/border-repeat-one.jpg") repeat-y scroll left top;
+                    display: block;
+                    float: right;
+                    width: 652px;
+
+                    .spledge-info {
+                        display: block;
+                        margin: 0 auto;
+                        text-align: center;
+
+                        li {
+                            display: inline-block;
+                            width: 164px;
+                            height: 143px;
+                            margin-right: 14px;
+                            @include border-radius( 10px );
+
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+
+                        .list-pads {
+                            padding: 28px 10px 0;
+                        }
+
+                        .grey-box {
+                            background: #505251;
+                            font-size: 74px;
+                            line-height: 49px;
+                            font-weight: bold;
+                            color: #FFFFFF;
+
+                            span {
+                                display: block;
+                                font-weight: normal;
+                                font-size: 20px;
+                                text-transform: uppercase;
+                            }
+                        }
+
+                        .white-box {
+                            background: #FFFFFF;
+                            font-size: 74px;
+                            line-height: 49px;
+                            font-weight: bold;
+                            color: #4f5151;
+
+                            span {
+                                display: block;
+                                font-weight: normal;
+                                font-size: 20px;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                    .status-to-date-bar {
+                        width: 526px;
+                        margin: 0 auto;
+
+                        .date-goal-block {
+                            clear: both;
+                            color: #FFFFFF;
+                            margin-top: 15px;
+
+                            .date-goal-txt {
+                                text-transform: uppercase;
+                                font-size: 28px;
+
+                                span {
+                                    font-size: 40px;
+                                    font-weight: bold;
+                                    letter-spacing: 0.5px;
+                                }
+
+                                .to-date {
+                                    float: left;
+
+                                    span {
+                                        color: #FF0000;
+                                        font-family: 'Open Sans', sans-serif;
+                                    }
+                                }
+
+                                .main-goal {
+                                    float: right;
+                                }
+                            }
+                        }
+
+                        .progressbar-block {
+                            .progressbar {
+                                height: 25px;
+                                border: none;
+                                margin-top: 5px;
+                                @include border-radius( 0 );
+
+                                .ui-progressbar-value {
+                                    background: #e70000;
+                                    @include border-radius( 0 );
+
+                                    .progress-label {
+                                        color: #FFFFFF;
+                                        float: right;
+                                        font-size: 16px;
+                                        font-weight: 100;
+                                        padding: 0 5px 0 0;
+
+                                        &:first-child {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .performance-block {
+                            color: #d3d3d3;
+                            position: relative;
+
+                            .tooltip {
+                                position: absolute;
+                                background: #FFFFFF;
+                                @include border-radius( 10px );
+                                padding: 3px 25px 5px;
+                                color: #000000;
+                                font-size: 18px;
+                                text-transform: uppercase;
+                                font-weight: bold;
+                                @include opacity( 0 );
+                            }
+
+                            ul {
+                                li {
+                                    text-transform: uppercase;
+                                    font-size: 20px;
+                                    float: left;
+                                    padding: 0 25px;
+
                                     &.title-case {
-                                        text-transform:none;
+                                        text-transform: none;
                                     }
 
 
-									&:first-child {
-										padding-left: 0;
-										border-right: 1px solid #d3d3d3;
-									}
-									&:last-child {
-										padding-right: 0;
-										float: right;
-									}
-									.list-item-arow {
-										font-weight: normal;
-										padding: 0 5px;
-										position: relative;
-										top: -2px;
-									}
-									.red-txt {
-										color: #FF0000;
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+                                    &:first-child {
+                                        padding-left: 0;
+                                        border-right: 1px solid #d3d3d3;
+                                    }
+
+                                    &:last-child {
+                                        padding-right: 0;
+                                        float: right;
+                                    }
+
+                                    .list-item-arow {
+                                        font-weight: normal;
+                                        padding: 0 5px;
+                                        position: relative;
+                                        top: -2px;
+                                    }
+
+                                    .red-txt {
+                                        color: #FF0000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 .campaigns-selected-full {
-	@include background-image(linear-gradient(#343333, #141415));
-	min-width: 1170px;
-	.campaigns-selected-centered {
-		.site-pads {
-			h1 {
-		    color: #FFFFFF;
-		    font-size: 30px;
-		    font-weight: bold;
-		    text-transform: uppercase;
-		    margin-top: 35px;
-			}
-			.campaign-full-block {
-				.campaign-block-row {
-					margin: 40px 0;
-					.difference-candiate {
-						width: 555px;
-						.header-block {
-							color: rgba( 255, 255, 255, 0.4 );
-							text-transform: uppercase;
-							font-size: 20px;
-							font-weight: bold;
-							text-align: right;
-							padding: 0 5px;
-						}
-						.canidate-content {
-							@include background-image(linear-gradient(#343333, #141415));
-							.canidate-pads {
-								padding: 15px 24px;
-								h2 {
-									font-size: 30px;
-									text-transform: uppercase;
-									font-weight: bold;
-									color: #d3d3d3;
-									margin: 0 0 10px 0;
-								}
-								.logo-description-block {
-									a {
-										float: left;
-										&:hover {
-											img {
-												@include opacity( 0.6 );
-											}
-										}
-									}
-									.canidate-name-block {
-										float: left;
-										color: #D3D3D3;
-										padding-left: 32px;
-										h3 {
-											font-size: 24px;
-											font-weight: bold;
-											line-height: 34px;
-											overflow: auto;
-											span{
-												font-weight: normal;
-												display: block;
-											}
-											a {
-												color: #D3D3D3;
-												text-decoration: none;
-											}
-										}
-										.timer-view-block {
-											margin: 10px 0 0 0;
-											li {
-												font-size: 22px;
-												text-transform: uppercase;
-												float: left;
-												border-right: 1px solid #D3D3D3;
-												padding: 0 15px;
-												&:first-child {
-													padding-left: 0;
-												}
-												&:last-child {
-													border-right: none;
-												}
-												a {
-													font-size: 17px;
-													color: #bebdbd;
-													text-transform: lowercase;
-													text-decoration: none;
-													position: relative;
-													top: 6px;
-												}
-											}
-										}
-									}
-								}
-								.date-goal-block {
-									clear: both;
-									color: #FFFFFF;
-									margin-top: 15px;
-									.date-goal-txt {
-										text-transform: uppercase;
-										font-size: 28px;
-										span {
-											font-size: 30px;
-											font-weight: bold;
-											letter-spacing: 0.5px;
-										}
-										.to-date {
-											float: left;
-											font-size: 24px;
-											span {
-												color: #FF0000;
-												font-family: 'Open Sans', sans-serif;
-											}
-										}
-										.main-goal {
-											float: right;
-											font-size: 24px;
-										}
-									}
-								}
-								.progressbar-block {
-									.progressbar {
-										height: 25px;
-										border: none;
-										margin-top: 5px;
-										@include border-radius( 0 );
-										.ui-progressbar-value {
-											background: #e70000;
-											@include border-radius( 0 );
-											.progress-label {
-										    color: #FFFFFF;
-										    float: right;
-										    font-size: 16px;
-										    font-weight: 100;
-										    padding: 0 5px 0 0;
-										    &:first-child {
-										    	display: none;
-										    }
-											}
-										}
-									}
-								}
-								.performance-block {
-									color: #d3d3d3;
-									position: relative;
-									.tooltip {
-										position: absolute;
-										background: #FFFFFF;
-										@include border-radius( 10px );
-										padding: 3px 25px 5px;
-										color: #000000;
-										font-size: 18px;
-										text-transform: uppercase;
-										font-weight: bold;
-										@include opacity( 0 );
-									}
-									ul {
-										li {
-											text-transform: uppercase;
-											font-size: 20px;
-											float: left;
-											padding: 0 25px;
-											&:first-child {
-												padding-left: 0;
-												border-right: 1px solid #d3d3d3;
-											}
-											&:last-child {
-												padding-right: 0;
-												float: right;
-											}
-											.list-item-arow {
-												font-weight: normal;
-												padding: 0 5px;
-												position: relative;
-												top: -2px;
-											}
-											.red-txt {
-												color: #FF0000;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					.green {
-						float: left;
-						.header-block {
-							background: #6db447;
-						}
-						.timer-view-block {
-							li {
-								span {
-									color: #6db447;
-								}
-							}
-						}
-					}
-					.blue {
-						float: right;
-						.header-block {
-							background: #6eafde;
-						}
-						.timer-view-block {
-							li {
-								span {
-									color: #6eafde;
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    @include background-image(linear-gradient(#343333, #141415));
+    min-width: 1170px;
+
+    .campaigns-selected-centered {
+        .site-pads {
+            h1 {
+                color: #FFFFFF;
+                font-size: 30px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-top: 35px;
+            }
+
+            .campaign-full-block {
+                .campaign-block-row {
+                    margin: 20px 0;
+
+                    .difference-candiate {
+                        width: 555px;
+
+                        .header-block {
+                            color: rgba( 255, 255, 255, 0.4 );
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            font-weight: bold;
+                            text-align: right;
+                            padding: 0 5px;
+                        }
+
+                        .canidate-content {
+                            @include background-image(linear-gradient(#343333, #141415));
+
+                            .canidate-pads {
+                                padding: 10px 15px;
+
+                                h2 {
+                                    font-size: 22px;
+                                    text-transform: uppercase;
+                                    font-weight: bold;
+                                    color: #d3d3d3;
+                                    margin: 0 0 10px 0;
+
+                                    a {
+                                        color: #D3D3D3;
+                                        text-decoration: none;
+                                    }
+                                }
+
+                                .logo-description-block {
+                                    a {
+                                        float: left;
+
+                                        &:hover {
+                                            img {
+                                                @include opacity( 0.6 );
+                                            }
+                                        }
+                                    }
+
+                                    .canidate-name-block {
+                                        float: left;
+                                        color: #D3D3D3;
+                                        padding-left: 32px;
+
+                                        h3 {
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            line-height: 26px;
+                                            overflow: auto;
+
+                                            span {
+                                                font-weight: normal;
+                                                display: block;
+                                            }
+
+                                            a {
+                                                color: #D3D3D3;
+                                                text-decoration: none;
+                                            }
+                                        }
+
+                                        .timer-view-block {
+                                            margin: 10px 0 0 0;
+
+                                            li {
+                                                font-size: 18px;
+                                                text-transform: uppercase;
+                                                float: left;
+                                                border-right: 1px solid #D3D3D3;
+                                                padding: 0 15px;
+
+                                                &:first-child {
+                                                    padding-left: 0;
+                                                }
+
+                                                &:last-child {
+                                                    border-right: none;
+                                                }
+
+                                                a {
+                                                    font-size: 18px;
+                                                    color: #bebdbd;
+                                                    text-transform: lowercase;
+                                                    text-decoration: none;
+                                                    position: relative;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .date-goal-block {
+                                    clear: both;
+                                    color: #FFFFFF;
+                                    margin-top: 15px;
+
+                                    .date-goal-txt {
+                                        text-transform: uppercase;
+                                        font-size: 18px;
+
+                                        span {
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            letter-spacing: 0.5px;
+                                        }
+
+                                        .to-date {
+                                            float: left;
+                                            font-size: 18px;
+
+                                            span {
+                                                color: #FF0000;
+                                                font-family: 'Open Sans', sans-serif;
+                                            }
+                                        }
+
+                                        .main-goal {
+                                            float: right;
+                                            font-size: 18px;
+                                        }
+                                    }
+                                }
+
+                                .progressbar-block {
+                                    .progressbar {
+                                        height: 25px;
+                                        border: none;
+                                        margin-top: 5px;
+                                        @include border-radius( 0 );
+
+                                        .ui-progressbar-value {
+                                            background: #e70000;
+                                            @include border-radius( 0 );
+
+                                            .progress-label {
+                                                color: #FFFFFF;
+                                                float: right;
+                                                font-size: 16px;
+                                                font-weight: 100;
+                                                padding: 0 5px 0 0;
+
+                                                &:first-child {
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .performance-block {
+                                    color: #d3d3d3;
+                                    position: relative;
+
+                                    .tooltip {
+                                        position: absolute;
+                                        background: #FFFFFF;
+                                        @include border-radius( 10px );
+                                        padding: 3px 25px 5px;
+                                        color: #000000;
+                                        font-size: 18px;
+                                        text-transform: uppercase;
+                                        font-weight: bold;
+                                        @include opacity( 0 );
+                                    }
+
+                                    ul {
+                                        li {
+                                            text-transform: uppercase;
+                                            font-size: 18px;
+                                            float: left;
+                                            padding: 0 25px;
+
+                                            &:first-child {
+                                                padding-left: 0;
+                                                border-right: 1px solid #d3d3d3;
+                                            }
+
+                                            &:last-child {
+                                                padding-right: 0;
+                                                float: right;
+                                            }
+
+                                            .list-item-arow {
+                                                font-weight: normal;
+                                                padding: 0 5px;
+                                                position: relative;
+                                                top: -2px;
+                                            }
+
+                                            .red-txt {
+                                                color: #FF0000;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .green {
+                        float: left;
+
+                        .header-block {
+                            background: #6db447;
+                        }
+
+                        .timer-view-block {
+                            li {
+                                span {
+                                    color: #6db447;
+                                }
+                            }
+                        }
+                    }
+
+                    .blue {
+                        float: right;
+
+                        .header-block {
+                            background: #6eafde;
+                        }
+
+                        .timer-view-block {
+                            li {
+                                span {
+                                    color: #6eafde;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

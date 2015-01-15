@@ -1,11 +1,11 @@
 /* line 4, ../scss/campaign-dashboard.scss */
 .campaign-dashboard .top-spledgers-full {
   min-width: 1170px; }
-/* line 8, ../scss/campaign-dashboard.scss */
+/* line 9, ../scss/campaign-dashboard.scss */
 .campaign-dashboard .top-spledgers-full .top-spledgers-centered .site-pads .top-spledger-list {
   border-bottom: none; }
 
-/* line 15, ../scss/campaign-dashboard.scss */
+/* line 17, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -14,7 +14,7 @@
   background-image: -webkit-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
   min-width: 1170px; }
-/* line 20, ../scss/campaign-dashboard.scss */
+/* line 23, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads h1 {
   font-size: 35px;
   text-transform: uppercase;
@@ -22,10 +22,10 @@
   letter-spacing: 0.5px;
   font-weight: bold;
   margin: 5px 0 15px; }
-/* line 28, ../scss/campaign-dashboard.scss */
+/* line 32, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .date-range-block {
   float: left; }
-/* line 30, ../scss/campaign-dashboard.scss */
+/* line 35, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .date-range-block p {
   font-size: 20px;
   font-weight: bold;
@@ -34,13 +34,13 @@
   letter-spacing: 0.5px;
   float: left;
   line-height: 40px; }
-/* line 38, ../scss/campaign-dashboard.scss */
+/* line 44, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .date-range-block p span {
   color: #FFFFFF; }
-/* line 43, ../scss/campaign-dashboard.scss */
+/* line 50, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .range-campaigns {
   float: right; }
-/* line 46, ../scss/campaign-dashboard.scss */
+/* line 54, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .range-campaigns form select {
   background: #9f9d9a url("../images/campaigns/dropdown-arrow.jpg") right center no-repeat;
   border: none !important;
@@ -60,12 +60,12 @@
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 64, ../scss/campaign-dashboard.scss */
+/* line 73, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .range-campaigns form .calander-dates {
   float: left;
   overflow: auto;
   margin-right: 129px; }
-/* line 68, ../scss/campaign-dashboard.scss */
+/* line 78, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .range-campaigns form .calander-dates:before {
   content: "Range: ";
   text-transform: uppercase;
@@ -73,28 +73,28 @@
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 0.5px; }
-/* line 76, ../scss/campaign-dashboard.scss */
+/* line 87, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .range-campaigns form .calander-dates select {
   width: 150px; }
-/* line 82, ../scss/campaign-dashboard.scss */
+/* line 94, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings {
   padding: 50px 0; }
-/* line 84, ../scss/campaign-dashboard.scss */
+/* line 97, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-left {
   float: left;
   width: 478px; }
-/* line 88, ../scss/campaign-dashboard.scss */
+/* line 102, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right {
   background: url("../images/border-repeat-one.jpg") repeat-y scroll left top;
   display: block;
   float: right;
   width: 652px; }
-/* line 93, ../scss/campaign-dashboard.scss */
+/* line 108, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info {
   display: block;
   margin: 0 auto;
   text-align: center; }
-/* line 97, ../scss/campaign-dashboard.scss */
+/* line 113, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info li {
   display: inline-block;
   width: 164px;
@@ -103,67 +103,67 @@
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px; }
-/* line 103, ../scss/campaign-dashboard.scss */
+/* line 120, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info li:last-child {
   margin-right: 0; }
-/* line 107, ../scss/campaign-dashboard.scss */
+/* line 125, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info .list-pads {
   padding: 28px 10px 0; }
-/* line 110, ../scss/campaign-dashboard.scss */
+/* line 129, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info .grey-box {
   background: #505251;
   font-size: 74px;
   line-height: 49px;
   font-weight: bold;
   color: #FFFFFF; }
-/* line 116, ../scss/campaign-dashboard.scss */
+/* line 136, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info .grey-box span {
   display: block;
   font-weight: normal;
   font-size: 20px;
   text-transform: uppercase; }
-/* line 123, ../scss/campaign-dashboard.scss */
+/* line 144, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info .white-box {
   background: #FFFFFF;
   font-size: 74px;
   line-height: 49px;
   font-weight: bold;
   color: #4f5151; }
-/* line 129, ../scss/campaign-dashboard.scss */
+/* line 151, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .spledge-info .white-box span {
   display: block;
   font-weight: normal;
   font-size: 20px;
   text-transform: uppercase; }
-/* line 137, ../scss/campaign-dashboard.scss */
+/* line 160, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar {
   width: 526px;
   margin: 0 auto; }
-/* line 140, ../scss/campaign-dashboard.scss */
+/* line 164, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block {
   clear: both;
   color: #FFFFFF;
   margin-top: 15px; }
-/* line 144, ../scss/campaign-dashboard.scss */
+/* line 169, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block .date-goal-txt {
   text-transform: uppercase;
   font-size: 28px; }
-/* line 147, ../scss/campaign-dashboard.scss */
+/* line 173, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block .date-goal-txt span {
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 0.5px; }
-/* line 152, ../scss/campaign-dashboard.scss */
+/* line 179, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block .date-goal-txt .to-date {
   float: left; }
-/* line 154, ../scss/campaign-dashboard.scss */
+/* line 182, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block .date-goal-txt .to-date span {
   color: #FF0000;
   font-family: 'Open Sans', sans-serif; }
-/* line 159, ../scss/campaign-dashboard.scss */
+/* line 188, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .date-goal-block .date-goal-txt .main-goal {
   float: right; }
-/* line 165, ../scss/campaign-dashboard.scss */
+/* line 195, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .progressbar-block .progressbar {
   height: 25px;
   border: none;
@@ -171,27 +171,27 @@
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 170, ../scss/campaign-dashboard.scss */
+/* line 201, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value {
   background: #e70000;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 173, ../scss/campaign-dashboard.scss */
+/* line 205, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value .progress-label {
   color: #FFFFFF;
   float: right;
   font-size: 16px;
   font-weight: 100;
   padding: 0 5px 0 0; }
-/* line 179, ../scss/campaign-dashboard.scss */
+/* line 212, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value .progress-label:first-child {
   display: none; }
-/* line 186, ../scss/campaign-dashboard.scss */
+/* line 220, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block {
   color: #d3d3d3;
   position: relative; }
-/* line 189, ../scss/campaign-dashboard.scss */
+/* line 224, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block .tooltip {
   position: absolute;
   background: #FFFFFF;
@@ -205,34 +205,34 @@
   font-weight: bold;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
-/* line 201, ../scss/campaign-dashboard.scss */
+/* line 237, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li {
   text-transform: uppercase;
   font-size: 20px;
   float: left;
   padding: 0 25px; }
-/* line 206, ../scss/campaign-dashboard.scss */
+/* line 243, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li.title-case {
   text-transform: none; }
-/* line 211, ../scss/campaign-dashboard.scss */
+/* line 248, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li:first-child {
   padding-left: 0;
   border-right: 1px solid #d3d3d3; }
-/* line 215, ../scss/campaign-dashboard.scss */
+/* line 253, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li:last-child {
   padding-right: 0;
   float: right; }
-/* line 219, ../scss/campaign-dashboard.scss */
+/* line 258, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li .list-item-arow {
   font-weight: normal;
   padding: 0 5px;
   position: relative;
   top: -2px; }
-/* line 225, ../scss/campaign-dashboard.scss */
+/* line 265, ../scss/campaign-dashboard.scss */
 .total-campaign-earnings-full .total-campaign-earnings-centered .site-pads .campaign-earnings .earnings-right .status-to-date-bar .performance-block ul li .red-txt {
   color: #FF0000; }
 
-/* line 237, ../scss/campaign-dashboard.scss */
+/* line 278, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -241,28 +241,28 @@
   background-image: -webkit-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
   min-width: 1170px; }
-/* line 242, ../scss/campaign-dashboard.scss */
+/* line 284, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads h1 {
   color: #FFFFFF;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 35px; }
-/* line 250, ../scss/campaign-dashboard.scss */
+/* line 293, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row {
-  margin: 40px 0; }
-/* line 252, ../scss/campaign-dashboard.scss */
+  margin: 20px 0; }
+/* line 296, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate {
   width: 555px; }
-/* line 254, ../scss/campaign-dashboard.scss */
+/* line 299, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .header-block {
   color: rgba(255, 255, 255, 0.4);
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-align: right;
   padding: 0 5px; }
-/* line 262, ../scss/campaign-dashboard.scss */
+/* line 308, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -270,93 +270,96 @@
   background-image: -moz-linear-gradient(#343333, #141415);
   background-image: -webkit-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415); }
-/* line 264, ../scss/campaign-dashboard.scss */
+/* line 311, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads {
-  padding: 15px 24px; }
-/* line 266, ../scss/campaign-dashboard.scss */
+  padding: 10px 15px; }
+/* line 314, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads h2 {
-  font-size: 30px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: bold;
   color: #d3d3d3;
   margin: 0 0 10px 0; }
-/* line 274, ../scss/campaign-dashboard.scss */
+/* line 321, ../scss/campaign-dashboard.scss */
+.campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads h2 a {
+  color: #D3D3D3;
+  text-decoration: none; }
+/* line 328, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block a {
   float: left; }
-/* line 277, ../scss/campaign-dashboard.scss */
+/* line 332, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block a:hover img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6; }
-/* line 282, ../scss/campaign-dashboard.scss */
+/* line 338, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block {
   float: left;
   color: #D3D3D3;
   padding-left: 32px; }
-/* line 286, ../scss/campaign-dashboard.scss */
+/* line 343, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 34px;
+  line-height: 26px;
   overflow: auto; }
-/* line 291, ../scss/campaign-dashboard.scss */
+/* line 349, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block h3 span {
   font-weight: normal;
   display: block; }
-/* line 295, ../scss/campaign-dashboard.scss */
+/* line 354, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block h3 a {
   color: #D3D3D3;
   text-decoration: none; }
-/* line 300, ../scss/campaign-dashboard.scss */
+/* line 360, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block .timer-view-block {
   margin: 10px 0 0 0; }
-/* line 302, ../scss/campaign-dashboard.scss */
+/* line 363, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block .timer-view-block li {
-  font-size: 22px;
+  font-size: 18px;
   text-transform: uppercase;
   float: left;
   border-right: 1px solid #D3D3D3;
   padding: 0 15px; }
-/* line 308, ../scss/campaign-dashboard.scss */
+/* line 370, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block .timer-view-block li:first-child {
   padding-left: 0; }
-/* line 311, ../scss/campaign-dashboard.scss */
+/* line 374, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block .timer-view-block li:last-child {
   border-right: none; }
-/* line 314, ../scss/campaign-dashboard.scss */
+/* line 378, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .logo-description-block .canidate-name-block .timer-view-block li a {
-  font-size: 17px;
+  font-size: 18px;
   color: #bebdbd;
   text-transform: lowercase;
   text-decoration: none;
-  position: relative;
-  top: 6px; }
-/* line 326, ../scss/campaign-dashboard.scss */
+  position: relative; }
+/* line 390, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block {
   clear: both;
   color: #FFFFFF;
   margin-top: 15px; }
-/* line 330, ../scss/campaign-dashboard.scss */
+/* line 395, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt {
   text-transform: uppercase;
-  font-size: 28px; }
-/* line 333, ../scss/campaign-dashboard.scss */
+  font-size: 18px; }
+/* line 399, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.5px; }
-/* line 338, ../scss/campaign-dashboard.scss */
+/* line 405, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .to-date {
   float: left;
-  font-size: 24px; }
-/* line 341, ../scss/campaign-dashboard.scss */
+  font-size: 18px; }
+/* line 409, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .to-date span {
   color: #FF0000;
   font-family: 'Open Sans', sans-serif; }
-/* line 346, ../scss/campaign-dashboard.scss */
+/* line 415, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .date-goal-block .date-goal-txt .main-goal {
   float: right;
-  font-size: 24px; }
-/* line 353, ../scss/campaign-dashboard.scss */
+  font-size: 18px; }
+/* line 423, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .progressbar-block .progressbar {
   height: 25px;
   border: none;
@@ -364,27 +367,27 @@
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 358, ../scss/campaign-dashboard.scss */
+/* line 429, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .progressbar-block .progressbar .ui-progressbar-value {
   background: #e70000;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0; }
-/* line 361, ../scss/campaign-dashboard.scss */
+/* line 433, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .progressbar-block .progressbar .ui-progressbar-value .progress-label {
   color: #FFFFFF;
   float: right;
   font-size: 16px;
   font-weight: 100;
   padding: 0 5px 0 0; }
-/* line 367, ../scss/campaign-dashboard.scss */
+/* line 440, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .progressbar-block .progressbar .ui-progressbar-value .progress-label:first-child {
   display: none; }
-/* line 374, ../scss/campaign-dashboard.scss */
+/* line 448, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block {
   color: #d3d3d3;
   position: relative; }
-/* line 377, ../scss/campaign-dashboard.scss */
+/* line 452, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block .tooltip {
   position: absolute;
   background: #FFFFFF;
@@ -398,44 +401,44 @@
   font-weight: bold;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0; }
-/* line 389, ../scss/campaign-dashboard.scss */
+/* line 465, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block ul li {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
   padding: 0 25px; }
-/* line 394, ../scss/campaign-dashboard.scss */
+/* line 471, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block ul li:first-child {
   padding-left: 0;
   border-right: 1px solid #d3d3d3; }
-/* line 398, ../scss/campaign-dashboard.scss */
+/* line 476, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block ul li:last-child {
   padding-right: 0;
   float: right; }
-/* line 402, ../scss/campaign-dashboard.scss */
+/* line 481, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block ul li .list-item-arow {
   font-weight: normal;
   padding: 0 5px;
   position: relative;
   top: -2px; }
-/* line 408, ../scss/campaign-dashboard.scss */
+/* line 488, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .difference-candiate .canidate-content .canidate-pads .performance-block ul li .red-txt {
   color: #FF0000; }
-/* line 417, ../scss/campaign-dashboard.scss */
+/* line 498, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .green {
   float: left; }
-/* line 419, ../scss/campaign-dashboard.scss */
+/* line 501, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .green .header-block {
   background: #6db447; }
-/* line 424, ../scss/campaign-dashboard.scss */
+/* line 507, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .green .timer-view-block li span {
   color: #6db447; }
-/* line 430, ../scss/campaign-dashboard.scss */
+/* line 514, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .blue {
   float: right; }
-/* line 432, ../scss/campaign-dashboard.scss */
+/* line 517, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .blue .header-block {
   background: #6eafde; }
-/* line 437, ../scss/campaign-dashboard.scss */
+/* line 523, ../scss/campaign-dashboard.scss */
 .campaigns-selected-full .campaigns-selected-centered .site-pads .campaign-full-block .campaign-block-row .blue .timer-view-block li span {
   color: #6eafde; }

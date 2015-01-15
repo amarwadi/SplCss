@@ -158,6 +158,7 @@
     /* line 282, ../scss/build-campaign.scss */
     .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .build-campaign-details .save-continue-block .red-btn {
         float: right;
+        cursor: pointer;
     }
 
 .option-block {
@@ -451,9 +452,9 @@ a:hover {
             }
 
 
-.program-block .program-pads .prg-setting {
+/*.program-block .program-pads .prg-setting {
     width: 485px !important;
-}
+}*/
 
 .build-campaign-full .build-campaign-full-img .build-campaign-centered .site-pads .build-campaing-block .campaign-steps ol .active {
     color: #373838;
