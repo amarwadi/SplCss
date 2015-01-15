@@ -3170,7 +3170,7 @@ header .active {
   border-radius: 50px;
   border: 7px solid #d3d3d3;
   float: left;
-  width: 53px;
+  width: 59px;
   height: auto; }
 /* line 766, ../scss/campaign-landing.scss */
 .top-spledgers-full .top-spledgers-centered .site-pads .top-spledger-list > li .spledge-img-info .img-name-block .name-city-block {
@@ -6088,8 +6088,8 @@ header .active {
   background-image: -moz-linear-gradient(#343333, #141415);
   background-image: -o-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
-  padding: 40px 0 50px;
-  margin-top: 131px;
+  padding: 20px 0 50px;
+  margin-top: 108px;
   min-width: 1170px; }
 /* line 9, ../scss/burry-tach.scss */
 .burry-tach-header-full .burry-tach-header-centered .site-pads {
@@ -6397,7 +6397,7 @@ header .active {
   background: #383838; }
 /* line 333, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads {
-  padding: 37px 47px; }
+  padding: 17px 27px; }
 /* line 335, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left {
   float: left; }
@@ -6411,7 +6411,7 @@ header .active {
 /* line 343, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h2 {
   color: #FFFFFF;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: bold; }
@@ -6422,18 +6422,18 @@ header .active {
   font-size: 28px; }
 /* line 355, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h3 {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 35px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #f8981d;
   font-weight: bold;
-  margin-top: 90px; }
+  margin-top: 70px; }
 /* line 362, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .content-left .title-location h3 span {
   display: block;
   color: #FFFFFF;
   text-transform: capitalize;
-  font-size: 28px; }
+  font-size: 26px; }
 /* line 371, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .burry-tach-box-completed .main-content-block .main-content-pads .campaign-meter {
   float: right;
@@ -6510,7 +6510,7 @@ header .active {
   color: #707070; }
 /* line 444, ../scss/burry-tach.scss */
 .burry-tach-content-full .burry-tach-content-centered .site-pads .drop-hammer-block {
-  margin: 75px 0 85px;
+  margin: 0 0 15px;
   text-align: right;
   position: relative; }
 /* line 448, ../scss/burry-tach.scss */
