@@ -1,0 +1,491 @@
+3.2.14 (Media Mark)
+9a1c7014b909543bfa5986105458cb378dc4ede8
+o:Sass::Tree::RootNode
+:@template"Ñ*@import "compass/css3";
+
+.campagin-header-full {
+    min-width: 1170px;
+
+    .campagin-img-full {
+        height: auto;
+        padding: 131px 0 78px;
+        background: url( '../images/campaigns/money-header.jpg' ) center top / cover no-repeat;
+
+        .campagin-centered {
+            .site-pads {
+                .campagin-header-content {
+                    .campaign-box-full {
+                        width: 1014px;
+                        background: rgba( 0, 0, 0, 0.2 );
+                        margin: 48px auto 0;
+
+                        .campaign-box-pads {
+                            padding: 35px 25px;
+
+                            h1 {
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                                font-size: 35px;
+                                letter-spacing: 0.5px;
+                                font-weight: bold;
+                                float: left;
+                            }
+
+                            h2 {
+                                color: #FFFFFF;
+                                font-size: 30px;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                float: left;
+                                margin-right: 15px;
+                            }
+
+
+                            #campaign-form {
+                                float: right;
+                                margin-top: 10px;
+
+                                .campaign-title,
+                                .campaign-city {
+                                    background: none;
+                                    border-top: none;
+                                    border-right: none;
+                                    border-bottom: 1px solid #A7A29A;
+                                    border-left: none;
+                                    color: #A7A29A;
+                                    float: left;
+                                    padding: 9px 0;
+                                }
+
+                                .campaign-title {
+                                    width: 308px;
+                                    text-indent: 9px;
+                                    border-right: 1px solid #A7A29A;
+                                }
+
+                                .campaign-city {
+                                    background: url( '../images/map-icon.png' ) 10px center no-repeat;
+                                    padding-left: 35px;
+                                }
+
+                                .submit-icon {
+                                    color: #878788;
+                                    font-size: 20px;
+                                    padding-top: 4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.grey-bar-full {
+    background: #464646;
+    padding: 21px 0;
+    min-width: 1170px;
+
+    .grey-bar-centered {
+        .site-pads {
+            .filter-list {
+                margin: 0;
+                float: left;
+
+                &:before {
+                    content: "Filter:";
+                    float: left;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    margin-right: 10px;
+                    position: relative;
+                    top: 4px;
+                }
+
+                li {
+                    float: left;
+                    margin-right: 10px;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        background: #9f9d9a;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        font-weight: bold;
+                        letter-spacing: 0.5px;
+                        padding: 5px 15px;
+
+                        &:hover {
+                            background: #61605F;
+                        }
+                    }
+
+                    .active-green {
+                        background: #62a744;
+                    }
+
+                    .active-blue {
+                        background: #6daede;
+                    }
+
+                    .active-pink {
+                        background: #d4558b;
+                    }
+                }
+            }
+
+            #filter-form {
+                float: right;
+                overflow: hidden;
+
+                select {
+                    background: #9f9d9a url( '../images/campaigns/dropdown-arrow.jpg' ) right center no-repeat;
+                    border: none !important;
+                    outline: medium none !important;
+                    display: inline-flex !important;
+                    height: 38px !important;
+                    width: 180px;
+                    text-indent: 10px;
+                    vertical-align: top;
+                    -webkit-appearance: none;
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 18px;
+                    font-family: 'Open Sans Condensed',Helvetica,Arial,sans-serif;
+                    margin-left: 10px;
+                    @include border-radius( 0 );
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+
+                select[disabled] {
+                    background: #61605f url( '../images/campaigns/dropdown-arrow-disabled.jpg' ) right center no-repeat;
+                    color: #b0b0b0;
+                }
+            }
+        }
+    }
+}
+
+.campagin-blocks-full {
+    background: #e0dfdf;
+    padding: 77px 0 43px 0;
+    min-width: 1170px;
+
+    .campagin-blocks-centered {
+        .site-pads {
+            .campaign-row {
+                margin-bottom: 30px;
+
+                .campagin-block {
+                    width: 555px;
+                    background: #FFFFFF;
+                    margin: 0 0 20px 0;
+
+                    /*&:first-child {
+                        float: left;
+                    }
+
+                    &:last-child {
+                        float: right;
+                    }*/
+
+                    .top-bar {
+                        span {
+                            color: rgba(255, 255, 255, 0.4);
+                            font-size: 18px;
+                            font-weight: bold;
+                            padding: 0 5px;
+                            text-align: right;
+                            text-transform: uppercase;
+                            display: block;
+                        }
+                    }
+
+                    .campagin-content {
+                        color: #373838;
+                        padding: 10px 14px 20px 14px;
+
+                        h2 {
+                            text-transform: uppercase;
+                            font-size: 24px;
+                            letter-spacing: 0.5px;
+                            font-weight: bold;
+                            margin-bottom: 10px;
+                        }
+
+                        .logo-holder {
+                            float: left;
+                        }
+
+                        .campaign-info {
+                            width: 375px;
+                            float: right;
+
+                            h3 {
+                                font-size: 20px;
+                                line-height: 24px;
+                                font-weight: bold;
+                                border-bottom: 1px solid #bcbcbc;
+                                padding-bottom: 10px;
+                                margin: 0;
+
+                                span {
+                                    display: block;
+                                    font-weight: normal;
+                                }
+                            }
+
+                            .campagin-details {
+                                li {
+                                    font-size: 20px;
+                                    text-transform: uppercase;
+
+                                    &:last-child {
+                                        span {
+                                            float: none;
+                                        }
+                                    }
+
+                                    span {
+                                        float: right;
+                                        font-weight: bold;
+                                    }
+
+                                    .red-txt {
+                                        color: #ff0000;
+                                    }
+
+                                    .green-txt {
+                                        color: #6db447;
+                                    }
+                                }
+                            }
+
+                            .campaign-btns {
+                                margin: 0 10px 0 0;
+
+                                li {
+                                    float: left;
+                                    margin-right: 9px;
+
+                                    .red-btn {
+                                        font-size: 18px;
+                                    }
+
+                                    .follow-btn {
+                                        font-size: 18px;
+                                    }
+
+                                    .follow-white-btn{
+                                        font-size:18px !important;
+                                    }
+
+                                    &:last-child {
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pagination {
+                margin: 40px 0 0 0;
+                text-align: center;
+                font-size: 22px;
+                color: #909090;
+
+                li {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #565556;
+                    }
+                }
+
+                .active-page {
+                    background: #565556;
+                    @include border-radius( 20px );
+                    color: #FFFFFF;
+
+                    &:hover {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+:@has_childrenT:@options{ :@children[	o:Sass::Tree::ImportNode:@imported_file0:@imported_filename"compass/css3;0;@;	[ :
+@lineio:Sass::Tree::RuleNode:@parsed_ruleso:"Sass::Selector::CommaSequence:@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;[o:Sass::Selector::Class:
+@name["campagin-header-full:@filename" ;i:@sourceso:Set:
+@hash{ ;@;i:@subject0;@;i;T;@:
+@tabsi ;	[o:Sass::Tree::PropNode;["min-width:@valueo:Sass::Script::String:
+@type:identifier;"1170px;@:@prop_syntax:new;@;i ;	[ ;i	o;;o;;[o;;[o;
+;[o;;["campagin-img-full;" ;i;o;;{ ;@*;i;0;@*;i;T;@;i ;	[	o;;["height;o;;; ;"	auto;@;!;";@;i ;	[ ;io;;["padding;o;;; ;"131px 0 78px;@;!;";@;i ;	[ ;io;;["background;o:Sass::Script::List	;[	o:Sass::Script::Funcall;"url:@keywords{ ;@:@splat0;i:
+@args[o;	;:string;")../images/campaigns/money-header.jpg;@;io;	;; ;"center;@;io:Sass::Script::Operation
+:@operator:div;@:@operand2o;	;; ;"
+cover;@;i;i:@operand1o;	;; ;"top;@;io;	;; ;"no-repeat;@;i;@:@separator:
+space;i;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;;["campagin-centered;" ;i;o;;{ ;@Y;i;0;@Y;i;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["site-pads;" ;i;o;;{ ;@g;i;0;@g;i;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["campagin-header-content;" ;i;o;;{ ;@u;i;0;@u;i;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["campaign-box-full;" ;i;o;;{ ;@~;i;0;@~;i;T;@;i ;	[	o;;["
+width;o;;; ;"1014px;@;!;";@;i ;	[ ;io;;["background;o;$;"	rgba;%{ ;@;&0;i;'[	o:Sass::Script::Number:@denominator_units[ :@numerator_units[ ;i :@original"0;@;io;0;1@ê;2[ ;i ;3"0;@;io;0;1@ê;2[ ;i ;3"0;@;io;0;1@ê;2[ ;f0.20000000000000001 ôö;3"0.2;@;i;!;";@;i ;	[ ;io;;["margin;o;;; ;"48px auto 0;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;;["campaign-box-pads;" ;i;o;;{ ;@Æ;i;0;@Æ;i;T;@;i ;	[	o;;["padding;o;;; ;"35px 25px;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o:Sass::Selector::Element	:@namespace0;["h1;" ;i;o;;{ ;@¬;i;0;@¬;i;T;@;i ;	[o;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;io;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;io;;["font-size;o;;; ;"	35px;@;!;";@;i ;	[ ;io;;["letter-spacing;o;;; ;"
+0.5px;@;!;";@;i ;	[ ;io;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;i o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;i!;i:
+@rule["h1o;;o;;[o;;[o;
+;[o;4	;50;["h2;" ;i$;o;;{ ;@ˆ;i$;0;@ˆ;i$;T;@;i ;	[o;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;i%o;;["font-size;o;;; ;"	30px;@;!;";@;i ;	[ ;i&o;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;i'o;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;i(o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;i)o;;["margin-right;o;;; ;"	15px;@;!;";@;i ;	[ ;i*;i$;6["h2o;;o;;[o;;[o;
+;[o:Sass::Selector::Id;["campaign-form;" ;i.;o;;{ ;@*;i.;0;@*;i.;T;@;i ;	[o;;["
+float;o;;; ;"
+right;@;!;";@;i ;	[ ;i/o;;["margin-top;o;;; ;"	10px;@;!;";@;i ;	[ ;i0o;;o;;[o;;[o;
+;[o;;["campaign-title;" ;i3;o;;{ ;@D;i3;0o;;["
+o;
+;[o;;["campaign-city;@D;i3;o;;{ ;@D;i3;0;@D;i3;T;@;i ;	[o;;["background;o;;; ;"	none;@;!;";@;i ;	[ ;i4o;;["border-top;o;;; ;"	none;@;!;";@;i ;	[ ;i5o;;["border-right;o;;; ;"	none;@;!;";@;i ;	[ ;i6o;;["border-bottom;o;;; ;"1px solid #A7A29A;@;!;";@;i ;	[ ;i7o;;["border-left;o;;; ;"	none;@;!;";@;i ;	[ ;i8o;;["
+color;o;;; ;"#A7A29A;@;!;";@;i ;	[ ;i9o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;i:o;;["padding;o;;; ;"
+9px 0;@;!;";@;i ;	[ ;i;;i3;6["D.campaign-title,
+                                .campaign-cityo;;o;;[o;;[o;
+;[o;;["campaign-title;" ;i>;o;;{ ;@é;i>;0;@é;i>;T;@;i ;	[o;;["
+width;o;;; ;"
+308px;@;!;";@;i ;	[ ;i?o;;["text-indent;o;;; ;"9px;@;!;";@;i ;	[ ;i@o;;["border-right;o;;; ;"1px solid #A7A29A;@;!;";@;i ;	[ ;iA;i>;6[".campaign-titleo;;o;;[o;;[o;
+;[o;;["campaign-city;" ;iD;o;;{ ;@∞;iD;0;@∞;iD;T;@;i ;	[o;;["background;o;#	;[	o;$;"url;%{ ;@;&0;iE;'[o;	;;(;"../images/map-icon.png;@;iEo;0;1[ ;2["px;i;3"	10px;@;iEo;	;; ;"center;@;iEo;	;; ;"no-repeat;@;iE;@;.;/;iE;!;";@;i ;	[ ;iEo;;["padding-left;o;;; ;"	35px;@;!;";@;i ;	[ ;iF;iD;6[".campaign-cityo;;o;;[o;;[o;
+;[o;;["submit-icon;" ;iI;o;;{ ;@€;iI;0;@€;iI;T;@;i ;	[o;;["
+color;o;;; ;"#878788;@;!;";@;i ;	[ ;iJo;;["font-size;o;;; ;"	20px;@;!;";@;i ;	[ ;iKo;;["padding-top;o;;; ;"4px;@;!;";@;i ;	[ ;iL;iI;6[".submit-icon;i.;6["#campaign-form;i;6[".campaign-box-pads;i;6[".campaign-box-full;i;6[".campagin-header-content;i;6[".site-pads;i;6[".campagin-centered;i;6[".campagin-img-full;i;6[".campagin-header-fullo;;o;;[o;;[o;
+;[o;;["grey-bar-full;" ;iW;o;;{ ;@;iW;0;@;iW;T;@;i ;	[	o;;["background;o;;; ;"#464646;@;!;";@;i ;	[ ;iXo;;["padding;o;;; ;"21px 0;@;!;";@;i ;	[ ;iYo;;["min-width;o;;; ;"1170px;@;!;";@;i ;	[ ;iZo;;o;;[o;;[o;
+;[o;;["grey-bar-centered;" ;i\;o;;{ ;@-;i\;0;@-;i\;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["site-pads;" ;i];o;;{ ;@;;i];0;@;;i];T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["filter-list;" ;i^;o;;{ ;@I;i^;0;@I;i^;T;@;i ;	[	o;;["margin;o;;; ;"0;@;!;";@;i ;	[ ;i_o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;i`o;;o;;[o;;[o;
+;[o:Sass::Selector::Parent;" ;ibo:Sass::Selector::Pseudo
+;["before:	@arg0;@a;ib:@syntactic_type:
+class;o;;{ ;@a;ib;0;@a;ib;T;@;i ;	[o;;["content;o;;; ;""Filter:";@;!;";@;i ;	[ ;ico;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;ido;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;ieo;;["font-size;o;;; ;"	20px;@;!;";@;i ;	[ ;ifo;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;igo;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;iho;;["margin-right;o;;; ;"	10px;@;!;";@;i ;	[ ;iio;;["position;o;;; ;"relative;@;!;";@;i ;	[ ;ijo;;["top;o;;; ;"4px;@;!;";@;i ;	[ ;ik;ib;6["&:beforeo;;o;;[o;;[o;
+;[o;4	;50;["li;" ;in;o;;{ ;@™;in;0;@™;in;T;@;i ;	[o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;ioo;;["margin-right;o;;; ;"	10px;@;!;";@;i ;	[ ;ipo;;o;;[o;;[o;
+;[o;8;" ;iro;9
+;["last-child;:0;@¬;ir;;;<;o;;{ ;@¬;ir;0;@¬;ir;T;@;i ;	[o;;["margin-right;o;;; ;"0;@;!;";@;i ;	[ ;is;ir;6["&:last-childo;;o;;[o;;[o;
+;[o;4	;50;["a;" ;iv;o;;{ ;@€;iv;0;@€;iv;T;@;i ;	[o;;["display;o;;; ;"
+block;@;!;";@;i ;	[ ;iwo;;["text-decoration;o;;; ;"	none;@;!;";@;i ;	[ ;ixo;;["background;o;;; ;"#9f9d9a;@;!;";@;i ;	[ ;iyo;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;izo;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;i{o;;["font-size;o;;; ;"	18px;@;!;";@;i ;	[ ;i|o;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;i}o;;["letter-spacing;o;;; ;"
+0.5px;@;!;";@;i ;	[ ;i~o;;["padding;o;;; ;"5px 15px;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;8;" ;i|o;9
+;["
+hover;:0;@;i|;;;<;o;;{ ;@;i|;0;@;i|;T;@;i ;	[o;;["background;o;;; ;"#61605F;@;!;";@;i ;	[ ;i};i|;6["&:hover;iv;6["ao;;o;;[o;;[o;
+;[o;;["active-green;" ;iÅ;o;;{ ;@8;iÅ;0;@8;iÅ;T;@;i ;	[o;;["background;o;;; ;"#62a744;@;!;";@;i ;	[ ;iÇ;iÅ;6[".active-greeno;;o;;[o;;[o;
+;[o;;["active-blue;" ;iÖ;o;;{ ;@N;iÖ;0;@N;iÖ;T;@;i ;	[o;;["background;o;;; ;"#6daede;@;!;";@;i ;	[ ;iÜ;iÖ;6[".active-blueo;;o;;[o;;[o;
+;[o;;["active-pink;" ;iâ;o;;{ ;@d;iâ;0;@d;iâ;T;@;i ;	[o;;["background;o;;; ;"#d4558b;@;!;";@;i ;	[ ;iä;iâ;6[".active-pink;in;6["li;i^;6[".filter-listo;;o;;[o;;[o;
+;[o;7;["filter-form;" ;iè;o;;{ ;@~;iè;0;@~;iè;T;@;i ;	[	o;;["
+float;o;;; ;"
+right;@;!;";@;i ;	[ ;iêo;;["overflow;o;;; ;"hidden;@;!;";@;i ;	[ ;iëo;;o;;[o;;[o;
+;[o;4	;50;["select;" ;iì;o;;{ ;@ò;iì;0;@ò;iì;T;@;i ;	[o;;["background;o;#	;[
+o:Sass::Script::Color	:@attrs{	:rediü:
+alphai:
+greeniù:	blueiö;0;@;iîo;$;"url;%{ ;@;&0;iî;'[o;	;;(;"+../images/campaigns/dropdown-arrow.jpg;@;iîo;	;; ;"
+right;@;iîo;	;; ;"center;@;iîo;	;; ;"no-repeat;@;iî;@;.;/;iî;!;";@;i ;	[ ;iîo;;["border;o;;; ;"none !important;@;!;";@;i ;	[ ;iïo;;["outline;o;;; ;"medium none !important;@;!;";@;i ;	[ ;iño;;["display;o;;; ;"inline-flex !important;@;!;";@;i ;	[ ;ióo;;["height;o;;; ;"38px !important;@;!;";@;i ;	[ ;iòo;;["
+width;o;;; ;"
+180px;@;!;";@;i ;	[ ;iôo;;["text-indent;o;;; ;"	10px;@;!;";@;i ;	[ ;iöo;;["vertical-align;o;;; ;"top;@;!;";@;i ;	[ ;iõo;;["-webkit-appearance;o;;; ;"	none;@;!;";@;i ;	[ ;iúo;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;iùo;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;iûo;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;iüo;;["font-size;o;;; ;"	18px;@;!;";@;i ;	[ ;i†o;;["font-family;o;;; ;"5'Open Sans Condensed',Helvetica,Arial,sans-serif;@;!;";@;i ;	[ ;i°o;;["margin-left;o;;; ;"	10px;@;!;";@;i ;	[ ;i¢o:Sass::Tree::MixinNode;"border-radius;%{ ;@;	[ ;&0;i£;'[o;0;1@ê;2[ ;i ;3"0;@;i£o;;o;;[o;;[o;
+;[o;8;" ;i•o;9
+;["first-child;:0;@;i•;;;<;o;;{ ;@;i•;0;@;i•;T;@;i ;	[o;;["margin-left;o;;; ;"0;@;!;";@;i ;	[ ;i¶;i•;6["&:first-child;iì;6["selecto;;o;;[o;;[o;
+;[o;4	;50;["select;" ;i™o:Sass::Selector::Attribute;50;["disabled;*0;0;@/;i™:@flags0;o;;{ ;@/;i™;0;@/;i™;T;@;i ;	[o;;["background;o;#	;[
+o;=	;>{	;?if;@i;Aie;Bid;0;@;i´o;$;"url;%{ ;@;&0;i´;'[o;	;;(;"4../images/campaigns/dropdown-arrow-disabled.jpg;@;i´o;	;; ;"
+right;@;i´o;	;; ;"center;@;i´o;	;; ;"no-repeat;@;i´;@;.;/;i´;!;";@;i ;	[ ;i´o;;["
+color;o;;; ;"#b0b0b0;@;!;";@;i ;	[ ;i¨;i™;6["select[disabled];iè;6["#filter-form;i];6[".site-pads;i\;6[".grey-bar-centered;iW;6[".grey-bar-fullo;;o;;[o;;[o;
+;[o;;["campagin-blocks-full;" ;i≥;o;;{ ;@d;i≥;0;@d;i≥;T;@;i ;	[	o;;["background;o;;; ;"#e0dfdf;@;!;";@;i ;	[ ;i¥o;;["padding;o;;; ;"77px 0 43px 0;@;!;";@;i ;	[ ;iµo;;["min-width;o;;; ;"1170px;@;!;";@;i ;	[ ;i∂o;;o;;[o;;[o;
+;[o;;["campagin-blocks-centered;" ;i∏;o;;{ ;@Ñ;i∏;0;@Ñ;i∏;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["site-pads;" ;iπ;o;;{ ;@í;iπ;0;@í;iπ;T;@;i ;	[o;;o;;[o;;[o;
+;[o;;["campaign-row;" ;i∫;o;;{ ;@†;i∫;0;@†;i∫;T;@;i ;	[o;;["margin-bottom;o;;; ;"	30px;@;!;";@;i ;	[ ;iªo;;o;;[o;;[o;
+;[o;;["campagin-block;" ;iΩ;o;;{ ;@¥;iΩ;0;@¥;iΩ;T;@;i ;	[o;;["
+width;o;;; ;"
+555px;@;!;";@;i ;	[ ;iæo;;["background;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;iøo;;["margin;o;;; ;"0 0 20px 0;@;!;";@;i ;	[ ;i¿o:Sass::Tree::CommentNode
+;:normal;["¬                    /*&:first-child {
+                        float: left;
+                    }
+
+                    &:last-child {
+                        float: right;
+                    }*/;@;	[ ;i¬o;;o;;[o;;[o;
+;[o;;["top-bar;" ;i ;o;;{ ;@ÿ;i ;0;@ÿ;i ;T;@;i ;	[o;;o;;[o;;[o;
+;[o;4	;50;["	span;" ;iÀ;o;;{ ;@Ê;iÀ;0;@Ê;iÀ;T;@;i ;	[o;;["
+color;o;$;"	rgba;%{ ;@;&0;iÃ;'[	o;0;1@ê;2[ ;iˇ;3"255;@;iÃo;0;1@ê;2[ ;iˇ;3"255;@;iÃo;0;1@ê;2[ ;iˇ;3"255;@;iÃo;0;1@ê;2[ ;f0.40000000000000002 ôö;3"0.4;@;iÃ;!;";@;i ;	[ ;iÃo;;["font-size;o;;; ;"	18px;@;!;";@;i ;	[ ;iÕo;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;iŒo;;["padding;o;;; ;"
+0 5px;@;!;";@;i ;	[ ;iœo;;["text-align;o;;; ;"
+right;@;!;";@;i ;	[ ;i–o;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;i—o;;["display;o;;; ;"
+block;@;!;";@;i ;	[ ;i“;iÀ;6["	span;i ;6[".top-baro;;o;;[o;;[o;
+;[o;;["campagin-content;" ;i÷;o;;{ ;@1;i÷;0;@1;i÷;T;@;i ;	[
+o;;["
+color;o;;; ;"#373838;@;!;";@;i ;	[ ;i◊o;;["padding;o;;; ;"10px 14px 20px 14px;@;!;";@;i ;	[ ;iÿo;;o;;[o;;[o;
+;[o;4	;50;["h2;" ;i⁄;o;;{ ;@K;i⁄;0;@K;i⁄;T;@;i ;	[
+o;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;i€o;;["font-size;o;;; ;"	24px;@;!;";@;i ;	[ ;i‹o;;["letter-spacing;o;;; ;"
+0.5px;@;!;";@;i ;	[ ;i›o;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;iﬁo;;["margin-bottom;o;;; ;"	10px;@;!;";@;i ;	[ ;iﬂ;i⁄;6["h2o;;o;;[o;;[o;
+;[o;;["logo-holder;" ;i‚;o;;{ ;@y;i‚;0;@y;i‚;T;@;i ;	[o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;i„;i‚;6[".logo-holdero;;o;;[o;;[o;
+;[o;;["campaign-info;" ;iÊ;o;;{ ;@è;iÊ;0;@è;iÊ;T;@;i ;	[
+o;;["
+width;o;;; ;"
+375px;@;!;";@;i ;	[ ;iÁo;;["
+float;o;;; ;"
+right;@;!;";@;i ;	[ ;iËo;;o;;[o;;[o;
+;[o;4	;50;["h3;" ;iÍ;o;;{ ;@©;iÍ;0;@©;iÍ;T;@;i ;	[o;;["font-size;o;;; ;"	20px;@;!;";@;i ;	[ ;iÎo;;["line-height;o;;; ;"	24px;@;!;";@;i ;	[ ;iÏo;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;iÌo;;["border-bottom;o;;; ;"1px solid #bcbcbc;@;!;";@;i ;	[ ;iÓo;;["padding-bottom;o;;; ;"	10px;@;!;";@;i ;	[ ;iÔo;;["margin;o;;; ;"0;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;4	;50;["	span;" ;iÚ;o;;{ ;@€;iÚ;0;@€;iÚ;T;@;i ;	[o;;["display;o;;; ;"
+block;@;!;";@;i ;	[ ;iÛo;;["font-weight;o;;; ;"normal;@;!;";@;i ;	[ ;iÙ;iÚ;6["	span;iÍ;6["h3o;;o;;[o;;[o;
+;[o;;["campagin-details;" ;i¯;o;;{ ;@˘;i¯;0;@˘;i¯;T;@;i ;	[o;;o;;[o;;[o;
+;[o;4	;50;["li;" ;i˘;o;;{ ;@;i˘;0;@;i˘;T;@;i ;	[o;;["font-size;o;;; ;"	20px;@;!;";@;i ;	[ ;i˙o;;["text-transform;o;;; ;"uppercase;@;!;";@;i ;	[ ;i˚o;;o;;[o;;[o;
+;[o;8;" ;i˝o;9
+;["last-child;:0;@;i˝;;;<;o;;{ ;@;i˝;0;@;i˝;T;@;i ;	[o;;o;;[o;;[o;
+;[o;4	;50;["	span;" ;i˛;o;;{ ;@0;i˛;0;@0;i˛;T;@;i ;	[o;;["
+float;o;;; ;"	none;@;!;";@;i ;	[ ;iˇ;i˛;6["	span;i˝;6["&:last-childo;;o;;[o;;[o;
+;[o;4	;50;["	span;" ;i;o;;{ ;@H;i;0;@H;i;T;@;i ;	[o;;["
+float;o;;; ;"
+right;@;!;";@;i ;	[ ;io;;["font-weight;o;;; ;"	bold;@;!;";@;i ;	[ ;i;i;6["	spano;;o;;[o;;[o;
+;[o;;["red-txt;" ;i;o;;{ ;@d;i;0;@d;i;T;@;i ;	[o;;["
+color;o;;; ;"#ff0000;@;!;";@;i ;	[ ;i	;i;6[".red-txto;;o;;[o;;[o;
+;[o;;["green-txt;" ;i;o;;{ ;@z;i;0;@z;i;T;@;i ;	[o;;["
+color;o;;; ;"#6db447;@;!;";@;i ;	[ ;i;i;6[".green-txt;i˘;6["li;i¯;6[".campagin-detailso;;o;;[o;;[o;
+;[o;;["campaign-btns;" ;i;o;;{ ;@î;i;0;@î;i;T;@;i ;	[o;;["margin;o;;; ;"0 10px 0 0;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;4	;50;["li;" ;i;o;;{ ;@®;i;0;@®;i;T;@;i ;	[o;;["
+float;o;;; ;"	left;@;!;";@;i ;	[ ;io;;["margin-right;o;;; ;"9px;@;!;";@;i ;	[ ;io;;o;;[o;;[o;
+;[o;;["red-btn;" ;i;o;;{ ;@¬;i;0;@¬;i;T;@;i ;	[o;;["font-size;o;;; ;"	18px;@;!;";@;i ;	[ ;i;i;6[".red-btno;;o;;[o;;[o;
+;[o;;["follow-btn;" ;i;o;;{ ;@ÿ;i;0;@ÿ;i;T;@;i ;	[o;;["font-size;o;;; ;"	18px;@;!;";@;i ;	[ ;i;i;6[".follow-btno;;o;;[o;;[o;
+;[o;;["follow-white-btn;" ;i!;o;;{ ;@Ó;i!;0;@Ó;i!;T;@;i ;	[o;;["font-size;o;;; ;"18px !important;@;!;";@;i ;	[ ;i";i!;6[".follow-white-btno;;o;;[o;;[o;
+;[o;8;" ;i%o;9
+;["last-child;:0;@;i%;;;<;o;;{ ;@;i%;0;@;i%;T;@;i ;	[o;;["margin-right;o;;; ;"0;@;!;";@;i ;	[ ;i&;i%;6["&:last-child;i;6["li;i;6[".campaign-btns;iÊ;6[".campaign-info;i÷;6[".campagin-content;iΩ;6[".campagin-block;i∫;6[".campaign-rowo;;o;;[o;;[o;
+;[o;;["pagination;" ;i/;o;;{ ;@';i/;0;@';i/;T;@;i ;	[o;;["margin;o;;; ;"40px 0 0 0;@;!;";@;i ;	[ ;i0o;;["text-align;o;;; ;"center;@;!;";@;i ;	[ ;i1o;;["font-size;o;;; ;"	22px;@;!;";@;i ;	[ ;i2o;;["
+color;o;;; ;"#909090;@;!;";@;i ;	[ ;i3o;;o;;[o;;[o;
+;[o;4	;50;["li;" ;i5;o;;{ ;@M;i5;0;@M;i5;T;@;i ;	[
+o;;["display;o;;; ;"inline-block;@;!;";@;i ;	[ ;i6o;;["
+width;o;;; ;"	30px;@;!;";@;i ;	[ ;i7o;;["height;o;;; ;"	30px;@;!;";@;i ;	[ ;i8o;;["cursor;o;;; ;"pointer;@;!;";@;i ;	[ ;i9o;;o;;[o;;[o;
+;[o;8;" ;i;o;9
+;["
+hover;:0;@q;i;;;;<;o;;{ ;@q;i;;0;@q;i;;T;@;i ;	[o;;["
+color;o;;; ;"#565556;@;!;";@;i ;	[ ;i<;i;;6["&:hover;i5;6["lio;;o;;[o;;[o;
+;[o;;["active-page;" ;i@;o;;{ ;@å;i@;0;@å;i@;T;@;i ;	[	o;;["background;o;;; ;"#565556;@;!;";@;i ;	[ ;iAo;C;"border-radius;%{ ;@;	[ ;&0;iB;'[o;0;1[ ;2["px;i;3"	20px;@;iBo;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;iCo;;o;;[o;;[o;
+;[o;8;" ;iEo;9
+;["
+hover;:0;@Æ;iE;;;<;o;;{ ;@Æ;iE;0;@Æ;iE;T;@;i ;	[o;;["
+color;o;;; ;"#FFFFFF;@;!;";@;i ;	[ ;iF;iE;6["&:hover;i@;6[".active-page;i/;6[".pagination;iπ;6[".site-pads;i∏;6[".campagin-blocks-centered;i≥;6[".campagin-blocks-full;i

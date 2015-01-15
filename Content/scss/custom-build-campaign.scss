@@ -24,7 +24,7 @@
                             text-transform: uppercase;
                             font-weight: bold;
                             color: #d3d3d3;
-                            margin:0 0 10px 0;
+                            margin: 0 0 10px 0;
                             text-decoration: none;
                         }
                     }
@@ -71,14 +71,12 @@
 }
 
 .campaign-programs-sec {
-
-    margin-top:10px;
+    margin-top: 10px;
 
     h2 {
         font-size: 24px;
         font-weight: bold;
-        padding-top: 10px;
-        text-align: center;
+        padding: 10px 0 0 20px;
         text-transform: uppercase;
     }
 }
@@ -123,7 +121,7 @@
 .program-content-wide {
     font-size: 18px;
     float: left;
-    padding-left: 20px;
+    padding: 25px;
     width: 500px;
 
 
@@ -135,6 +133,20 @@
         }
     }
 }
+
+.program-block {
+    .program-pads {
+        .prg-setting {
+            width: 95% !important;
+            padding:20px !important;
+        }
+    }
+}
+
+.blank-slate-alert{
+    width:auto !important;
+}
+
 
 .action-buttons {
     padding: 30px 20px 30px 20px;
@@ -156,7 +168,7 @@
         padding-top: 20px;
         text-align: center;
         text-transform: uppercase;
-        color:#595959;
+        color: #595959;
     }
 
     h3 {
@@ -164,11 +176,11 @@
         font-weight: bold;
         margin: 8px 0 10px 0 !important;
         text-transform: uppercase;
-        color:#595959;
+        color: #595959;
     }
 
-    p{
-        font-size:16px !important;
+    p {
+        font-size: 16px !important;
     }
 
     .red-txt {
@@ -180,11 +192,11 @@ table {
 
     &.performance-table {
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
 
         th {
             color: #ffffff;
-            font-size: 22px;
+            font-size: 20px;
             font-weight: bold;
             text-transform: uppercase;
             padding: 2px 0 2px 5px;
@@ -193,8 +205,12 @@ table {
         tr {
             padding: 10px;
 
+            td {
+                font-size: 18px;
+            }
+
             &.info {
-                font-size: 20px;
+                font-size: 18px;
                 text-transform: uppercase;
                 padding: 2px 0 2px 5px;
                 border-bottom: 1px solid #8a8a8a;
@@ -321,19 +337,19 @@ table {
         font-size: 16px;
     }
 
-    .alias{
-        font-size:16px;
-        clear:both;
-        float:left;
+    .alias {
+        font-size: 16px;
+        clear: both;
+        float: left;
     }
 
     h3 {
         font-size: 18px;
         font-weight: bold;
         text-transform: uppercase;
-        text-align:left;
-        line-height:22px;
-        margin-bottom:10px;
+        text-align: left;
+        line-height: 22px;
+        margin-bottom: 10px;
     }
 
     .ben-details {
@@ -341,15 +357,16 @@ table {
         float: left;
 
         p {
-            font-size:16px;
+            font-size: 16px;
             text-align: justify;
             float: left;
         }
     }
 
-    .green-btn{
-        font-size:16px !important;
-        padding:5px 10px;
+    .green-btn {
+        font-size: 16px !important;
+        padding: 5px 10px;
+        cursor: pointer;
     }
 }
 
@@ -650,4 +667,54 @@ button {
 
 .recent-activity-list {
     margin-bottom: 20px;
+}
+
+.standard-form {
+    label {
+        font-weight: bold !important;
+        font-size: 16px;
+    }
+
+    span {
+        &.required {
+            color: #ff0000;
+        }
+
+        &.field-validation-error {
+            margin-left: 10px !important;
+            font-size: 14px;
+        }
+    }
+
+    input, select {
+        font-size: 16px !important;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    select {
+        height: 48px;
+    }
+
+    .hint {
+        font-size: 16px;
+    }
+
+    .red-btn {
+        font-size: 18px;
+    }
+}
+
+.red-btn {
+    &.small {
+        font-size: 18px;
+        font-weight: normal !important;
+    }
+}
+
+.green-btn {
+    &.small {
+        font-size: 18px;
+        font-weight: normal !important;
+    }
 }

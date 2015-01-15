@@ -1,142 +1,221 @@
 @import "compass/css3";
+
 .sign-up-full {
-	@include background-image(linear-gradient(#333232, #141415));
-	.sign-up-centered {
-		padding: 160px 0 40px;
-		h1 {
-	    color: #ffffff;
-	    font-size: 40px;
-	    font-weight: bold;
-	    letter-spacing: 0.5px;
-	    margin-bottom: 15px;
-	    text-transform: uppercase;
-	    padding-bottom: 10px;
-			background: url("../images/border-repeat-x.jpg") left bottom repeat-x;
-		}
-		.sign-up-left {
-			width: 48%;
-			float: left;
-			h2 {
-				font-size: 38px;
-				margin: 0 0 0 0;
-				color: #FFFFFF;
-			}			
-			#contact-form {
-				color: #FFFFFF;
-				ul {
-					li {
-						clear: both;
-						margin-bottom: 10px;
-						label {
-							color: #FFFFFF;
-							font-size: 22px;
-							display: block;
-							margin-bottom: 7px;
-							.required {
-								color: #FF0000;
-							}
-						}
-						.checkbox-txt {
-							color: #FFFFFF;
-							font-size: 22px;
-							display: block;
-							margin-bottom: 7px;
-						}
-						input {
-							width: 100%;
-							border: none;
-							background: #FFFFFF;
-							border: none;
-							padding: 13px 0;
-							text-indent: 15px;
-							@include border-radius( 5px );
-						}
-						select {
-							width: 100%;
-							border: none;
-							background: #FFFFFF;
-							border: none;
-							padding: 12px 0;
-							text-indent: 4px;
-							color: #888888;
-							@include border-radius( 5px );
-						}
-					}
-					.row-form {
-						li {
-							float: left;
-							clear: none;
-							margin-right: 16px;
-							&:last-child {
-								margin-right: 0;
-							}
-						}
-					}
-					.checkbox-block {
-						margin-top: 20px;
-						input {
-							width: auto;
-							float: left;
-							margin: 9px 10px 0 0px;
-						}
-					}
-					.submit {
-						display: block;
-						margin-top: 25px;
-						input {
-							@include background-image(linear-gradient(#e70000, #b50606));
-							color: #FFFFFF;
-							text-decoration: none;
-							font-size: 21px;
-							@include border-radius( 7px );
-							padding: 5px 20px 7px;
-							display: inline-block;
-							width: auto;
-							text-indent: 0;
-							text-shadow: none;
-							&:hover {
-								background: #e70000;
-							}
-						}
-					}
-				}
-			}
-		}
-		.sign-up-right {
-			width: 48%;
-			float: right;
-			color: #FFFFFF;
-			// margin-top: 82px;
-			strong {
-				font-size: 25px;
-				margin-top: 15px;
-				display: block;
-				color: #F8981D;
-			}
-			p {
-				font-size: 18px;
-				letter-spacing: 0.3px;
-				span {
-					font-weight: bold;
-					text-transform: uppercase;
-					color: #6DB447;
-				}
-			}
-			.grey-box {
-				background: #2A292A;
-				@include border-radius( 5px );
-				border: 1px solid #1F1F20;
-				.grey-box-pads {
-					padding: 20px 20px 25px;
-				}
-			}
-			ul {
-				margin: 0;
-				li {
-					// padding-left: 10px;
-					font-size: 18px;
-				}
-			}
-		}
-	}
+    @include background-image(linear-gradient(#333232, #141415));
+
+    .sign-up-centered {
+        padding: 160px 0 40px;
+
+        h1 {
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            background: url("../images/border-repeat-x.jpg") left bottom repeat-x;
+        }
+
+        .sign-up-left {
+            width: 48%;
+            float: left;
+
+            h2 {
+                font-size: 38px;
+                margin: 0 0 0 0;
+                color: #FFFFFF;
+            }
+
+            #contact-form {
+                color: #FFFFFF;
+
+                ul {
+                    li {
+                        clear: both;
+                        margin-bottom: 10px;
+
+                        label {
+                            color: #FFFFFF;
+                            font-size: 22px;
+                            display: block;
+                            margin-bottom: 7px;
+
+                            .required {
+                                color: #FF0000;
+                            }
+                        }
+
+                        .checkbox-txt {
+                            color: #FFFFFF;
+                            font-size: 22px;
+                            display: block;
+                            margin-bottom: 7px;
+                        }
+
+                        input {
+                            width: 100%;
+                            border: none;
+                            background: #FFFFFF;
+                            border: none;
+                            padding: 13px 0;
+                            text-indent: 15px;
+                            @include border-radius( 5px );
+                        }
+
+                        select {
+                            width: 100%;
+                            border: none;
+                            background: #FFFFFF;
+                            border: none;
+                            padding: 12px 0;
+                            text-indent: 4px;
+                            color: #888888;
+                            @include border-radius( 5px );
+                        }
+                    }
+
+                    .row-form {
+                        li {
+                            float: left;
+                            clear: none;
+                            margin-right: 16px;
+
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+
+                    .checkbox-block {
+                        margin-top: 20px;
+
+                        input {
+                            width: auto;
+                            float: left;
+                            margin: 9px 10px 0 0px;
+                        }
+                    }
+
+                    .submit {
+                        display: block;
+                        margin-top: 25px;
+
+                        input {
+                            @include background-image(linear-gradient(#e70000, #b50606));
+                            color: #FFFFFF;
+                            text-decoration: none;
+                            font-size: 21px;
+                            @include border-radius( 7px );
+                            padding: 5px 20px 7px;
+                            display: inline-block;
+                            width: auto;
+                            text-indent: 0;
+                            text-shadow: none;
+
+                            &:hover {
+                                background: #e70000;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .merchandise-list {
+                margin-bottom:10px;
+
+                li {
+                    margin-left: 10px;
+                    display: inline;
+
+                    &:before {
+                        content: " ";
+                        word-spacing: 1.1em;
+                        background-repeat: no-repeat;
+                        background-position: 50% 60%;
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAOElEQVQI113M0Q3AIBRC0aM76P7jmHSmSj/6mibyc4EQkEEWuYtDmU1SXO1d6H7tjgupIl8+P+cD22cff9U1wbsAAAAASUVORK5CYII=);
+                    }
+                }
+            }
+
+            .offer-table {
+                margin: 35px 0 35px -30px;
+                width: 425px;
+                border: solid 1px #F8981D;
+
+                thead {
+                    tr {
+                        th {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            text-align: center;
+                            padding: 5px 0 5px;
+                            border-bottom: solid 1px #F8981D;
+                        }
+                    }
+                }
+
+                tbody {
+                    tr {
+                        td {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sign-up-right {
+            width: 48%;
+            float: right;
+            color: #FFFFFF;
+            // margin-top: 82px;
+            strong {
+                font-size: 25px;
+                margin-top: 20px;
+                display: block;
+                color: #F8981D;
+            }
+
+            p {
+                font-size: 18px;
+                letter-spacing: 0.3px;
+
+                span {
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: #6DB447;
+                }
+            }
+
+            .video-sec {
+                float: left;
+                margin-left: 20px;
+            }
+
+            .grey-box {
+                background: #2A292A;
+                @include border-radius( 5px );
+                border: 1px solid #1F1F20;
+
+                .grey-box-pads {
+                    padding: 20px 20px 25px;
+                }
+            }
+
+            ul {
+                font-weight: bold;
+                line-height: 35px;
+                margin: 25px 0 25px 15px !important;
+                margin: 0;
+
+                li {
+                    font-size: 19px;
+                    background: url('../images/green-tick.png') no-repeat 0 0;
+                    padding-left: 45px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
 }

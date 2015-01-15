@@ -36,7 +36,7 @@
 }
 
 .margin-bottom-30 {
-    margin-bottom: 30px!important;
+    margin-bottom: 30px !important;
 }
 
 .margin-bottom-50 {
@@ -60,7 +60,7 @@
 }
 
 .margin-left-10 {
-    margin-left: 10px;
+    margin-left: 10px !important;
 }
 
 .margin-left-20 {
@@ -366,7 +366,6 @@
     background-image: linear-gradient(#62a744, #62a744);
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 21px !important;
     border: 0px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -374,6 +373,7 @@
     border-radius: 7px;
     padding: 5px 20px 7px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .font-bold {
@@ -418,7 +418,7 @@
 }
 
 .error {
-    color: red;
+    color: red !important;
     margin-left: 5px;
 }
 
@@ -529,25 +529,25 @@
     display: inline-block;
 }
 
-#uploadify { 
-background: #62a744; 
-color: #ffffff;
-border-radius: 5px;
-padding:6px 15px;
-cursor:pointer; 
+#uploadify {
+    background: #62a744;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 6px 15px;
+    cursor: pointer;
 }
 
-#uploadify:hover { 
-background: #62a744; 
-}
+    #uploadify:hover {
+        background: #62a744;
+    }
 
-#uploadify object { 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 25px;
-}
+    #uploadify object {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25px;
+    }
 
 .float-none {
     float: none !important;
@@ -953,6 +953,14 @@ input[type=text].error, input[type=password].error {
     font-size: 100%;
     font-family: sans-serif;
     color: #8f8e8e !important;
+}
+
+.build-campaign-doller-sign {
+    float: left !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding-right: 10px !important;
+    width: 20px !important;
 }
 
 .font-size-14 {

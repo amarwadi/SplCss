@@ -47,8 +47,7 @@
   .campaign-programs-sec h2 {
     font-size: 24px;
     font-weight: bold;
-    padding-top: 10px;
-    text-align: center;
+    padding: 10px 0 0 20px;
     text-transform: uppercase; }
 
 .black {
@@ -82,11 +81,18 @@
 .program-content-wide {
   font-size: 18px;
   float: left;
-  padding-left: 20px;
+  padding: 25px;
   width: 500px; }
   .program-content-wide p.slogan {
     font-size: 20px;
     font-weight: bold; }
+
+.program-block .program-pads .prg-setting {
+  width: 95% !important;
+  padding: 20px !important; }
+
+.blank-slate-alert {
+  width: auto !important; }
 
 .action-buttons {
   padding: 30px 20px 30px 20px; }
@@ -117,17 +123,19 @@
 
 table.performance-table {
   width: 100%;
-  font-size: 20px; }
+  font-size: 18px; }
   table.performance-table th {
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     padding: 2px 0 2px 5px; }
   table.performance-table tr {
     padding: 10px; }
+    table.performance-table tr td {
+      font-size: 18px; }
     table.performance-table tr.info {
-      font-size: 20px;
+      font-size: 18px;
       text-transform: uppercase;
       padding: 2px 0 2px 5px;
       border-bottom: 1px solid #8a8a8a; }
@@ -424,5 +432,32 @@ button.red-btn {
 
 .recent-activity-list {
   margin-bottom: 20px; }
+
+.standard-form label {
+  font-weight: bold !important;
+  font-size: 16px; }
+.standard-form span.required {
+  color: #ff0000; }
+.standard-form span.field-validation-error {
+  margin-left: 10px !important;
+  font-size: 14px; }
+.standard-form input, .standard-form select {
+  font-size: 16px !important;
+  line-height: 20px;
+  font-weight: 600; }
+.standard-form select {
+  height: 48px; }
+.standard-form .hint {
+  font-size: 16px; }
+.standard-form .red-btn {
+  font-size: 18px; }
+
+.red-btn.small {
+  font-size: 18px;
+  font-weight: normal !important; }
+
+.green-btn.small {
+  font-size: 18px;
+  font-weight: normal !important; }
 
 /*# sourceMappingURL=custom-build-campaign.css.map */
