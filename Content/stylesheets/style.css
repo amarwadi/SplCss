@@ -6911,23 +6911,23 @@ footer .footer-main-full {
   background-image: -moz-linear-gradient(#333232, #141415);
   background-image: -o-linear-gradient(#333232, #141415);
   background-image: linear-gradient(#333232, #141415);
-  padding: 29px 0 38px; }
-/* line 10, ../scss/footer.scss */
+  padding: 0; }
+/* line 11, ../scss/footer.scss */
 footer .footer-main-full .get-started-info {
   width: 235px;
   margin-right: 73px;
   float: left;
   padding-top: 18px; }
-/* line 15, ../scss/footer.scss */
+/* line 16, ../scss/footer.scss */
 footer .footer-main-full .get-started-info h2 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold; }
-/* line 20, ../scss/footer.scss */
+/* line 21, ../scss/footer.scss */
 footer .footer-main-full .get-started-info p {
   font-size: 16px;
   line-height: 20px; }
-/* line 24, ../scss/footer.scss */
+/* line 25, ../scss/footer.scss */
 footer .footer-main-full .get-started-info .red-btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -6938,61 +6938,61 @@ footer .footer-main-full .get-started-info .red-btn {
   font-weight: normal;
   padding: 3px 15px 4px;
   margin-top: 15px; }
-/* line 32, ../scss/footer.scss */
+/* line 33, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block {
   float: left;
   width: 394px;
   background: url("../images/footer-shadow.png") center right no-repeat;
   min-height: 147px;
   padding-top: 28px; }
-/* line 38, ../scss/footer.scss */
+/* line 39, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul {
   margin: 0; }
-/* line 40, ../scss/footer.scss */
+/* line 41, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li {
   float: left;
   text-align: center;
   font-size: 16px;
   margin-right: 65px; }
-/* line 45, ../scss/footer.scss */
+/* line 46, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li:last-child {
   margin-right: 0; }
-/* line 48, ../scss/footer.scss */
+/* line 49, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li a {
   color: #909090;
   text-decoration: none;
   line-height: 15px; }
-/* line 52, ../scss/footer.scss */
+/* line 53, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8; }
-/* line 55, ../scss/footer.scss */
+/* line 56, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li a img {
   display: block;
   padding-bottom: 5px; }
-/* line 59, ../scss/footer.scss */
+/* line 60, ../scss/footer.scss */
 footer .footer-main-full .get-involved-block ul li a span {
   display: block; }
-/* line 66, ../scss/footer.scss */
+/* line 67, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block {
   float: right;
   padding-top: 18px; }
-/* line 69, ../scss/footer.scss */
+/* line 70, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content {
   float: left; }
-/* line 71, ../scss/footer.scss */
+/* line 72, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content h2 {
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase; }
-/* line 76, ../scss/footer.scss */
+/* line 77, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content p {
   font-size: 16px;
   line-height: 20px; }
-/* line 80, ../scss/footer.scss */
+/* line 81, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content #newsletter-form {
   margin-top: 7px; }
-/* line 82, ../scss/footer.scss */
+/* line 83, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content #newsletter-form .newsletter-input {
   width: 165px;
   background: #565656;
@@ -7000,7 +7000,7 @@ footer .footer-main-full .stay-connected-block .stay-conected-content #newslette
   padding: 9px 5px;
   color: #b0b0b0;
   margin-right: 10px; }
-/* line 90, ../scss/footer.scss */
+/* line 91, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .stay-conected-content #newsletter-form .red-btn {
   border: none;
   -webkit-border-radius: 0;
@@ -7012,28 +7012,28 @@ footer .footer-main-full .stay-connected-block .stay-conected-content #newslette
   font-size: 16px;
   padding: 3px 20px 7px;
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif !important; }
-/* line 100, ../scss/footer.scss */
+/* line 101, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .social-icons {
   float: left;
   margin: 10px 0 0 28px; }
-/* line 103, ../scss/footer.scss */
+/* line 104, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .social-icons li {
   margin-bottom: 10px; }
-/* line 105, ../scss/footer.scss */
+/* line 106, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .social-icons li:last-child {
   margin-bottom: 0; }
-/* line 110, ../scss/footer.scss */
+/* line 111, ../scss/footer.scss */
 footer .footer-main-full .stay-connected-block .social-icons li a:hover img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8; }
-/* line 119, ../scss/footer.scss */
+/* line 120, ../scss/footer.scss */
 footer .footer-btm-full {
   background: #282828;
   padding: 10px 0; }
-/* line 124, ../scss/footer.scss */
+/* line 125, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store {
   float: left; }
-/* line 126, ../scss/footer.scss */
+/* line 127, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store .contact-us {
   color: #809090;
   text-decoration: none;
@@ -7041,53 +7041,53 @@ footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store .cont
   text-transform: uppercase;
   float: left;
   border-right: 1px solid #809090; }
-/* line 133, ../scss/footer.scss */
+/* line 134, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store .contact-us:hover {
   color: #FFFFFF; }
-/* line 137, ../scss/footer.scss */
+/* line 138, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store ul {
   margin: 0;
   float: left; }
-/* line 140, ../scss/footer.scss */
+/* line 141, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store ul:before {
   content: "Get the App - ";
   text-transform: uppercase;
   float: left;
   padding: 0 5px 0 10px; }
-/* line 146, ../scss/footer.scss */
+/* line 147, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store ul li {
   float: left;
   text-transform: uppercase; }
-/* line 149, ../scss/footer.scss */
+/* line 150, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store ul li a {
   color: #809090;
   text-decoration: none; }
-/* line 152, ../scss/footer.scss */
+/* line 153, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .contact-app-store ul li a:hover {
   color: #FFFFFF; }
-/* line 159, ../scss/footer.scss */
+/* line 160, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info {
   color: #809090;
   float: right;
   text-transform: uppercase;
   font-size: 16px; }
-/* line 164, ../scss/footer.scss */
+/* line 165, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info p {
   float: left;
   line-height: 22px; }
-/* line 168, ../scss/footer.scss */
+/* line 169, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info ul {
   float: left;
   margin: 0 0 0 10px; }
-/* line 171, ../scss/footer.scss */
+/* line 172, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info ul li {
   float: left; }
-/* line 173, ../scss/footer.scss */
+/* line 174, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info ul li a {
   color: #809090;
   text-decoration: none;
   padding: 2px 10px; }
-/* line 177, ../scss/footer.scss */
+/* line 178, ../scss/footer.scss */
 footer .footer-btm-full .footer-btm-centered .site-pads .copyright-info ul li a:hover {
   color: #FFFFFF; }
 
