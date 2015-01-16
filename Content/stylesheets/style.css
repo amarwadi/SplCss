@@ -5847,8 +5847,8 @@ header .active {
   background-image: -moz-linear-gradient(#343333, #141415);
   background-image: -o-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
-  padding: 40px 0 50px;
-  margin-top: 129px;
+  padding: 20px 0 30px;
+  margin-top: 109px;
   min-width: 1170px; }
 /* line 8, ../scss/spledgehammers.scss */
 .spledgehammer-header-full .spledgehammer-header-centered .site-pads {
@@ -5864,14 +5864,14 @@ header .active {
   padding-left: 50px; }
 /* line 19, ../scss/spledgehammers.scss */
 .spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block h1 {
-  font-size: 40px;
+  font-size: 36px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px; }
 /* line 25, ../scss/spledgehammers.scss */
 .spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block p {
-  font-size: 20px;
-  line-height: 25px; }
+  font-size: 18px;
+  line-height: 23px; }
 /* line 29, ../scss/spledgehammers.scss */
 .spledgehammer-header-full .spledgehammer-header-centered .site-pads .header-left .title-intro-block .read-more {
   color: #7e7e7e;
@@ -5944,12 +5944,12 @@ header .active {
   min-width: 1170px; }
 /* line 103, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .main-title {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #FFFFFF;
-  padding: 40px 0; }
+  padding: 20px 0; }
 /* line 111, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box {
   margin-bottom: 35px; }
@@ -5967,7 +5967,7 @@ header .active {
   background: #383838; }
 /* line 126, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads {
-  padding: 37px 47px; }
+  padding: 17px 27px; }
 /* line 128, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left {
   float: left; }
@@ -5981,7 +5981,7 @@ header .active {
 /* line 136, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h2 {
   color: #FFFFFF;
-  font-size: 35px;
+  font-size: 34px;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: bold; }
@@ -5992,18 +5992,18 @@ header .active {
   font-size: 28px; }
 /* line 148, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h3 {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 35px;
+  line-height: 36px;
   text-transform: uppercase;
   color: #f8981d;
   font-weight: bold;
-  margin-top: 90px; }
+  margin-top: 70px; }
 /* line 155, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .content-left .title-location h3 span {
   display: block;
   color: #FFFFFF;
   text-transform: capitalize;
-  font-size: 28px; }
+  font-size: 26px; }
 /* line 164, ../scss/spledgehammers.scss */
 .spledgehammer-freinds-family-full .spledgehammer-freinds-family-centered .site-pads .spledgehammer-challenege-others-box .main-content-block .main-content-pads .campaign-meter {
   float: right;
