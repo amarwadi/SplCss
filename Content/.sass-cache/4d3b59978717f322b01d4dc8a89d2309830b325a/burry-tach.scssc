@@ -1,5 +1,5 @@
 3.2.14 (Media Mark)
-b07f72a8b07b132d1df3631b5ee661cdc0b6949c
+290dfc2b129877fa370f2bd13d32735c629adba5
 o:Sass::Tree::RootNode
 :@template"¯(@import "compass/css3";
 
@@ -21,13 +21,13 @@ b07f72a8b07b132d1df3631b5ee661cdc0b6949c
 					float: left;
 					padding-left: 50px;
 					h1 {
-						font-size: 40px;
+						font-size: 36px;
 						text-transform: uppercase;
 						font-weight: bold;
 						letter-spacing: 0.5px;
 					}
 					p {
-						font-size: 20px;
+						font-size: 18px;
 						line-height: 23px;
 					}
 					.read-more {
@@ -490,9 +490,9 @@ float;'o;);*;+;'"	left;@;,;-;@;i ;	[ ;io;(;["padding-top;'o;);*;+;'
 width;'o;);*;+;'"
 392px;@;,;-;@;i ;	[ ;io;(;["
 float;'o;);*;+;'"	left;@;,;-;@;i ;	[ ;io;(;["padding-left;'o;);*;+;'"	50px;@;,;-;@;i ;	[ ;io;;o;;[o;;[o;
-;[o;.	;/0;["h1;" ;i;o;;{ ;@ª;i;0;@ª;i;T;@;i ;	[	o;(;["font-size;'o;);*;+;'"	40px;@;,;-;@;i ;	[ ;io;(;["text-transform;'o;);*;+;'"uppercase;@;,;-;@;i ;	[ ;io;(;["font-weight;'o;);*;+;'"	bold;@;,;-;@;i ;	[ ;io;(;["letter-spacing;'o;);*;+;'"
+;[o;.	;/0;["h1;" ;i;o;;{ ;@ª;i;0;@ª;i;T;@;i ;	[	o;(;["font-size;'o;);*;+;'"	36px;@;,;-;@;i ;	[ ;io;(;["text-transform;'o;);*;+;'"uppercase;@;,;-;@;i ;	[ ;io;(;["font-weight;'o;);*;+;'"	bold;@;,;-;@;i ;	[ ;io;(;["letter-spacing;'o;);*;+;'"
 0.5px;@;,;-;@;i ;	[ ;i;i;0["h1o;;o;;[o;;[o;
-;[o;.	;/0;["p;" ;i;o;;{ ;@Ò;i;0;@Ò;i;T;@;i ;	[o;(;["font-size;'o;);*;+;'"	20px;@;,;-;@;i ;	[ ;i o;(;["line-height;'o;);*;+;'"	23px;@;,;-;@;i ;	[ ;i!;i;0["po;;o;;[o;;[o;
+;[o;.	;/0;["p;" ;i;o;;{ ;@Ò;i;0;@Ò;i;T;@;i ;	[o;(;["font-size;'o;);*;+;'"	18px;@;,;-;@;i ;	[ ;i o;(;["line-height;'o;);*;+;'"	23px;@;,;-;@;i ;	[ ;i!;i;0["po;;o;;[o;;[o;
 ;[o;;["read-more;" ;i#;o;;{ ;@î;i#;0;@î;i#;T;@;i ;	[	o;(;["
 color;'o;);*;+;'"#7e7e7e;@;,;-;@;i ;	[ ;i$o;(;["text-decoration;'o;);*;+;'"	none;@;,;-;@;i ;	[ ;i%o;(;["font-size;'o;);*;+;'"	20px;@;,;-;@;i ;	[ ;i&o;;o;;[o;;[o;
 ;[o:Sass::Selector::Parent;" ;i'o:Sass::Selector::Pseudo

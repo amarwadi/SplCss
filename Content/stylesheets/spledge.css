@@ -1,16 +1,15 @@
 /* line 2, ../scss/spledge.scss */
 .spledge-header-full {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
-  background-image: -moz-linear-gradient(#343333, #141415);
   background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -o-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
-  margin-top: 131px;
+  margin-top: 109px;
   min-width: 1170px; }
 /* line 8, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads {
-  padding: 80px 0; }
+  padding: 40px 0; }
 /* line 10, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left {
   float: left; }
@@ -22,23 +21,23 @@
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left h1 {
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 30px;
-  line-height: 42px;
+  font-size: 26px;
+  line-height: 33px;
   float: left;
   margin-left: 60px;
   letter-spacing: 0.5px; }
 /* line 24, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-left h1 span {
   font-weight: bold;
-  font-size: 54px;
-  line-height: 60px; }
+  font-size: 36px;
+  line-height: 42px; }
 /* line 31, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right {
   float: right; }
 /* line 33, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar {
   width: 526px;
-  margin: 21px auto 0; }
+  margin: 0 auto; }
 /* line 36, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .date-goal-block {
   clear: both;
@@ -67,14 +66,18 @@
   height: 25px;
   border: none;
   margin-top: 5px;
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0; }
 /* line 65, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value {
   background: #e70000;
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0; }
 /* line 68, ../scss/spledge.scss */
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .progressbar-block .progressbar .ui-progressbar-value .progress-label {
@@ -94,8 +97,10 @@
 .spledge-header-full .spledge-header-centered .site-pads .spledge-header-pads .spledge-header-right .status-to-date-bar .performance-block .tooltip {
   position: absolute;
   background: #FFFFFF;
-  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
   padding: 3px 25px 5px;
   color: #000000;
@@ -130,11 +135,10 @@
 
 /* line 127, ../scss/spledge.scss */
 .confirm-programs-full {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM0MzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzE0MTQxNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #343333), color-stop(100%, #141415));
-  background-image: -moz-linear-gradient(#343333, #141415);
   background-image: -webkit-linear-gradient(#343333, #141415);
+  background-image: -moz-linear-gradient(#343333, #141415);
+  background-image: -o-linear-gradient(#343333, #141415);
   background-image: linear-gradient(#343333, #141415);
   min-width: 1170px; }
 /* line 132, ../scss/spledge.scss */
@@ -143,11 +147,11 @@
   color: #a8a5a5;
   font-weight: bold;
   letter-spacing: 0.5px;
-  font-size: 22px;
+  font-size: 20px;
   margin: 33px 0 10px; }
 /* line 140, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads h2 {
-  font-size: 35px;
+  font-size: 30px;
   color: #FFFFFF;
   text-transform: uppercase;
   font-weight: bold;
@@ -155,7 +159,7 @@
   margin-bottom: 20px; }
 /* line 148, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block {
-  margin-bottom: 40px; }
+  margin-bottom: 22px; }
 /* line 150, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full {
   margin-bottom: 40px; }
@@ -192,18 +196,18 @@
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info {
   float: left;
   color: #FFFFFF;
-  width: 466px;
+  width: 436px;
   margin-left: 25px; }
 /* line 183, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info h3 {
-  font-size: 30px;
-  line-height: 33px;
+  font-size: 24px;
+  line-height: 30px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.8px; }
 /* line 190, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .logo-title-block .program-main-info p {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 15px; }
 /* line 196, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block {
@@ -228,7 +232,7 @@
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info td {
   letter-spacing: 0.8px;
   padding: 5px 0;
-  font-size: 20px; }
+  font-size: 18px; }
 /* line 217, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .program-table-block table tbody .info td:first-child {
   text-align: left; }
@@ -247,12 +251,12 @@
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block h4 {
   text-transform: uppercase;
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   letter-spacing: 0.8px; }
 /* line 245, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block h4 span {
-  font-size: 33px; }
+  font-size: 30px; }
 /* line 249, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .active-total-block {
   position: absolute;
@@ -347,8 +351,10 @@
 /* line 346, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle {
   background: url("../images/spledge/slider.png") 0 0 no-repeat;
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
   box-shadow: none;
   border: none;
@@ -356,7 +362,7 @@
   height: 79px;
   top: -22px;
   cursor: pointer; }
-/* line 355, ../scss/spledge.scss */
+/* line 356, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle:before, .confirm-programs-full .confirm-programs-centered .site-pads .select-program-block .program-block-full .program-content-block .program-content-pads .slider-block .slider-info-block .noUi-horizontal .noUi-handle:after {
   background: none; }
 /* line 359, ../scss/spledge.scss */
@@ -395,7 +401,7 @@
   background: url("../images/spledge/selected-check.png") left 4px no-repeat; }
 /* line 404, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey h2 {
-  font-size: 30px; }
+  font-size: 28px; }
 /* line 407, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left {
   width: 877px;
@@ -446,8 +452,10 @@
 .confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li input {
   background: #c1bfbf;
   border: 1px solid #adafaf;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
   padding: 10px; }
 /* line 457, ../scss/spledge.scss */
@@ -466,7 +474,7 @@
   opacity: 0.6; }
 /* line 469, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .active {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 /* line 472, ../scss/spledge.scss */
 .confirm-programs-full .confirm-programs-centered .site-pads .over-under-saftey .saftey-left .over-under-block .over-under .over-under-pads ul li .activated {
@@ -533,8 +541,10 @@
   display: block;
   border: 1px solid #d1d1d1;
   margin-bottom: 10px;
-  -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
   border-radius: 2px;
   color: #8f8e8e;
   padding: 5px; }
